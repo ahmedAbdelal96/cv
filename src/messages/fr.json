@@ -1,279 +1,645 @@
 {
-  "notFound": {
-    "error": "ERREUR",
-    "message": "Nous ne parvenons pas à trouver la page que vous recherchez !",
-    "backToHome": "Retour à la page d'accueil",
-    "copyright": "&copy; {year} - TailAdmin"
+  "Header": {
+    "logo": "UI Portfolio",
+    "navigation": {
+      "home": "Accueil",
+      "about": "À propos",
+      "projects": "Projets",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "menu": {
+      "toggle": "Afficher le menu",
+      "close": "Fermer le menu"
+    },
+    "downloadCV": "Télécharger le CV"
   },
-  "sidebar": {
-    "sections": {
-      "Menu": "Menu",
-      "Reports": "Rapports",
-      "System": "Système",
-      "Examples": "Exemples"
+  "HomePage": {
+    "HeroSection": {
+      "greeting": "Salut, je suis Ahmed Abdelal",
+      "title": "Développeur Web Full Stack",
+      "description": "Passionné par la création d’expériences numériques fluides du front-end au back-end. Je suis spécialisé dans la construction d’applications web évolutives en utilisant des technologies modernes comme React, Next.js, Express, NestJS, Node.js, MongoDB, PostgreSQL, TypeScript et divers outils. Donnons vie à vos idées avec un code propre, efficace et des solutions innovantes !",
+      "hireMe": "Engagez-moi",
+      "portfolio": "Mon Portfolio",
+      "altText": "Ahmed Abdelal - Développeur Web"
     },
-    "menuItems": {
-      "Dashboard": "Tableau de bord",
-      "Schools": "Écoles",
-      "Roles": "Rôles",
-      "Users": "Utilisateurs",
-      "Students": "Étudiants",
-      "Teachers": "Enseignants",
-      "Parents": "Parents",
-      "Classes": "Classes",
-      "Subjects": "Matières",
-      "Calendar": "Calendrier",
-      "Profile": "Profil",
-      "Reports": "Rapports",
-      "Analytics": "Analyses",
-      "Settings": "Paramètres",
-      "Audit Logs": "Journaux d'audit",
-      "Forms": "Formulaires",
-      "Tables": "Tableaux",
-      "Pages": "Pages",
-      "Charts": "Graphiques",
-      "UI Elements": "Éléments UI",
-      "Authentication": "Authentification"
-    },
-    "subMenuItems": {
-      "Overview": "Aperçu",
-      "All Schools": "Toutes les écoles",
-      "Add School": "Ajouter une école nouveau",
-      "All Roles": "Tous les rôles",
-      "Add Role": "Ajouter un rôle nouveau",
-      "All Users": "Tous les utilisateurs",
-      "Add User": "Ajouter un utilisateur nouveau",
-      "All Students": "Tous les étudiants",
-      "Add Student": "Ajouter un étudiant nouveau",
-      "Attendance": "Présence",
-      "Grades": "Notes",
-      "All Teachers": "Tous les enseignants",
-      "Add Teacher": "Ajouter un enseignant nouveau",
-      "Schedule": "Emploi du temps",
-      "All Classes": "Toutes les classes",
-      "Timetable": "Horaire",
-      "Students Report": "Rapport des étudiants",
-      "Attendance Report": "Rapport de présence",
-      "Grades Report": "Rapport des notes",
-      "Financial Report": "Rapport financier",
-      "General": "Général",
-      "Roles & Permissions": "Rôles et permissions",
-      "Academic Years": "Années académiques",
-      "Form Elements": "Éléments de formulaire",
-      "Basic Tables": "Tableaux de base",
-      "Blank Page": "Page vide",
-      "404 Error": "Erreur 404",
-      "Line Chart": "Graphique linéaire",
-      "Bar Chart": "Graphique à barres",
-      "Alerts": "Alertes",
-      "Avatar": "Avatar",
-      "Badge": "Badge",
-      "Buttons": "Boutons",
-      "Images": "Images",
-      "Videos": "Vidéos",
-      "Sign In": "Se connecter",
-      "Sign Up": "S'inscrire"
-    },
-    "badges": {
-      "new": "nouveau",
-      "pro": "pro"
-    }
-  },
-  "breadcrumb": {
-    "home": "Accueil"
-  },
-  "header": {
-    "searchPlaceholder": "Rechercher ou taper la commande...",
-    "notification": "Notification"
-  },
-  "authPage": {
-    "backHome": "Retour à l'accueil",
-    "title": "Se connecter à Smart School",
-    "subtitle": "Entrez vos identifiants pour accéder à votre compte",
-    "email": "E-mail",
-    "password": "Mot de passe",
-    "passwordPlaceholder": "Entrez votre mot de passe",
-    "rememberMe": "Rester connecté",
-    "forgotPassword": "Mot de passe oublié ?",
-    "signIn": "Se connecter",
-    "signingIn": "Connexion en cours...",
-    "loginFailed": "E-mail ou mot de passe invalide",
-    "loginSuccess": "Connexion réussie",
-    "testCredentials": "Identifiants de test",
-    "superAdmin": "Super Administrateur",
-    "schoolAdmin": "Administrateur d'école",
-    "noAccount": "Vous n'avez pas de compte ?",
-    "signUp": "Créer un compte"
-  },
-  "roles": {
-    "header": {
-      "title": "Gestion des rôles",
-      "subtitle": "Gérer les rôles et les autorisations des utilisateurs",
-      "addRole": "Ajouter un rôle"
-    },
-    "table": {
-      "title": "Rôles",
-      "columns": {
-        "name": "Nom du rôle",
-        "type": "Type",
-        "createdAt": "Créé le"
+    "AboutSection": {
+      "biography": "MA BIOGRAPHIE",
+      "title": "Développeur Full Stack & Ingénieur Logiciel",
+      "description": "Passionné par la création de solutions numériques de bout en bout avec des technologies modernes. Je me spécialise dans la construction d’applications web évolutives avec React, Next.js, Node.js et technologies cloud. Fort d’une expertise à la fois front-end et back-end, je fournis des solutions globales qui stimulent la croissance de l’entreprise et améliorent l’expérience utilisateur.",
+      "contactInfo": {
+        "name": "Nom",
+        "from": "Origine",
+        "email": "Email",
+        "phone": "Téléphone"
       },
-      "actions": {
-        "view": "Voir",
-        "edit": "Modifier",
-        "delete": "Supprimer"
+      "followMe": "Suivez-moi sur",
+      "buttons": {
+        "hireMe": "Engagez-moi",
+        "downloadCV": "Télécharger le CV"
       },
-      "empty": {
-        "message": "Aucun rôle trouvé",
-        "description": "Commencez par créer votre premier rôle"
+      "altText": "Profil Ahmed Abdelal"
+    },
+    "SkillsSection": {
+      "title": "MES COMPÉTENCES",
+      "heading": "Mes compétences techniques",
+      "description": "Je me spécialise dans le développement web full-stack avec une expertise dans les technologies modernes. Je suis passionné par la construction d’applications évolutives et la résolution de problèmes complexes avec un code propre et efficace.",
+      "skills": {
+        "frontend": "Développement Front-end",
+        "backend": "Développement Back-end",
+        "database": "Gestion de Bases de Données",
+        "devops": "DevOps & Déploiement",
+        "react": "React & Next.js",
+        "node": "Node.js & Express",
+        "typescript": "TypeScript",
+        "mongodb": "MongoDB",
+        "postgresql": "PostgreSQL",
+        "nest": "NestJS",
+        "tailwind": "Tailwind CSS",
+        "git": "Git & GitHub",
+        "docker": "Docker",
+        "aws": "AWS & Cloud"
       },
-      "rolesCount": "rôles"
+      "altText": "Poste de travail développeur avec installation de codage"
     },
-    "create": {
-      "title": "Créer un nouveau rôle",
-      "subtitle": "Définir un nouveau rôle avec des autorisations spécifiques"
-    },
-    "view": {
-      "subtitle": "Détails du rôle et autorisations",
-      "name": "Nom du rôle",
-      "description": "Description",
-      "type": "Type de rôle",
-      "createdAt": "Créé le",
-      "updatedAt": "Mis à jour le",
-      "permissions": "Autorisations",
-      "usersCount": "Utilisateurs avec ce rôle",
-      "noDescription": "Aucune description fournie",
-      "notAvailable": "Non disponible",
-      "permissionsPlaceholder": "Gestion des autorisations bientôt disponible",
-      "usersCountPlaceholder": "Le nombre d'utilisateurs sera affiché ici",
-      "editWarning": {
-        "title": "Modification du rôle",
-        "message": "Les changements de rôles peuvent affecter les autorisations des utilisateurs à l'échelle du système"
-      }
-    },
-    "edit": {
-      "title": "Modifier le rôle"
-    },
-    "form": {
-      "name": {
-        "label": "Nom du rôle",
-        "placeholder": "Entrez le nom du rôle"
-      },
-      "description": {
-        "label": "Description",
-        "placeholder": "Entrez la description du rôle (facultatif)"
-      },
-      "isSystem": {
-        "label": "Rôle système",
-        "description": "Les rôles système ne peuvent pas être supprimés et ont des restrictions spéciales",
-        "warning": {
-          "title": "Avertissement rôle système",
-          "message": "Les rôles système sont essentiels à l'application et ne peuvent pas être supprimés"
+    "PortfolioSection": {
+      "services": {
+        "title": "MES SERVICES",
+        "heading": "Ce que je fais pour vous",
+        "webDevelopment": {
+          "title": "Développement Full Stack",
+          "description": "Développement d’applications web de bout en bout en utilisant des technologies modernes comme React, Next.js, Node.js et plateformes cloud."
+        },
+        "appDevelopment": {
+          "title": "Développement d’API",
+          "description": "Conception et implémentation d’API RESTful et GraphQL avec authentification sécurisée et performance optimisée."
+        },
+        "database": {
+          "title": "Conception de Bases de Données",
+          "description": "Architecture, optimisation et gestion de bases de données avec MongoDB, PostgreSQL et d'autres systèmes de bases de données."
+        },
+        "devops": {
+          "title": "DevOps & Déploiement",
+          "description": "Mise en place de pipelines CI/CD, containerisation avec Docker, et déploiement cloud sur AWS, Vercel et autres plateformes."
+        },
+        "projects": {
+          "title": "Projets phares",
+          "viewMore": "Voir plus de projets",
+          "description": "Une vitrine de mes récentes applications full-stack et solutions web construites avec des technologies modernes."
+        },
+        "frontend": {
+          "title": "Développement Front-end",
+          "description": "Interfaces utilisateur réactives et interactives avec React, TypeScript et frameworks CSS modernes."
+        },
+        "backend": {
+          "title": "Développement Back-end",
+          "description": "Développement d’applications côté serveur avec Node.js, Express, NestJS et des architectures robustes."
         }
       },
-      "create": "Créer le rôle",
-      "update": "Mettre à jour le rôle",
-      "cancel": "Annuler",
-      "creating": "Création...",
-      "updating": "Mise à jour..."
+      "projects": {
+        "title": "Projets phares",
+        "viewMore": "Voir plus de projets",
+        "description": "Une vitrine de mes récentes applications full-stack et solutions web construites avec des technologies modernes."
+      },
+      "loading": "Chargement des projets…",
+      "noProjects": "Aucun projet pour l’instant",
+      "workingOnProjects": "Je travaille actuellement sur des projets incroyables. Revenez bientôt !",
+      "soon": "bientôt !",
+      "contact": "Démarrer un projet"
     },
-    "delete": {
-      "confirmTitle": "Supprimer le rôle",
-      "confirmMessage": "Êtes-vous sûr de vouloir supprimer le rôle \"{name}\" ?",
-      "cancel": "Annuler",
-      "confirm": "Supprimer",
-      "deleting": "Suppression..."
+    "ReviewsCarousel": {
+      "title": "TÉMOIGNAGES",
+      "heading": "Ce que disent les clients",
+      "verifiedClient": "Client vérifié",
+      "navigation": {
+        "previous": "Témoignage précédent",
+        "next": "Témoignage suivant",
+        "goToReview": "Aller au témoignage {index}"
+      },
+      "emptyState": {
+        "title": "Aucun témoignage pour l’instant",
+        "description": "Soyez le premier à partager votre expérience de collaboration avec moi !",
+        "button": "Ajouter un témoignage"
+      },
+      "loading": "Chargement des témoignages…",
+      "noReviews": "Aucun témoignage pour l’instant",
+      "beTheFirst": "Soyez le premier à partager votre expérience de collaboration avec moi !",
+      "addReview": "Ajouter un témoignage",
+      "readyToStart": "Prêt à démarrer votre prochain projet ? Discutons de ce que je peux faire pour vous !",
+      "startWorkingTogether": "Commençons à travailler ensemble"
     },
-    "status": {
-      "system": "Système",
-      "custom": "Personnalisé"
-    },
-    "breadcrumb": {
-      "home": "Accueil",
-      "auth": "Authentification",
-      "roles": "Rôles",
-      "create": "Créer"
-    },
-    "back": "Retour",
-    "loading": "Chargement...",
-    "error": {
-      "title": "Erreur",
-      "notFound": "Rôle non trouvé"
-    },
-    "noPermission": {
-      "title": "Accès refusé",
-      "message": "Vous n'avez pas la permission d'accéder à la gestion des rôles"
-    }
-  },
-  "users": {
-    "noPermission": {
-      "title": "🚫 Aucune Autorisation",
-      "message": "Vous n'avez pas l'autorisation de voir la liste des utilisateurs"
-    },
-    "createUser": {
-      "pageTitle": {
-        "addUser": "Ajouter un utilisateur"
+    "BlogList": {
+      "title": "DERNIERS ARTICLES",
+      "heading": {
+        "preview": "Derniers du blog",
+        "all": "Tous les articles"
+      },
+      "meta": {
+        "readTime": "{minutes} min de lecture",
+        "published": "Publié"
+      },
+      "buttons": {
+        "readMore": "Lire la suite →",
+        "viewAll": "Voir tous les articles"
+      },
+      "emptyState": {
+        "title": "Aucun article pour l’instant",
+        "description": "Je suis en train d’écrire des articles instructifs sur le développement web. Revenez bientôt pour du nouveau contenu !",
+        "button": "Explorer les projets"
+      },
+      "tags": {
+        "react": "React",
+        "nextjs": "Next.js",
+        "nodejs": "Node.js",
+        "typescript": "TypeScript",
+        "mongodb": "MongoDB",
+        "postgresql": "PostgreSQL",
+        "nest": "NestJS",
+        "express": "Express",
+        "docker": "Docker",
+        "aws": "AWS",
+        "performance": "Performance",
+        "security": "Sécurité",
+        "bestPractices": "Bonnes pratiques"
       }
     },
-    "breadcrumb": {
-      "home": "Accueil",
-      "users": "Utilisateurs"
-    },
-    "header": {
-      "title": "Gestion des Utilisateurs",
-      "subtitle": "Voir et gérer tous les utilisateurs du système",
-      "addUser": "Ajouter un Utilisateur"
-    },
-    "error": {
-      "title": "⚠️ Erreur de Chargement des Données"
-    },
-    "table": {
-      "title": "Liste des Utilisateurs",
-      "usersCount": "utilisateurs",
-      "empty": {
-        "message": "Aucun utilisateur trouvé",
-        "description": "Commencez par ajouter un nouvel utilisateur au système"
+    "ContactCTA": {
+      "title": "Prêt à démarrer votre projet ?",
+      "description": "Travaillons ensemble pour donner vie à vos idées. Je suis toujours enthousiaste à l’idée de relever de nouveaux défis et de créer des solutions numériques incroyables avec des technologies modernes.",
+      "buttons": {
+        "getInTouch": "Entrer en contact",
+        "callMe": "Appelez-moi maintenant",
+        "scheduleCall": "Planifier un appel"
       },
-      "columns": {
-        "name": "Nom",
-        "email": "E-mail",
-        "role": "Rôle",
-        "school": "École",
-        "status": "Statut"
+      "stats": {
+        "projects": "Projets réalisés",
+        "clients": "Clients satisfaits",
+        "experience": "Années d’expérience",
+        "technologies": "Technologies",
+        "typicallyRespondWithin2HoursDuringBusinessDays": "Réponse typique sous 2 heures durant les jours ouvrables"
+      },
+      "email": "ahmed.abdelal@email.com",
+      "phone": "+20 123 456 7890",
+      "available": "Disponible : Lun-Ven, 9h-18h EET",
+      "technologiesIWorkWith": "Technologies avec lesquelles je travaille :"
+    }
+  },
+  "AboutPage": {
+    "AboutHero": {
+      "title": "À PROPOS DE MOI",
+      "name": "Je suis Ahmed Abdelal",
+      "role": "Développeur Full Stack & Ingénieur Logiciel",
+      "description": "Avec plus de 3 ans d’expérience en développement web full-stack, je me spécialise dans la construction d’applications évolutives et performantes en utilisant des technologies modernes. Ma passion réside dans la résolution de problèmes complexes avec un code propre et efficace et dans la création d’expériences numériques fluides du concept au déploiement.",
+      "altText": "Ahmed Abdelal - Développeur Full Stack"
+    },
+    "BiographySection": {
+      "story": {
+        "title": "Mon parcours dans la tech",
+        "paragraphs": {
+          "p1": "Mon parcours en développement logiciel a commencé lorsque j’ai écrit ma première ligne de code à l’université. Ce qui a commencé comme une curiosité sur le fonctionnement des applications s’est rapidement transformé en une passion pour bâtir des solutions numériques évolutives et efficaces. J’ai été fasciné par le pouvoir du code à résoudre des problèmes réels.",
+          "p2": "Au cours des plus de 3 années, j’ai eu l’opportunité de travailler sur des projets variés allant de MVPs de startups à des applications de niveau entreprise. Chaque projet a approfondi ma compréhension du développement full-stack et affiné mes compétences de résolution de problèmes à travers différentes piles technologiques.",
+          "p3": "Mon approche combine excellence technique et design centré utilisateur. Je crois que les grandes applications ne sont pas seulement fonctionnelles — elles sont intuitives, performantes et offrent des expériences fluides sur tous les appareils et plateformes.",
+          "p4": "Je suis passionné par l’apprentissage continu et par me tenir à jour avec les technologies les plus récentes. Quand je ne code pas, vous me trouverez en train d’explorer de nouveaux frameworks, de contribuer à des projets open-source ou de partager mes connaissances avec la communauté des développeurs."
+        }
+      },
+      "personalInfo": {
+        "title": "Infos personnelles",
+        "fullName": "Nom complet",
+        "dateOfBirth": "Date de naissance",
+        "nationality": "Nationalité",
+        "location": "Localisation",
+        "email": "Email",
+        "phone": "Téléphone",
+        "languages": "Langues",
+        "freelance": "Travailleur indépendant",
+        "education": "Formation"
+      },
+      "connect": {
+        "title": "Restons en contact",
+        "available": "Disponible",
+        "notAvailable": "Non disponible"
+      }
+    },
+    "ExperienceSection": {
+      "title": "MON PARCOURS",
+      "heading": "Expérience professionnelle",
+      "experiences": {
+        "seniorFullStack": {
+          "title": "Développeur Full Stack Senior",
+          "company": "Tech Innovation Ltd",
+          "period": "2022 - Présent",
+          "description": "Direction du développement d’applications web évolutives utilisant React, Next.js, Node.js et technologies cloud. Conception d’architectures et mentorat des membres de l’équipe tout en assurant la qualité du code et les meilleures pratiques.",
+          "achievements": {
+            "0": "Dirigé le développement de 3 principaux produits SaaS desservant plus de 50 000 utilisateurs",
+            "1": "Réduit le temps de réponse des API de 60 % grâce à l’optimisation",
+            "2": "Implémenté une architecture microservices améliorant l’évolutivité",
+            "3": "Mentoré 4 développeurs juniors et réalisé des revues de code"
+          }
+        },
+        "fullStack": {
+          "title": "Développeur Full Stack",
+          "company": "Digital Solutions Inc",
+          "period": "2021 - 2022",
+          "description": "Développé des applications full-stack en utilisant la pile MERN et TypeScript. Collaboré avec des équipes transversales pour livrer des solutions robustes et évolutives pour divers clients.",
+          "achievements": {
+            "0": "Construit plus de 15 applications full-stack pour des clients d’entreprise",
+            "1": "Intégré des API tierces et des passerelles de paiement",
+            "2": "Amélioré la performance des applications de 40 %",
+            "3": "Implémenté des pipelines CI/CD réduisant le temps de déploiement"
+          }
+        },
+        "frontend": {
+          "title": "Développeur Front-end",
+          "company": "Web Agency Pro",
+          "period": "2020 - 2021",
+          "description": "Spécialisé dans la création d’interfaces utilisateur réactives et interactives avec React et frameworks CSS modernes. Axé sur l’optimisation de la performance et l’expérience utilisateur.",
+          "achievements": {
+            "0": "Développé plus de 20 applications web réactives",
+            "1": "Obtenu des scores Lighthouse de plus de 95 %",
+            "2": "Implémenté des systèmes de design et bibliothèques de composants",
+            "3": "Réduit la taille des bundles de 35 % via le code splitting"
+          }
+        },
+        "junior": {
+          "title": "Développeur Web Junior",
+          "company": "StartUp Ventures",
+          "period": "2019 - 2020",
+          "description": "Commencé ma carrière professionnelle en construisant des compétences fondamentales en développement web. Contribué à divers projets tout en apprenant les technologies modernes et les pratiques de développement.",
+          "achievements": {
+            "0": "Maîtrisé React, Node.js et technologies de bases de données",
+            "1": "Contribué à plus de 8 applications en production",
+            "2": "Appris les méthodologies de développement agile",
+            "3": "Réalisé ma première application full-stack de zéro"
+          }
+        }
+      }
+    },
+    "EducationSection": {
+      "title": "PARCOURS D’APPRENTISSAGE",
+      "subtitle": "Formation & Certifications",
+      "heading": "Formation & Certifications",
+      "description1": "Apprentissage continu et développement professionnel dans le domaine en constante évolution de l’ingénierie logicielle et des technologies web.",
+      "types": {
+        "degree": "Diplôme",
+        "certification": "Certification",
+        "bootcamp": "Bootcamp"
+      },
+      "education": {
+        "bachelor": {
+          "degree": "Licence en Informatique",
+          "institution": "Université du Caire",
+          "period": "2016 - 2020",
+          "description": "Spécialisé en ingénierie logicielle, algorithmes et systèmes de bases de données. Suivi des cours en développement web, structures de données et architecture logicielle. Diplômé avec mention Excellent.",
+          "type": "degree"
+        },
+        "fullStack": {
+          "degree": "Bootcamp de Développement Web Full Stack",
+          "institution": "Tech Learning Hub",
+          "period": "2021",
+          "description": "Programme intensif couvrant les technologies web modernes incluant React, Node.js, Express, MongoDB et stratégies de déploiement. Construit plus de 10 projets full-stack.",
+          "type": "bootcamp"
+        },
+        "aws": {
+          "degree": "AWS Certified Developer – Associate",
+          "institution": "Amazon Web Services",
+          "period": "2022",
+          "description": "Certification démontrant l’expertise dans le développement, le déploiement et le débogage d’applications basées sur le cloud utilisant les services AWS tels que Lambda, API Gateway et DynamoDB.",
+          "type": "certification"
+        },
+        "mongodb": {
+          "degree": "MongoDB Certified Developer",
+          "institution": "MongoDB University",
+          "period": "2021",
+          "description": "Certification couvrant la conception de bases de données, le framework d’agrégation, les stratégies d’indexation et l’optimisation de performance dans MongoDB.",
+          "type": "certification"
+        },
+        "nodejs": {
+          "degree": "Certification Avancée Node.js",
+          "institution": "Node.js Institute",
+          "period": "2021",
+          "description": "Certification avancée couvrant l’architecture Node.js, l’optimisation de la performance, les microservices et le développement d’applications de niveau entreprise.",
+          "type": "certification"
+        },
+        "react": {
+          "degree": "Certification Professionnelle React",
+          "institution": "Meta (Coursera)",
+          "period": "2022",
+          "description": "Certification professionnelle couvrant les motifs avancés de React, la gestion d’état, l’optimisation de la performance et les stratégies de test.",
+          "type": "certification"
+        }
+      },
+      "continuousLearning": "Apprentissage continu",
+      "description2": "Je mets constamment à jour mes compétences et j’apprends de nouvelles technologies pour rester à la pointe du développement web. Actuellement exploré :",
+      "currentlyExploring": "Architecture Microservices, GraphQL, Computing Serverless, et pratiques avancées DevOps"
+    },
+    "SkillsDetailSection": {
+      "title": "EXPERTISE TECHNIQUE",
+      "heading": "Compétences & Technologies",
+      "description": "Je me spécialise dans le développement web full-stack avec une expertise dans les technologies modernes. Passionné par la construction d’applications évolutives et la résolution de problèmes complexes avec un code propre et efficace.",
+      "categories": {
+        "frontend": {
+          "title": "Développement Front-end",
+          "skills": {
+            "react": "React/Next.js",
+            "typescript": "TypeScript/JavaScript",
+            "html": "HTML5/CSS3",
+            "tailwind": "Tailwind CSS",
+            "state": "Gestion d’état"
+          }
+        },
+        "backend": {
+          "title": "Développement Back-end",
+          "skills": {
+            "node": "Node.js/Express",
+            "nest": "NestJS",
+            "mongodb": "MongoDB",
+            "postgresql": "PostgreSQL",
+            "apis": "APIs REST/GraphQL"
+          }
+        },
+        "tools": {
+          "title": "Outils & DevOps",
+          "skills": {
+            "git": "Git/GitHub",
+            "docker": "Docker",
+            "aws": "AWS/Cloud",
+            "testing": "Tests (Jest/Cypress)",
+            "cicd": "Pipelines CI/CD"
+          }
+        }
+      }
+    },
+    "AwardsSection": {
+      "title": "RECONNAISSANCE",
+      "heading": "Récompenses & Réalisations",
+      "description": "Reconnu pour des contributions significatives aux projets open-source et à la communauté des développeurs.",
+      "description1": "Apprentissage continu et développement professionnel dans le domaine en constante évolution de l’ingénierie logicielle et des technologies web.",
+      "subtitle": "Apprentissage continu",
+      "description2": "Je mets constamment à jour mes compétences et j’apprends de nouvelles technologies pour rester à la pointe du développement web. Actuellement exploré :",
+      "currentlyExploring": "Architecture Microservices, GraphQL, Computing Serverless, et pratiques avancées DevOps",
+      "awards": {
+        "openSource": {
+          "title": "Contributeur Open Source",
+          "organization": "GitHub",
+          "year": "2023",
+          "description": "Reconnu pour des contributions significatives aux projets open-source et à la communauté des développeurs."
+        },
+        "performance": {
+          "title": "Excellence de Performance",
+          "organization": "Tech Innovation Awards",
+          "year": "2022",
+          "description": "Récompensé pour la création d’applications hautement performantes avec une optimisation et une évolutivité exceptionnelles."
+        },
+        "fullStack": {
+          "title": "Excellence Full Stack",
+          "organization": "Communauté des développeurs",
+          "year": "2022",
+          "description": "Reconnu pour la maîtrise du front-end et du back-end avec des technologies modernes."
+        },
+        "innovation": {
+          "title": "Prix de l’Innovation",
+          "organization": "Concours StartUp",
+          "year": "2021",
+          "description": "Gagné la première place pour une solution SaaS innovante construite avec des technologies de pointe."
+        },
+        "codeQuality": {
+          "title": "Champion de la Qualité de Code",
+          "organization": "Engineering Excellence",
+          "year": "2021",
+          "description": "Reconnu pour maintenir une qualité de code exceptionnelle, des meilleures pratiques et une architecture propre."
+        },
+        "mentorship": {
+          "title": "Prix de Mentor Tech",
+          "organization": "Communauté des développeurs",
+          "year": "2023",
+          "description": "Reconnu pour avoir mentoré des développeurs juniors et contribué à des initiatives d’éducation technologique."
+        }
+      },
+      "readyToAchieveGreatResults": "Prêt à obtenir de grands résultats ?",
+      "letsBuildSomethingAmazing": "Construisons quelque chose d’incroyable ensemble !"
+    }
+  },
+  "ProjectsPage": {
+    "ProjectsHero": {
+      "subtitle": "MON TRAVAIL",
+      "title": "Projets phares",
+      "description": "Une collection de mes récentes applications full-stack et solutions web. Chaque projet met en valeur des technologies modernes, une architecture propre et des compétences de résolution de problèmes réels."
+    },
+    "ProjectsGrid": {
+      "searchPlaceholder": "Rechercher des projets…",
+      "categories": {
+        "all": "Tous",
+        "web": "Développement Web",
+        "fullStack": "Full Stack",
+        "frontend": "Front-end",
+        "backend": "Back-end",
+        "mobile": "Mobile",
+        "ecommerce": "E-commerce",
+        "design": "UI/UX Design",
+        "api": "Développement d’API",
+        "undefined": "Autre"
+      },
+      "emptyState": {
+        "title": "Aucun projet trouvé",
+        "description": "Aucun projet ne correspond à vos critères.",
+        "reset": "Réinitialiser les filtres"
+      },
+      "loading": "Chargement des projets…",
+      "results": {
+        "single": "{count} projet trouvé",
+        "multiple": "{count} projets trouvés"
+      }
+    }
+  },
+  "BlogPage": {
+    "title": "Blog – Ahmed Abdelal",
+    "description": "Derniers articles et insights sur le développement full-stack, les technologies web modernes et les bonnes pratiques en ingénierie logicielle.",
+    "loading": "Chargement des articles…",
+    "BlogSidebar": {
+      "about": {
+        "title": "À propos du blog",
+        "description": "Partager connaissances et expériences en développement full-stack, des frameworks front-end à l’architecture back-end et aux pratiques DevOps."
+      },
+      "popularTags": "Tags populaires",
+      "recentPosts": "Articles récents",
+      "posts": {
+        "nestjs": "Construire des API évolutives avec NestJS",
+        "nextjs": "Guide performance Next.js 14",
+        "microservices": "Architectures de microservices"
+      }
+    },
+    "BlogHero": {
+      "title": "Blog Tech",
+      "description": "Insights, tutoriels et réflexions sur le développement full-stack, les technologies modernes et les bonnes pratiques en ingénierie logicielle."
+    },
+    "BlogGrid": {
+      "emptyState": {
+        "title": "Aucun article trouvé",
+        "description": "Aucun article ne correspond à vos critères.",
+        "reset": "Réinitialiser les filtres"
+      },
+      "loading": "Chargement des articles…",
+      "filters": {
+        "searchPlaceholder": "Rechercher des articles…",
+        "category": "Catégorie",
+        "tag": "Tag",
+        "all": "Tous"
+      },
+      "categories": {
+        "all": "Tous",
+        "frontend": "Front-end",
+        "backend": "Back-end",
+        "fullstack": "Full Stack",
+        "devops": "DevOps",
+        "tutorial": "Tutoriel",
+        "bestPractices": "Bonnes pratiques"
+      }
+    }
+  },
+  "ArticlePage": {
+    "notFound": {
+      "title": "Article non trouvé"
+    },
+    "loading": {
+      "related": "Chargement des articles liés…",
+      "content": "Chargement du contenu de l’article…"
+    },
+    "metadata": {
+      "titleSuffix": " – Ahmed Abdelal"
+    },
+    "related": {
+      "title": "Articles liés"
+    },
+    "ArticleContent": {
+      "readTime": "{minutes} min de lecture",
+      "author": "Ahmed Abdelal",
+      "likeButton": {
+        "liked": "{count}",
+        "default": "{count}"
+      },
+      "saveButton": {
+        "saved": "Enregistré",
+        "default": "Enregistrer"
+      },
+      "shareButton": "Partager",
+      "tagsTitle": "Tags",
+      "share": {
+        "urlCopied": "URL copiée dans le presse-papier !"
       },
       "actions": {
-        "view": "Voir les Détails de l'Utilisateur",
-        "edit": "Modifier l'Utilisateur",
-        "delete": "Supprimer l'Utilisateur"
+        "like": "Aimer",
+        "save": "Enregistrer",
+        "share": "Partager"
       }
     },
-    "status": {
-      "active": "Actif",
-      "inactive": "Inactif",
-      "suspended": "Suspendu",
-      "locked": "Verrouillé",
-      "pending": "En Attente"
+    "ArticleSidebar": {
+      "articleDetails": "Détails de l’article",
+      "published": "Publié",
+      "readTime": "Temps de lecture",
+      "category": "Catégorie",
+      "shareArticle": "Partager l’article",
+      "tags": "Tags",
+      "tableOfContents": "Table des matières",
+      "tocItems": {
+        "introduction": "Introduction",
+        "gettingStarted": "Prise en main",
+        "implementation": "Implémentation",
+        "bestPractices": "Bonnes pratiques",
+        "conclusion": "Conclusion"
+      }
+    },
+    "RelatedArticles": {
+      "title": "Articles liés",
+      "readTime": "{minutes} min de lecture",
+      "meta": {
+        "published": "Publié",
+        "readTime": "min de lecture"
+      }
     }
   },
-  "createUser": {
-    "breadcrumb": {
-      "addUser": "Ajouter un utilisateur",
-      "addUserDescription": "Entrez les données du nouvel utilisateur correctement pour garantir la meilleure expérience dans le système"
+  "ContactPage": {
+    "ContactHero": {
+      "title": "Travaillons ensemble",
+      "description": "Vous avez un projet en tête ? J’aimerais en savoir plus et discuter de la façon dont nous pouvons donner vie à vos idées avec des technologies web modernes.",
+      "subtitle": "Entrer en contact"
+    },
+    "ContactForm": {
+      "title": "Envoyez-moi un message",
+      "fields": {
+        "name": "Nom complet *",
+        "email": "Adresse email *",
+        "phone": "Numéro de téléphone *",
+        "subject": "Sujet *",
+        "message": "Message *",
+        "budget": "Plage de budget",
+        "timeline": "Délai"
+      },
+      "placeholders": {
+        "name": "Votre nom complet",
+        "email": "votre.email@exemple.com",
+        "phone": "+1 234 567 8901",
+        "subject": "Quel est le sujet ?",
+        "message": "Parlez-moi de votre projet, vos objectifs et vos exigences…",
+        "budget": "Sélectionner la plage de budget",
+        "timeline": "Sélectionner le délai"
+      },
+      "budgetOptions": {
+        "select": "Sélectionner une plage de budget",
+        "under5k": "Moins de 5 000 $",
+        "5k10k": "5 000 $ - 10 000 $",
+        "10k25k": "10 000 $ - 25 000 $",
+        "25k50k": "25 000 $ - 50 000 $",
+        "over50k": "Plus de 50 000 $"
+      },
+      "timelineOptions": {
+        "select": "Sélectionner le délai",
+        "asap": "Dès que possible",
+        "1month": "Dans 1 mois",
+        "2-3months": "2-3 mois",
+        "3-6months": "3-6 mois",
+        "flexible": "Flexible"
+      },
+      "submitButton": {
+        "default": "Envoyer le message",
+        "sending": "Envoi…"
+      },
+      "statusMessages": {
+        "success": "Merci pour votre message ! Je reviendrai vers vous bientôt.",
+        "error": "Une erreur est survenue. Veuillez réessayer.",
+        "networkError": "Erreur réseau. Veuillez vérifier votre connexion et réessayer."
+      }
+    },
+    "ContactInfo": {
+      "title": "Entrer en contact",
+      "contactDetails": {
+        "email": "Email",
+        "phone": "Téléphone",
+        "location": "Localisation",
+        "availability": "Disponibilité"
+      },
+      "social": {
+        "title": "Suivez-moi",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "twitter": "Twitter",
+        "website": "Site web"
+      },
+      "guarantee": {
+        "title": "Garantie de réponse rapide",
+        "description": "Je réponds généralement à toutes les demandes sous 24 heures. Pour les projets urgents, n’hésitez pas à m’appeler directement."
+      }
+    },
+    "ContactMap": {
+      "title": "Ma localisation",
+      "location": "San Francisco, CA",
+      "availability": "Disponible pour travail à distance dans le monde entier"
     }
   },
-  "common": {
-    "welcome": "Bienvenue",
-    "home": "Accueil",
-    "users": "Utilisateurs",
-    "settings": "Paramètres",
-    "logout": "Déconnexion",
-    "search": "Rechercher...",
-    "loading": "Chargement...",
-    "error": "Une erreur s'est produite",
-    "save": "Enregistrer",
-    "cancel": "Annuler",
-    "delete": "Supprimer",
-    "edit": "Modifier",
-    "view": "Voir"
+  "Common": {
+    "loading": "Chargement…",
+    "error": {
+      "title": "Quelque chose s’est mal passé",
+      "description": "Une erreur inattendue est survenue. Veuillez réessayer plus tard."
+    }
   }
 }

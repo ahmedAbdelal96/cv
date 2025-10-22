@@ -11,6 +11,7 @@ import Providers from '@/components/Providers';
 import './globals.css';
 
 export const metadata = {
+  metadataBase: new URL(process.env.NEXTAUTH_URL || 'http://localhost:3000'),
   title: 'Ahmed Abdelal - Full Stack Web Developer',
   description:
     'Professional Full Stack web developer specializing in modern web applications. View my portfolio, projects, and get in touch.',
