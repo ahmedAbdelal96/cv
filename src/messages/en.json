@@ -1,0 +1,645 @@
+{
+  "Header": {
+    "logo": "UI Portfolio",
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "menu": {
+      "toggle": "Toggle menu",
+      "close": "Close menu"
+    },
+    "downloadCV": "Download CV"
+  },
+  "HomePage": {
+    "HeroSection": {
+      "greeting": "Hi, I'm Ahmed Abdelal",
+      "title": "Full Stack Web Developer",
+      "description": "Passionate about creating seamless digital experiences from front-end to back-end. I specialize in building scalable web applications using modern technologies like React, Next.js, Express, NestJS, Node.js, MongoDB, PostgreSQL, TypeScript, and various tools. Let's bring your ideas to life with clean, efficient code and innovative solutions!",
+      "hireMe": "Hire Me",
+      "portfolio": "My Portfolio",
+      "altText": "Ahmed Abdelal - Web Developer"
+    },
+    "AboutSection": {
+      "biography": "MY BIOGRAPHY",
+      "title": "Full Stack Developer & Software Engineer",
+      "description": "Passionate about creating end-to-end digital solutions with modern technologies. I specialize in building scalable web applications using React, Next.js, Node.js, and cloud technologies. With expertise in both front-end and back-end development, I deliver comprehensive solutions that drive business growth and enhance user experiences.",
+      "contactInfo": {
+        "name": "Name",
+        "from": "From",
+        "email": "Email",
+        "phone": "Phone"
+      },
+      "followMe": "Follow me on",
+      "buttons": {
+        "hireMe": "Hire me",
+        "downloadCV": "Download CV"
+      },
+      "altText": "Ahmed Abdelal Profile"
+    },
+    "SkillsSection": {
+      "title": "MY SKILLS",
+      "heading": "My Technical Skills",
+      "description": "I specialize in full-stack web development with expertise in modern technologies. Passionate about building scalable applications and solving complex problems with clean, efficient code.",
+      "skills": {
+        "frontend": "Frontend Development",
+        "backend": "Backend Development",
+        "database": "Database Management",
+        "devops": "DevOps & Deployment",
+        "react": "React & Next.js",
+        "node": "Node.js & Express",
+        "typescript": "TypeScript",
+        "mongodb": "MongoDB",
+        "postgresql": "PostgreSQL",
+        "nest": "NestJS",
+        "tailwind": "Tailwind CSS",
+        "git": "Git & GitHub",
+        "docker": "Docker",
+        "aws": "AWS & Cloud"
+      },
+      "altText": "Developer workspace with coding setup"
+    },
+    "PortfolioSection": {
+      "services": {
+        "title": "MY SERVICES",
+        "heading": "What I Do For You",
+        "webDevelopment": {
+          "title": "Full Stack Development",
+          "description": "End-to-end web application development using modern technologies like React, Next.js, Node.js, and cloud platforms."
+        },
+        "appDevelopment": {
+          "title": "API Development",
+          "description": "RESTful and GraphQL API design and implementation with secure authentication and optimized performance."
+        },
+        "database": {
+          "title": "Database Design",
+          "description": "Database architecture, optimization, and management with MongoDB, PostgreSQL, and other database systems."
+        },
+        "devops": {
+          "title": "DevOps & Deployment",
+          "description": "CI/CD pipeline setup, containerization with Docker, and cloud deployment on AWS, Vercel, and other platforms."
+        },
+        "projects": {
+          "title": "Featured Projects",
+          "viewMore": "View More Projects",
+          "description": "A showcase of my recent full-stack applications and web solutions built with modern technologies."
+        },
+        "frontend": {
+          "title": "Frontend Development",
+          "description": "Responsive and interactive user interfaces with React, TypeScript, and modern CSS frameworks."
+        },
+        "backend": {
+          "title": "Backend Development",
+          "description": "Server-side application development with Node.js, Express, NestJS, and robust architecture patterns."
+        }
+      },
+      "projects": {
+        "title": "Featured Projects",
+        "viewMore": "View More Projects",
+        "description": "A showcase of my recent full-stack applications and web solutions built with modern technologies."
+      },
+      "loading": "Loading projects...",
+      "noProjects": "No Projects Yet",
+      "workingOnProjects": "I&lsquo;m currently working on some amazing projects. Check back soon!",
+      "soon": "soon!",
+      "contact": "Start a Project"
+    },
+    "ReviewsCarousel": {
+      "title": "TESTIMONIALS",
+      "heading": "What Clients Say",
+      "verifiedClient": "Verified Client",
+      "navigation": {
+        "previous": "Previous review",
+        "next": "Next review",
+        "goToReview": "Go to review {index}"
+      },
+      "emptyState": {
+        "title": "No Reviews Yet",
+        "description": "Be the first to share your experience working with me!",
+        "button": "Add Review"
+      },
+      "loading": "Loading reviews...",
+      "noReviews": "No Reviews Yet",
+      "beTheFirst": "Be the first to share your experience working with me!",
+      "addReview": "Add Review",
+      "readyToStart": "Ready to start your next project? Let's discuss how I can help you!",
+      "startWorkingTogether": "Start Working Together"
+    },
+    "BlogList": {
+      "title": "LATEST ARTICLES",
+      "heading": {
+        "preview": "Latest From Blog",
+        "all": "All Articles"
+      },
+      "meta": {
+        "readTime": "{minutes} min read",
+        "published": "Published"
+      },
+      "buttons": {
+        "readMore": "Read More →",
+        "viewAll": "View All Articles"
+      },
+      "emptyState": {
+        "title": "No Articles Yet",
+        "description": "I'm currently writing some insightful articles about web development. Check back soon for new content!",
+        "button": "Browse Projects"
+      },
+      "tags": {
+        "react": "React",
+        "nextjs": "Next.js",
+        "nodejs": "Node.js",
+        "typescript": "TypeScript",
+        "mongodb": "MongoDB",
+        "postgresql": "PostgreSQL",
+        "nest": "NestJS",
+        "express": "Express",
+        "docker": "Docker",
+        "aws": "AWS",
+        "performance": "Performance",
+        "security": "Security",
+        "bestPractices": "Best Practices"
+      }
+    },
+    "ContactCTA": {
+      "title": "Ready to Start Your Project?",
+      "description": "Let's work together to bring your ideas to life. I'm always excited to take on new challenges and create amazing digital solutions using modern technologies.",
+      "buttons": {
+        "getInTouch": "Get In Touch",
+        "callMe": "Call Me Now",
+        "scheduleCall": "Schedule a Call"
+      },
+      "stats": {
+        "projects": "Projects Completed",
+        "clients": "Happy Clients",
+        "experience": "Years Experience",
+        "technologies": "Technologies",
+        "typicallyRespondWithin2HoursDuringBusinessDays": "Typically respond within 2 hours during business days"
+      },
+      "email": "ahmed.abdelal@email.com",
+      "phone": "+20 123 456 7890",
+      "available": "Available: Mon - Fri, 9AM - 6PM EET",
+      "technologiesIWorkWith": "Technologies I work with:"
+    }
+  },
+  "AboutPage": {
+    "AboutHero": {
+      "title": "ABOUT ME",
+      "name": "I'm Ahmed Abdelal",
+      "role": "Full Stack Developer & Software Engineer",
+      "description": "With 3+ years of experience in full-stack web development, I specialize in building scalable, performant applications using modern technologies. My passion lies in solving complex problems with clean, efficient code and creating seamless digital experiences from concept to deployment.",
+      "altText": "Ahmed Abdelal - Full Stack Developer"
+    },
+    "BiographySection": {
+      "story": {
+        "title": "My Journey in Tech",
+        "paragraphs": {
+          "p1": "My journey in software development began when I wrote my first line of code in university. What started as curiosity about how applications work quickly evolved into a passion for building scalable, efficient digital solutions. I was fascinated by the power of code to solve real-world problems.",
+          "p2": "Over the past 3+ years, I've had the opportunity to work on diverse projects ranging from startup MVPs to enterprise-level applications. Each project has deepened my understanding of full-stack development and refined my problem-solving skills across different tech stacks.",
+          "p3": "My approach combines technical excellence with user-centric design. I believe that great applications are not just functional—they're intuitive, performant, and provide seamless experiences across all devices and platforms.",
+          "p4": "I'm passionate about continuous learning and staying updated with the latest technologies. When I'm not coding, you'll find me exploring new frameworks, contributing to open-source projects, or sharing knowledge with the developer community."
+        }
+      },
+      "personalInfo": {
+        "title": "Personal Info",
+        "fullName": "Full Name",
+        "dateOfBirth": "Date of Birth",
+        "nationality": "Nationality",
+        "location": "Location",
+        "email": "Email",
+        "phone": "Phone",
+        "languages": "Languages",
+        "freelance": "Freelance",
+        "education": "Education"
+      },
+      "connect": {
+        "title": "Let's Connect",
+        "available": "Available",
+        "notAvailable": "Not Available"
+      }
+    },
+    "ExperienceSection": {
+      "title": "MY JOURNEY",
+      "heading": "Work Experience",
+      "experiences": {
+        "seniorFullStack": {
+          "title": "Senior Full Stack Developer",
+          "company": "Tech Innovation Ltd",
+          "period": "2022 - Present",
+          "description": "Lead development of scalable web applications using React, Next.js, Node.js, and cloud technologies. Architect solutions and mentor team members while ensuring code quality and best practices.",
+          "achievements": {
+            "0": "Led development of 3 major SaaS products serving 50K+ users",
+            "1": "Reduced API response time by 60% through optimization",
+            "2": "Implemented microservices architecture improving scalability",
+            "3": "Mentored 4 junior developers and conducted code reviews"
+          }
+        },
+        "fullStack": {
+          "title": "Full Stack Developer",
+          "company": "Digital Solutions Inc",
+          "period": "2021 - 2022",
+          "description": "Developed full-stack applications using MERN stack and TypeScript. Collaborated with cross-functional teams to deliver robust, scalable solutions for various clients.",
+          "achievements": {
+            "0": "Built 15+ full-stack applications for enterprise clients",
+            "1": "Integrated third-party APIs and payment gateways",
+            "2": "Improved application performance by 40%",
+            "3": "Implemented CI/CD pipelines reducing deployment time"
+          }
+        },
+        "frontend": {
+          "title": "Frontend Developer",
+          "company": "Web Agency Pro",
+          "period": "2020 - 2021",
+          "description": "Specialized in building responsive, interactive user interfaces with React and modern CSS frameworks. Focused on performance optimization and user experience.",
+          "achievements": {
+            "0": "Developed 20+ responsive web applications",
+            "1": "Achieved 95+ Lighthouse performance scores",
+            "2": "Implemented design systems and component libraries",
+            "3": "Reduced bundle size by 35% through code splitting"
+          }
+        },
+        "junior": {
+          "title": "Junior Web Developer",
+          "company": "StartUp Ventures",
+          "period": "2019 - 2020",
+          "description": "Started professional career building foundational skills in web development. Contributed to various projects while learning modern technologies and development practices.",
+          "achievements": {
+            "0": "Mastered React, Node.js, and database technologies",
+            "1": "Contributed to 8+ production applications",
+            "2": "Learned agile development methodologies",
+            "3": "Built first full-stack application from scratch"
+          }
+        }
+      }
+    },
+    "EducationSection": {
+      "title": "LEARNING PATH",
+      "subtitle": "Education & Certifications",
+      "heading": "Education & Certifications",
+      "description1": "Continuous learning and professional development in the ever-evolving field of software engineering and web technologies.",
+      "types": {
+        "degree": "Degree",
+        "certification": "Certification",
+        "bootcamp": "Bootcamp"
+      },
+      "education": {
+        "bachelor": {
+          "degree": "Bachelor of Computer Science",
+          "institution": "Cairo University",
+          "period": "2016 - 2020",
+          "description": "Specialized in Software Engineering, Algorithms, and Database Systems. Completed courses in Web Development, Data Structures, and Software Architecture. Graduated with Excellent grade.",
+          "type": "degree"
+        },
+        "fullStack": {
+          "degree": "Full Stack Web Development Bootcamp",
+          "institution": "Tech Learning Hub",
+          "period": "2021",
+          "description": "Intensive program covering modern web technologies including React, Node.js, Express, MongoDB, and deployment strategies. Built 10+ full-stack projects.",
+          "type": "bootcamp"
+        },
+        "aws": {
+          "degree": "AWS Certified Developer - Associate",
+          "institution": "Amazon Web Services",
+          "period": "2022",
+          "description": "Certification demonstrating expertise in developing, deploying, and debugging cloud-based applications using AWS services like Lambda, API Gateway, and DynamoDB.",
+          "type": "certification"
+        },
+        "mongodb": {
+          "degree": "MongoDB Certified Developer",
+          "institution": "MongoDB University",
+          "period": "2021",
+          "description": "Certification covering database design, aggregation framework, indexing strategies, and performance optimization in MongoDB.",
+          "type": "certification"
+        },
+        "nodejs": {
+          "degree": "Advanced Node.js Certification",
+          "institution": "Node.js Institute",
+          "period": "2021",
+          "description": "Advanced certification covering Node.js architecture, performance optimization, microservices, and enterprise-level application development.",
+          "type": "certification"
+        },
+        "react": {
+          "degree": "React Professional Certification",
+          "institution": "Meta (Coursera)",
+          "period": "2022",
+          "description": "Professional certification covering advanced React patterns, state management, performance optimization, and testing strategies.",
+          "type": "certification"
+        }
+      },
+      "continuousLearning": "Continuous Learning",
+      "description2": "I'm constantly updating my skills and learning new technologies to stay at the forefront of web development. Currently exploring:",
+      "currentlyExploring": "Microservices Architecture, GraphQL, Serverless Computing, and Advanced DevOps practices"
+    },
+    "SkillsDetailSection": {
+      "title": "TECHNICAL EXPERTISE",
+      "heading": "Skills & Technologies",
+      "description": "I specialize in full-stack web development with expertise in modern technologies. Passionate about building scalable applications and solving complex problems with clean, efficient code.",
+      "categories": {
+        "frontend": {
+          "title": "Frontend Development",
+          "skills": {
+            "react": "React/Next.js",
+            "typescript": "TypeScript/JavaScript",
+            "html": "HTML5/CSS3",
+            "tailwind": "Tailwind CSS",
+            "state": "State Management"
+          }
+        },
+        "backend": {
+          "title": "Backend Development",
+          "skills": {
+            "node": "Node.js/Express",
+            "nest": "NestJS",
+            "mongodb": "MongoDB",
+            "postgresql": "PostgreSQL",
+            "apis": "REST/GraphQL APIs"
+          }
+        },
+        "tools": {
+          "title": "Tools & DevOps",
+          "skills": {
+            "git": "Git/GitHub",
+            "docker": "Docker",
+            "aws": "AWS/Cloud",
+            "testing": "Testing (Jest/Cypress)",
+            "cicd": "CI/CD Pipelines"
+          }
+        }
+      }
+    },
+    "AwardsSection": {
+      "title": "RECOGNITION",
+      "heading": "Awards & Achievements",
+      "description": "Recognized for significant contributions to open-source projects and developer community.",
+      "description1": "Continuous learning and professional development in the ever-evolving field of software engineering and web technologies.",
+      "subtitle": "Continuous Learning",
+      "description2": "  I'm constantly updating my skills and learning new technologies to stay at the forefront of web development. Currently exploring:",
+      "currentlyExploring": "Microservices Architecture, GraphQL, Serverless Computing, and Advanced DevOps practices",
+      "awards": {
+        "openSource": {
+          "title": "Open Source Contributor",
+          "organization": "GitHub",
+          "year": "2023",
+          "description": "Recognized for significant contributions to open-source projects and developer community."
+        },
+        "performance": {
+          "title": "Performance Excellence",
+          "organization": "Tech Innovation Awards",
+          "year": "2022",
+          "description": "Awarded for building high-performance applications with exceptional optimization and scalability."
+        },
+        "fullStack": {
+          "title": "Full Stack Excellence",
+          "organization": "Developer Community",
+          "year": "2022",
+          "description": "Recognized for mastery in both frontend and backend development with modern technologies."
+        },
+        "innovation": {
+          "title": "Innovation Award",
+          "organization": "StartUp Competition",
+          "year": "2021",
+          "description": "Won first place for innovative SaaS solution built with cutting-edge technologies."
+        },
+        "codeQuality": {
+          "title": "Code Quality Champion",
+          "organization": "Engineering Excellence",
+          "year": "2021",
+          "description": "Acknowledged for maintaining exceptional code quality, best practices, and clean architecture."
+        },
+        "mentorship": {
+          "title": "Tech Mentor Award",
+          "organization": "Developer Community",
+          "year": "2023",
+          "description": "Recognized for mentoring junior developers and contributing to tech education initiatives."
+        }
+      },
+      "readyToAchieveGreatResults": "Ready to achieve great results?",
+      "letsBuildSomethingAmazing": "Let's build something amazing together!"
+    }
+  },
+  "ProjectsPage": {
+    "ProjectsHero": {
+      "subtitle": "MY WORK",
+      "title": "Featured Projects",
+      "description": "A collection of my recent full-stack applications and web solutions. Each project showcases modern technologies, clean architecture, and real-world problem-solving skills."
+    },
+    "ProjectsGrid": {
+      "searchPlaceholder": "Search projects...",
+      "categories": {
+        "all": "All",
+        "web": "Web Development",
+        "fullStack": "Full Stack",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "mobile": "Mobile",
+        "ecommerce": "E-commerce",
+        "design": "UI/UX Design",
+        "api": "API Development",
+        "undefined": "Other"
+      },
+      "emptyState": {
+        "title": "No projects found",
+        "description": "No projects found matching your criteria.",
+        "reset": "Reset filters"
+      },
+      "loading": "Loading projects...",
+      "results": {
+        "single": "{count} project found",
+        "multiple": "{count} projects found"
+      }
+    }
+  },
+  "BlogPage": {
+    "title": "Blog - Ahmed Abdelal",
+    "description": "Latest articles and insights on full-stack development, modern web technologies, and software engineering best practices.",
+    "loading": "Loading articles...",
+    "BlogSidebar": {
+      "about": {
+        "title": "About the Blog",
+        "description": "Sharing knowledge and experiences in full-stack development, from frontend frameworks to backend architecture and DevOps practices."
+      },
+      "popularTags": "Popular Tags",
+      "recentPosts": "Recent Posts",
+      "posts": {
+        "nestjs": "Building Scalable APIs with NestJS",
+        "nextjs": "Next.js 14 Performance Guide",
+        "microservices": "Microservices Architecture Patterns"
+      }
+    },
+    "BlogHero": {
+      "title": "Tech Blog",
+      "description": "Insights, tutorials, and thoughts on full-stack development, modern technologies, and software engineering best practices."
+    },
+    "BlogGrid": {
+      "emptyState": {
+        "title": "No articles found",
+        "description": "No articles found matching your criteria.",
+        "reset": "Reset filters"
+      },
+      "loading": "Loading articles...",
+      "filters": {
+        "searchPlaceholder": "Search articles...",
+        "category": "Category",
+        "tag": "Tag",
+        "all": "All"
+      },
+      "categories": {
+        "all": "All",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "fullstack": "Full Stack",
+        "devops": "DevOps",
+        "tutorial": "Tutorial",
+        "bestPractices": "Best Practices"
+      }
+    }
+  },
+  "ArticlePage": {
+    "notFound": {
+      "title": "Article Not Found"
+    },
+    "loading": {
+      "related": "Loading related articles...",
+      "content": "Loading article content..."
+    },
+    "metadata": {
+      "titleSuffix": " - Ahmed Abdelal"
+    },
+    "related": {
+      "title": "Related Articles"
+    },
+    "ArticleContent": {
+      "readTime": "{minutes} min read",
+      "author": "Ahmed Abdelal",
+      "likeButton": {
+        "liked": "{count}",
+        "default": "{count}"
+      },
+      "saveButton": {
+        "saved": "Saved",
+        "default": "Save"
+      },
+      "shareButton": "Share",
+      "tagsTitle": "Tags",
+      "share": {
+        "urlCopied": "URL copied to clipboard!"
+      },
+      "actions": {
+        "like": "Like",
+        "save": "Save",
+        "share": "Share"
+      }
+    },
+    "ArticleSidebar": {
+      "articleDetails": "Article Details",
+      "published": "Published",
+      "readTime": "Read time",
+      "category": "Category",
+      "shareArticle": "Share Article",
+      "tags": "Tags",
+      "tableOfContents": "Table of Contents",
+      "tocItems": {
+        "introduction": "Introduction",
+        "gettingStarted": "Getting Started",
+        "implementation": "Implementation",
+        "bestPractices": "Best Practices",
+        "conclusion": "Conclusion"
+      }
+    },
+    "RelatedArticles": {
+      "title": "Related Articles",
+      "readTime": "{minutes} min read",
+      "meta": {
+        "published": "Published",
+        "readTime": "min read"
+      }
+    }
+  },
+  "ContactPage": {
+    "ContactHero": {
+      "title": "Let's Work Together",
+      "description": "Have a project in mind? I'd love to hear about it and discuss how we can bring your ideas to life with modern web technologies.",
+      "subtitle": "Get in Touch"
+    },
+    "ContactForm": {
+      "title": "Send Me a Message",
+      "fields": {
+        "name": "Full Name *",
+        "email": "Email Address *",
+        "phone": "Phone Number *",
+        "subject": "Subject *",
+        "message": "Message *",
+        "budget": "Budget Range",
+        "timeline": "Timeline"
+      },
+      "placeholders": {
+        "name": "Your full name",
+        "email": "your.email@example.com",
+        "phone": "+1 234 567 8901",
+        "subject": "What's this about?",
+        "message": "Tell me about your project, goals, and any specific requirements...",
+        "budget": "Select budget range",
+        "timeline": "Select timeline"
+      },
+      "budgetOptions": {
+        "select": "Select budget range",
+        "under5k": "Under $5,000",
+        "5k10k": "$5,000 - $10,000",
+        "10k25k": "$10,000 - $25,000",
+        "25k50k": "$25,000 - $50,000",
+        "over50k": "Over $50,000"
+      },
+      "timelineOptions": {
+        "select": "Select timeline",
+        "asap": "ASAP",
+        "1month": "Within 1 month",
+        "2-3months": "2-3 months",
+        "3-6months": "3-6 months",
+        "flexible": "Flexible"
+      },
+      "submitButton": {
+        "default": "Send Message",
+        "sending": "Sending..."
+      },
+      "statusMessages": {
+        "success": "Thank you for your message! I'll get back to you soon.",
+        "error": "Something went wrong. Please try again.",
+        "networkError": "Network error. Please check your connection and try again."
+      }
+    },
+    "ContactInfo": {
+      "title": "Get In Touch",
+      "contactDetails": {
+        "email": "Email",
+        "phone": "Phone",
+        "location": "Location",
+        "availability": "Availability"
+      },
+      "social": {
+        "title": "Follow Me",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "twitter": "Twitter",
+        "website": "Website"
+      },
+      "guarantee": {
+        "title": "Quick Response Guarantee",
+        "description": "I typically respond to all inquiries within 24 hours. For urgent projects, feel free to call me directly."
+      }
+    },
+    "ContactMap": {
+      "title": "My Location",
+      "location": "San Francisco, CA",
+      "availability": "Available for remote work worldwide"
+    }
+  },
+  "Common": {
+    "loading": "Loading...",
+    "error": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. Please try again later."
+    }
+  }
+}

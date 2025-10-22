@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact",
+    "reviews": "Reviews"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Ahmed Abdelal",
+    "title": "Web Developer & UI Designer",
+    "description": "I create beautiful, functional, and user-centered digital experiences that make a difference.",
+    "cta": {
+      "viewWork": "View My Work",
+      "downloadCV": "Download CV"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Passionate developer with a keen eye for design",
+    "biography": {
+      "title": "Biography",
+      "content": "I'm a passionate web developer and UI designer with over 5 years of experience creating digital solutions that combine beautiful design with robust functionality. My journey in web development started with a curiosity about how websites work, and it has evolved into a deep passion for creating user-centered experiences."
+    },
+    "skills": {
+      "title": "Skills & Expertise",
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "design": "UI/UX Design",
+      "tools": "Tools & Technologies"
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "A showcase of my recent work and achievements",
+    "viewProject": "View Project",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Thoughts, tutorials, and insights about web development",
+    "readMore": "Read More",
+    "readTime": "min read",
+    "categories": {
+      "all": "All",
+      "javascript": "JavaScript",
+      "react": "React",
+      "nextjs": "Next.js",
+      "css": "CSS",
+      "tutorial": "Tutorial"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's discuss your next project",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "budget": "Project Budget",
+      "timeline": "Timeline",
+      "send": "Send Message"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "availability": "Availability"
+    }
+  },
+  "reviews": {
+    "title": "Client Reviews",
+    "subtitle": "What clients say about working with me",
+    "writeReview": "Write a Review"
+  },
+  "footer": {
+    "description": "Web Developer & UI Designer specializing in modern web applications.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "connect": "Connect",
+    "copyright": "© 2025 Ahmed Abdelal. All rights reserved."
+  }
+}

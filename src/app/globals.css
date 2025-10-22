@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    /* Updated primary color to match reference design teal */
+    --primary: 174 77% 47%; /* Teal color from reference design */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 174 77% 47%; /* Match primary color */
+    --radius: 0.5rem;
+    --font-inter: 'Inter', system-ui, sans-serif;
+    --font-jetbrains-mono: 'JetBrains Mono', monospace;
+    /* Added hero gradient colors from reference design */
+    --hero-gradient-from: 185 84% 25%; /* Dark teal */
+    --hero-gradient-to: 174 77% 47%; /* Lighter teal */
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    /* Updated dark mode primary to maintain teal theme */
+    --primary: 174 77% 47%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 174 77% 47%;
+    /* Dark mode hero gradient */
+    --hero-gradient-from: 185 84% 15%;
+    --hero-gradient-to: 174 77% 35%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
+  }
+
+  html[dir='rtl'] {
+    direction: rtl;
+  }
+
+  html[dir='rtl'] .rtl\:text-right {
+    text-align: right;
+  }
+
+  html[dir='rtl'] .rtl\:text-left {
+    text-align: left;
+  }
+}
+
+@layer components {
+  .section-reveal {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
+  }
+
+  .section-reveal.in-view {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .skill-bar {
+    @apply relative h-2 bg-muted rounded-full overflow-hidden;
+  }
+
+  .skill-progress {
+    @apply h-full bg-primary rounded-full transition-all duration-1000 ease-out;
+  }
+
+  .project-card {
+    @apply relative overflow-hidden rounded-lg border bg-card text-card-foreground shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-[1.02];
+  }
+
+  .nav-link {
+    @apply relative px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground;
+  }
+
+  .nav-link.active {
+    @apply text-foreground;
+  }
+
+  .nav-link::after {
+    @apply absolute bottom-0 left-0 h-0.5 w-0 bg-primary transition-all duration-300;
+    content: '';
+  }
+
+  .nav-link.active::after,
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  /* Added hero section styling to match reference design */
+  .hero-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--hero-gradient-from)),
+      hsl(var(--hero-gradient-to))
+    );
+  }
+
+  .hero-pattern {
+    background-image:
+      radial-gradient(
+        circle at 25% 25%,
+        rgba(255, 255, 255, 0.1) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 75% 75%,
+        rgba(255, 255, 255, 0.1) 0%,
+        transparent 50%
+      );
+  }
+}
+
+/* Prism.js syntax highlighting */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  @apply text-muted-foreground;
+}
+
+.token.punctuation {
+  @apply text-foreground;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  @apply text-red-500;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  @apply text-green-500;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  @apply text-yellow-500;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  @apply text-blue-500;
+}
+
+.token.function,
+.token.class-name {
+  @apply text-purple-500;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground/50;
+}
+
+/* Skills Progress Bars */
+.skill-bar {
+  @apply w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700;
+}
+
+.skill-progress {
+  @apply h-2.5 rounded-full transition-all duration-1000 ease-out;
+}
+
+/* Reviews Carousel Enhancements */
+.review-card {
+  background: linear-gradient(145deg, var(--card) 0%, var(--card) 100%);
+  backdrop-filter: blur(10px);
+}
+
+/* Smooth transitions for carousel */
+.carousel-slide {
+  transition: transform 0.5s ease-in-out;
+}

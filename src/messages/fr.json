@@ -1,0 +1,279 @@
+{
+  "notFound": {
+    "error": "ERREUR",
+    "message": "Nous ne parvenons pas à trouver la page que vous recherchez !",
+    "backToHome": "Retour à la page d'accueil",
+    "copyright": "&copy; {year} - TailAdmin"
+  },
+  "sidebar": {
+    "sections": {
+      "Menu": "Menu",
+      "Reports": "Rapports",
+      "System": "Système",
+      "Examples": "Exemples"
+    },
+    "menuItems": {
+      "Dashboard": "Tableau de bord",
+      "Schools": "Écoles",
+      "Roles": "Rôles",
+      "Users": "Utilisateurs",
+      "Students": "Étudiants",
+      "Teachers": "Enseignants",
+      "Parents": "Parents",
+      "Classes": "Classes",
+      "Subjects": "Matières",
+      "Calendar": "Calendrier",
+      "Profile": "Profil",
+      "Reports": "Rapports",
+      "Analytics": "Analyses",
+      "Settings": "Paramètres",
+      "Audit Logs": "Journaux d'audit",
+      "Forms": "Formulaires",
+      "Tables": "Tableaux",
+      "Pages": "Pages",
+      "Charts": "Graphiques",
+      "UI Elements": "Éléments UI",
+      "Authentication": "Authentification"
+    },
+    "subMenuItems": {
+      "Overview": "Aperçu",
+      "All Schools": "Toutes les écoles",
+      "Add School": "Ajouter une école nouveau",
+      "All Roles": "Tous les rôles",
+      "Add Role": "Ajouter un rôle nouveau",
+      "All Users": "Tous les utilisateurs",
+      "Add User": "Ajouter un utilisateur nouveau",
+      "All Students": "Tous les étudiants",
+      "Add Student": "Ajouter un étudiant nouveau",
+      "Attendance": "Présence",
+      "Grades": "Notes",
+      "All Teachers": "Tous les enseignants",
+      "Add Teacher": "Ajouter un enseignant nouveau",
+      "Schedule": "Emploi du temps",
+      "All Classes": "Toutes les classes",
+      "Timetable": "Horaire",
+      "Students Report": "Rapport des étudiants",
+      "Attendance Report": "Rapport de présence",
+      "Grades Report": "Rapport des notes",
+      "Financial Report": "Rapport financier",
+      "General": "Général",
+      "Roles & Permissions": "Rôles et permissions",
+      "Academic Years": "Années académiques",
+      "Form Elements": "Éléments de formulaire",
+      "Basic Tables": "Tableaux de base",
+      "Blank Page": "Page vide",
+      "404 Error": "Erreur 404",
+      "Line Chart": "Graphique linéaire",
+      "Bar Chart": "Graphique à barres",
+      "Alerts": "Alertes",
+      "Avatar": "Avatar",
+      "Badge": "Badge",
+      "Buttons": "Boutons",
+      "Images": "Images",
+      "Videos": "Vidéos",
+      "Sign In": "Se connecter",
+      "Sign Up": "S'inscrire"
+    },
+    "badges": {
+      "new": "nouveau",
+      "pro": "pro"
+    }
+  },
+  "breadcrumb": {
+    "home": "Accueil"
+  },
+  "header": {
+    "searchPlaceholder": "Rechercher ou taper la commande...",
+    "notification": "Notification"
+  },
+  "authPage": {
+    "backHome": "Retour à l'accueil",
+    "title": "Se connecter à Smart School",
+    "subtitle": "Entrez vos identifiants pour accéder à votre compte",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "rememberMe": "Rester connecté",
+    "forgotPassword": "Mot de passe oublié ?",
+    "signIn": "Se connecter",
+    "signingIn": "Connexion en cours...",
+    "loginFailed": "E-mail ou mot de passe invalide",
+    "loginSuccess": "Connexion réussie",
+    "testCredentials": "Identifiants de test",
+    "superAdmin": "Super Administrateur",
+    "schoolAdmin": "Administrateur d'école",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "signUp": "Créer un compte"
+  },
+  "roles": {
+    "header": {
+      "title": "Gestion des rôles",
+      "subtitle": "Gérer les rôles et les autorisations des utilisateurs",
+      "addRole": "Ajouter un rôle"
+    },
+    "table": {
+      "title": "Rôles",
+      "columns": {
+        "name": "Nom du rôle",
+        "type": "Type",
+        "createdAt": "Créé le"
+      },
+      "actions": {
+        "view": "Voir",
+        "edit": "Modifier",
+        "delete": "Supprimer"
+      },
+      "empty": {
+        "message": "Aucun rôle trouvé",
+        "description": "Commencez par créer votre premier rôle"
+      },
+      "rolesCount": "rôles"
+    },
+    "create": {
+      "title": "Créer un nouveau rôle",
+      "subtitle": "Définir un nouveau rôle avec des autorisations spécifiques"
+    },
+    "view": {
+      "subtitle": "Détails du rôle et autorisations",
+      "name": "Nom du rôle",
+      "description": "Description",
+      "type": "Type de rôle",
+      "createdAt": "Créé le",
+      "updatedAt": "Mis à jour le",
+      "permissions": "Autorisations",
+      "usersCount": "Utilisateurs avec ce rôle",
+      "noDescription": "Aucune description fournie",
+      "notAvailable": "Non disponible",
+      "permissionsPlaceholder": "Gestion des autorisations bientôt disponible",
+      "usersCountPlaceholder": "Le nombre d'utilisateurs sera affiché ici",
+      "editWarning": {
+        "title": "Modification du rôle",
+        "message": "Les changements de rôles peuvent affecter les autorisations des utilisateurs à l'échelle du système"
+      }
+    },
+    "edit": {
+      "title": "Modifier le rôle"
+    },
+    "form": {
+      "name": {
+        "label": "Nom du rôle",
+        "placeholder": "Entrez le nom du rôle"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Entrez la description du rôle (facultatif)"
+      },
+      "isSystem": {
+        "label": "Rôle système",
+        "description": "Les rôles système ne peuvent pas être supprimés et ont des restrictions spéciales",
+        "warning": {
+          "title": "Avertissement rôle système",
+          "message": "Les rôles système sont essentiels à l'application et ne peuvent pas être supprimés"
+        }
+      },
+      "create": "Créer le rôle",
+      "update": "Mettre à jour le rôle",
+      "cancel": "Annuler",
+      "creating": "Création...",
+      "updating": "Mise à jour..."
+    },
+    "delete": {
+      "confirmTitle": "Supprimer le rôle",
+      "confirmMessage": "Êtes-vous sûr de vouloir supprimer le rôle \"{name}\" ?",
+      "cancel": "Annuler",
+      "confirm": "Supprimer",
+      "deleting": "Suppression..."
+    },
+    "status": {
+      "system": "Système",
+      "custom": "Personnalisé"
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "auth": "Authentification",
+      "roles": "Rôles",
+      "create": "Créer"
+    },
+    "back": "Retour",
+    "loading": "Chargement...",
+    "error": {
+      "title": "Erreur",
+      "notFound": "Rôle non trouvé"
+    },
+    "noPermission": {
+      "title": "Accès refusé",
+      "message": "Vous n'avez pas la permission d'accéder à la gestion des rôles"
+    }
+  },
+  "users": {
+    "noPermission": {
+      "title": "🚫 Aucune Autorisation",
+      "message": "Vous n'avez pas l'autorisation de voir la liste des utilisateurs"
+    },
+    "createUser": {
+      "pageTitle": {
+        "addUser": "Ajouter un utilisateur"
+      }
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "users": "Utilisateurs"
+    },
+    "header": {
+      "title": "Gestion des Utilisateurs",
+      "subtitle": "Voir et gérer tous les utilisateurs du système",
+      "addUser": "Ajouter un Utilisateur"
+    },
+    "error": {
+      "title": "⚠️ Erreur de Chargement des Données"
+    },
+    "table": {
+      "title": "Liste des Utilisateurs",
+      "usersCount": "utilisateurs",
+      "empty": {
+        "message": "Aucun utilisateur trouvé",
+        "description": "Commencez par ajouter un nouvel utilisateur au système"
+      },
+      "columns": {
+        "name": "Nom",
+        "email": "E-mail",
+        "role": "Rôle",
+        "school": "École",
+        "status": "Statut"
+      },
+      "actions": {
+        "view": "Voir les Détails de l'Utilisateur",
+        "edit": "Modifier l'Utilisateur",
+        "delete": "Supprimer l'Utilisateur"
+      }
+    },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "suspended": "Suspendu",
+      "locked": "Verrouillé",
+      "pending": "En Attente"
+    }
+  },
+  "createUser": {
+    "breadcrumb": {
+      "addUser": "Ajouter un utilisateur",
+      "addUserDescription": "Entrez les données du nouvel utilisateur correctement pour garantir la meilleure expérience dans le système"
+    }
+  },
+  "common": {
+    "welcome": "Bienvenue",
+    "home": "Accueil",
+    "users": "Utilisateurs",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "search": "Rechercher...",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir"
+  }
+}
