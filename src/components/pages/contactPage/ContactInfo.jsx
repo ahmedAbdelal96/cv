@@ -20,25 +20,25 @@ export default function ContactInfo() {
     {
       icon: Mail,
       label: t('contactDetails.email'),
-      value: 'john.watson@example.com',
-      href: 'mailto:john.watson@example.com',
+      value: 'amohamef206.com',
+      href: 'mailto:amohamef206@gmail.com',
     },
     {
       icon: Phone,
       label: t('contactDetails.phone'),
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      value: '01032900752',
+      href: 'tel:+201234567890',
     },
     {
       icon: MapPin,
       label: t('contactDetails.location'),
-      value: 'San Francisco, CA',
+      value: 'Cairo - Egypt ',
       href: '#',
     },
     {
       icon: Clock,
       label: t('contactDetails.availability'),
-      value: 'Mon - Fri, 9AM - 6PM PST',
+      value: 'Sat - Thu , 9AM - 6PM',
       href: '#',
     },
   ];

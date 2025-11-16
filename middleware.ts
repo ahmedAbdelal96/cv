@@ -87,6 +87,27 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(url);
   }
 
+  // Handle paths without locale prefix
+  if (!locale && !pathname.startsWith('/api/') && !pathname.startsWith('/_next/')) {
+    // 1) cookie
+    const cookieLocale = request.cookies.get(LOCALE_COOKIE_NAME)?.value;
+
+    // 2) Accept-Language header
+    const acceptLang = request.headers.get('accept-language');
+    const acceptLocale = getLocaleFromAcceptLanguage(
+      acceptLang,
+      routing.locales
+    );
+
+    // 3) fallback to default locale from routing
+    const redirectLocale =
+      cookieLocale || acceptLocale || routing.defaultLocale;
+
+    // Redirect to the localized path (preserve query)
+    url.pathname = `/${redirectLocale}${pathname}`;
+    return NextResponse.redirect(url);
+  }
+
   return NextResponse.next();
 }
 

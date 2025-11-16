@@ -26,6 +26,8 @@ export function LanguageSwitcher() {
 
   const changeLanguage = (newLocale) => {
     startTransition(() => {
+      // Set cookie to persist language choice
+      document.cookie = `locale=${newLocale}; path=/; max-age=31536000; SameSite=Lax`;
       router.replace(pathname, { locale: newLocale });
     });
     setIsOpen(false);

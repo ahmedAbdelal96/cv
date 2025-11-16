@@ -1,6 +1,6 @@
 {
   "Header": {
-    "logo": "UI Portfolio",
+    "logo": "Ahmed Abdelal",
     "navigation": {
       "home": "Accueil",
       "about": "À propos",
@@ -9,155 +9,150 @@
       "contact": "Contact"
     },
     "menu": {
-      "toggle": "Afficher le menu",
+      "toggle": "Ouvrir le menu",
       "close": "Fermer le menu"
     },
     "downloadCV": "Télécharger le CV"
   },
   "HomePage": {
     "HeroSection": {
-      "greeting": "Salut, je suis Ahmed Abdelal",
-      "title": "Développeur Web Full Stack",
-      "description": "Passionné par la création d’expériences numériques fluides du front-end au back-end. Je suis spécialisé dans la construction d’applications web évolutives en utilisant des technologies modernes comme React, Next.js, Express, NestJS, Node.js, MongoDB, PostgreSQL, TypeScript et divers outils. Donnons vie à vos idées avec un code propre, efficace et des solutions innovantes !",
+      "greeting": "Bonjour, je suis Ahmed Mohamed Abdelal",
+      "title": "Développeur Full Stack (MERN Stack)",
+      "description": "Développeur web spécialisé dans le MERN Stack avec 5 ans d’expérience dans la création d’applications web complètes. Je transforme les idées en applications fonctionnelles grâce à React.js, Next.js, Node.js et MongoDB.",
       "hireMe": "Engagez-moi",
       "portfolio": "Mon Portfolio",
-      "altText": "Ahmed Abdelal - Développeur Web"
+      "altText": "Ahmed Mohamed Abdelal - Développeur Full Stack"
     },
     "AboutSection": {
       "biography": "MA BIOGRAPHIE",
-      "title": "Développeur Full Stack & Ingénieur Logiciel",
-      "description": "Passionné par la création de solutions numériques de bout en bout avec des technologies modernes. Je me spécialise dans la construction d’applications web évolutives avec React, Next.js, Node.js et technologies cloud. Fort d’une expertise à la fois front-end et back-end, je fournis des solutions globales qui stimulent la croissance de l’entreprise et améliorent l’expérience utilisateur.",
+      "title": "Développeur Full Stack (MERN Stack)",
+      "description": "Développeur web orienté MERN Stack. J’ai de l’expérience dans la création d’applications web complètes, de l’interface utilisateur aux serveurs et bases de données. Je me concentre sur la création de solutions efficaces et évolutives.",
       "contactInfo": {
-        "name": "Nom",
-        "from": "Origine",
-        "email": "Email",
-        "phone": "Téléphone"
+        "name": "Ahmed Mohamed Abdelal",
+        "from": "Le Caire, Égypte",
+        "email": "amohamef206@gmail.com",
+        "phone": "01032900752"
       },
       "followMe": "Suivez-moi sur",
       "buttons": {
         "hireMe": "Engagez-moi",
         "downloadCV": "Télécharger le CV"
       },
-      "altText": "Profil Ahmed Abdelal"
+      "altText": "Profil d’Ahmed Mohamed Abdelal"
     },
     "SkillsSection": {
       "title": "MES COMPÉTENCES",
-      "heading": "Mes compétences techniques",
-      "description": "Je me spécialise dans le développement web full-stack avec une expertise dans les technologies modernes. Je suis passionné par la construction d’applications évolutives et la résolution de problèmes complexes avec un code propre et efficace.",
+      "heading": "Mes Compétences Techniques",
+      "description": "Spécialisé dans le MERN Stack et les technologies modernes du développement web. Je maîtrise à la fois le frontend et le backend pour créer des applications complètes.",
       "skills": {
-        "frontend": "Développement Front-end",
-        "backend": "Développement Back-end",
-        "database": "Gestion de Bases de Données",
-        "devops": "DevOps & Déploiement",
-        "react": "React & Next.js",
-        "node": "Node.js & Express",
-        "typescript": "TypeScript",
+        "frontend": "Développement Frontend",
+        "backend": "Développement Backend",
+        "database": "Bases de données",
+        "devops": "Outils & Développement",
+        "react": "React.js & Next.js",
+        "node": "Node.js & Express.js",
+        "typescript": "JavaScript",
         "mongodb": "MongoDB",
-        "postgresql": "PostgreSQL",
-        "nest": "NestJS",
-        "tailwind": "Tailwind CSS",
+        "postgresql": "Tailwind CSS",
+        "nest": "Postman",
+        "tailwind": "Swagger",
         "git": "Git & GitHub",
-        "docker": "Docker",
-        "aws": "AWS & Cloud"
+        "docker": "MERN Stack",
+        "aws": "APIs RESTful"
       },
-      "altText": "Poste de travail développeur avec installation de codage"
+      "altText": "Espace de travail développeur"
     },
     "PortfolioSection": {
       "services": {
         "title": "MES SERVICES",
-        "heading": "Ce que je fais pour vous",
+        "heading": "Ce que je fais",
         "webDevelopment": {
-          "title": "Développement Full Stack",
-          "description": "Développement d’applications web de bout en bout en utilisant des technologies modernes comme React, Next.js, Node.js et plateformes cloud."
+          "title": "Développement d’applications web",
+          "description": "Création d’applications web complètes utilisant le MERN Stack et des technologies modernes."
         },
         "appDevelopment": {
           "title": "Développement d’API",
-          "description": "Conception et implémentation d’API RESTful et GraphQL avec authentification sécurisée et performance optimisée."
+          "description": "Conception et mise en œuvre d’API avec Express.js et Node.js."
         },
         "database": {
-          "title": "Conception de Bases de Données",
-          "description": "Architecture, optimisation et gestion de bases de données avec MongoDB, PostgreSQL et d'autres systèmes de bases de données."
+          "title": "Bases de données",
+          "description": "Conception et gestion de bases de données avec MongoDB."
         },
         "devops": {
-          "title": "DevOps & Déploiement",
-          "description": "Mise en place de pipelines CI/CD, containerisation avec Docker, et déploiement cloud sur AWS, Vercel et autres plateformes."
-        },
-        "projects": {
-          "title": "Projets phares",
-          "viewMore": "Voir plus de projets",
-          "description": "Une vitrine de mes récentes applications full-stack et solutions web construites avec des technologies modernes."
+          "title": "Déploiement & Configuration",
+          "description": "Mise en place d’environnements de déploiement et gestion de serveurs."
         },
         "frontend": {
-          "title": "Développement Front-end",
-          "description": "Interfaces utilisateur réactives et interactives avec React, TypeScript et frameworks CSS modernes."
+          "title": "Développement Frontend",
+          "description": "Création d’interfaces utilisateur avec React.js et Next.js."
         },
         "backend": {
-          "title": "Développement Back-end",
-          "description": "Développement d’applications côté serveur avec Node.js, Express, NestJS et des architectures robustes."
+          "title": "Développement Backend",
+          "description": "Développement d’applications backend avec Node.js et Express.js."
         }
       },
       "projects": {
-        "title": "Projets phares",
-        "viewMore": "Voir plus de projets",
-        "description": "Une vitrine de mes récentes applications full-stack et solutions web construites avec des technologies modernes."
+        "title": "Projets",
+        "viewMore": "Voir les projets →",
+        "viewDetails": "Voir les détails →"
       },
-      "loading": "Chargement des projets…",
-      "noProjects": "Aucun projet pour l’instant",
-      "workingOnProjects": "Je travaille actuellement sur des projets incroyables. Revenez bientôt !",
-      "soon": "bientôt !",
-      "contact": "Démarrer un projet"
+      "loading": "Chargement...",
+      "noProjects": "Aucun projet",
+      "workingOnProjects": "Je travaille actuellement sur de nouveaux projets. Restez à l'écoute !",
+      "soon": "Bientôt disponible !",
+      "contact": "Commencer un projet"
     },
     "ReviewsCarousel": {
       "title": "TÉMOIGNAGES",
       "heading": "Ce que disent les clients",
       "verifiedClient": "Client vérifié",
       "navigation": {
-        "previous": "Témoignage précédent",
-        "next": "Témoignage suivant",
-        "goToReview": "Aller au témoignage {index}"
+        "previous": "Précédent",
+        "next": "Suivant",
+        "goToReview": "Aller à l’avis {index}"
       },
       "emptyState": {
-        "title": "Aucun témoignage pour l’instant",
-        "description": "Soyez le premier à partager votre expérience de collaboration avec moi !",
-        "button": "Ajouter un témoignage"
+        "title": "Aucun avis",
+        "description": "Soyez le premier à partager votre expérience !",
+        "button": "Ajouter un avis"
       },
-      "loading": "Chargement des témoignages…",
-      "noReviews": "Aucun témoignage pour l’instant",
-      "beTheFirst": "Soyez le premier à partager votre expérience de collaboration avec moi !",
-      "addReview": "Ajouter un témoignage",
-      "readyToStart": "Prêt à démarrer votre prochain projet ? Discutons de ce que je peux faire pour vous !",
-      "startWorkingTogether": "Commençons à travailler ensemble"
+      "loading": "Chargement...",
+      "noReviews": "Aucun avis",
+      "beTheFirst": "Soyez le premier à partager votre expérience !",
+      "addReview": "Ajouter un avis",
+      "readyToStart": "Prêt pour votre prochain projet ? Contactez-moi !",
+      "startWorkingTogether": "Commencer à travailler ensemble"
     },
     "BlogList": {
-      "title": "DERNIERS ARTICLES",
+      "title": "ARTICLES",
       "heading": {
-        "preview": "Derniers du blog",
+        "preview": "Derniers articles",
         "all": "Tous les articles"
       },
       "meta": {
-        "readTime": "{minutes} min de lecture",
+        "readTime": "{minutes} min",
         "published": "Publié"
       },
       "buttons": {
         "readMore": "Lire la suite →",
-        "viewAll": "Voir tous les articles"
+        "viewAll": "Voir tout"
       },
       "emptyState": {
-        "title": "Aucun article pour l’instant",
-        "description": "Je suis en train d’écrire des articles instructifs sur le développement web. Revenez bientôt pour du nouveau contenu !",
-        "button": "Explorer les projets"
+        "title": "Aucun article",
+        "description": "Nouveaux contenus bientôt disponibles. Revenez plus tard !",
+        "button": "Voir les projets"
       },
       "tags": {
-        "react": "React",
+        "react": "React.js",
         "nextjs": "Next.js",
         "nodejs": "Node.js",
-        "typescript": "TypeScript",
+        "typescript": "Express.js",
         "mongodb": "MongoDB",
-        "postgresql": "PostgreSQL",
-        "nest": "NestJS",
-        "express": "Express",
-        "docker": "Docker",
-        "aws": "AWS",
+        "postgresql": "MERN Stack",
+        "nest": "Tailwind CSS",
+        "express": "Postman",
+        "docker": "Swagger",
+        "aws": "APIs RESTful",
         "performance": "Performance",
         "security": "Sécurité",
         "bestPractices": "Bonnes pratiques"
@@ -165,54 +160,54 @@
     },
     "ContactCTA": {
       "title": "Prêt à démarrer votre projet ?",
-      "description": "Travaillons ensemble pour donner vie à vos idées. Je suis toujours enthousiaste à l’idée de relever de nouveaux défis et de créer des solutions numériques incroyables avec des technologies modernes.",
+      "description": "Travaillons ensemble pour transformer vos idées en applications réelles grâce au MERN Stack.",
       "buttons": {
-        "getInTouch": "Entrer en contact",
-        "callMe": "Appelez-moi maintenant",
+        "getInTouch": "Contactez-moi",
+        "callMe": "Appelez-moi",
         "scheduleCall": "Planifier un appel"
       },
       "stats": {
         "projects": "Projets réalisés",
-        "clients": "Clients satisfaits",
+        "clients": "Clients",
         "experience": "Années d’expérience",
         "technologies": "Technologies",
-        "typicallyRespondWithin2HoursDuringBusinessDays": "Réponse typique sous 2 heures durant les jours ouvrables"
+        "typicallyRespondWithin2HoursDuringBusinessDays": "Réponse sous 2 heures les jours ouvrables"
       },
-      "email": "ahmed.abdelal@email.com",
-      "phone": "+20 123 456 7890",
-      "available": "Disponible : Lun-Ven, 9h-18h EET",
-      "technologiesIWorkWith": "Technologies avec lesquelles je travaille :"
+      "email": "amohamef206@gmail.com",
+      "phone": "01032900752",
+      "available": "Disponible : Dim - Jeu, 9h - 18h",
+      "technologiesIWorkWith": "Technologies que j’utilise :"
     }
   },
   "AboutPage": {
     "AboutHero": {
       "title": "À PROPOS DE MOI",
-      "name": "Je suis Ahmed Abdelal",
-      "role": "Développeur Full Stack & Ingénieur Logiciel",
-      "description": "Avec plus de 3 ans d’expérience en développement web full-stack, je me spécialise dans la construction d’applications évolutives et performantes en utilisant des technologies modernes. Ma passion réside dans la résolution de problèmes complexes avec un code propre et efficace et dans la création d’expériences numériques fluides du concept au déploiement.",
-      "altText": "Ahmed Abdelal - Développeur Full Stack"
+      "name": "Je suis Ahmed Mohamed Abdelal",
+      "role": "Développeur Full Stack (MERN Stack)",
+      "description": "Développeur web spécialisé dans le MERN Stack avec 3 ans d’expérience. Titulaire d’une licence en Génie Informatique de l’Université du Caire. Je me concentre sur la création de solutions fonctionnelles au code propre.",
+      "altText": "Ahmed Mohamed Abdelal - Développeur Full Stack"
     },
     "BiographySection": {
       "story": {
         "title": "Mon parcours dans la tech",
         "paragraphs": {
-          "p1": "Mon parcours en développement logiciel a commencé lorsque j’ai écrit ma première ligne de code à l’université. Ce qui a commencé comme une curiosité sur le fonctionnement des applications s’est rapidement transformé en une passion pour bâtir des solutions numériques évolutives et efficaces. J’ai été fasciné par le pouvoir du code à résoudre des problèmes réels.",
-          "p2": "Au cours des plus de 3 années, j’ai eu l’opportunité de travailler sur des projets variés allant de MVPs de startups à des applications de niveau entreprise. Chaque projet a approfondi ma compréhension du développement full-stack et affiné mes compétences de résolution de problèmes à travers différentes piles technologiques.",
-          "p3": "Mon approche combine excellence technique et design centré utilisateur. Je crois que les grandes applications ne sont pas seulement fonctionnelles — elles sont intuitives, performantes et offrent des expériences fluides sur tous les appareils et plateformes.",
-          "p4": "Je suis passionné par l’apprentissage continu et par me tenir à jour avec les technologies les plus récentes. Quand je ne code pas, vous me trouverez en train d’explorer de nouveaux frameworks, de contribuer à des projets open-source ou de partager mes connaissances avec la communauté des développeurs."
+          "p1": "Mon parcours dans le développement logiciel a commencé durant mes études en Génie Informatique. D’abord motivé par la curiosité, il s’est rapidement transformé en passion pour la création de solutions numériques.",
+          "p2": "Ces trois dernières années, j’ai travaillé sur divers projets, dont des systèmes de gestion et des applications web intégrées, renforçant mes compétences en développement Full Stack.",
+          "p3": "Je m’efforce de combiner aspects techniques et expérience utilisateur. Pour moi, une bonne application doit être simple, rapide et efficace.",
+          "p4": "Je développe continuellement mes compétences et j’explore les dernières technologies web. En dehors du travail, je découvre des projets open-source et de nouveaux outils."
         }
       },
       "personalInfo": {
-        "title": "Infos personnelles",
-        "fullName": "Nom complet",
-        "dateOfBirth": "Date de naissance",
-        "nationality": "Nationalité",
-        "location": "Localisation",
-        "email": "Email",
-        "phone": "Téléphone",
-        "languages": "Langues",
-        "freelance": "Travailleur indépendant",
-        "education": "Formation"
+        "title": "Informations personnelles",
+        "fullName": "Ahmed Mohamed Abdelal",
+        "dateOfBirth": "Cliquez pour ajouter",
+        "nationality": "Égyptien",
+        "location": "Le Caire, Égypte",
+        "email": "amohamef206@gmail.com",
+        "phone": "01032900752",
+        "languages": "Arabe (natif), Anglais (intermédiaire)",
+        "freelance": "Disponible",
+        "education": "Licence de Génie Informatique - Université du Caire"
       },
       "connect": {
         "title": "Restons en contact",
@@ -222,229 +217,221 @@
     },
     "ExperienceSection": {
       "title": "MON PARCOURS",
-      "heading": "Expérience professionnelle",
+      "heading": "Expérience Professionnelle",
       "experiences": {
         "seniorFullStack": {
-          "title": "Développeur Full Stack Senior",
-          "company": "Tech Innovation Ltd",
-          "period": "2022 - Présent",
-          "description": "Direction du développement d’applications web évolutives utilisant React, Next.js, Node.js et technologies cloud. Conception d’architectures et mentorat des membres de l’équipe tout en assurant la qualité du code et les meilleures pratiques.",
+          "title": "Développeur Full Stack",
+          "company": "Entreprise Technologique",
+          "period": "2021 - Présent",
+          "description": "Développement d’applications web avec le MERN Stack. Participation à des systèmes de gestion et projets d’entreprise.",
           "achievements": {
-            "0": "Dirigé le développement de 3 principaux produits SaaS desservant plus de 50 000 utilisateurs",
-            "1": "Réduit le temps de réponse des API de 60 % grâce à l’optimisation",
-            "2": "Implémenté une architecture microservices améliorant l’évolutivité",
-            "3": "Mentoré 4 développeurs juniors et réalisé des revues de code"
+            "0": "Développement d’un système de gestion de contrats et d’entreprises",
+            "1": "Création d’un système de gestion scolaire",
+            "2": "Amélioration des performances applicatives",
+            "3": "Mise en œuvre d’interfaces API"
           }
         },
         "fullStack": {
-          "title": "Développeur Full Stack",
-          "company": "Digital Solutions Inc",
-          "period": "2021 - 2022",
-          "description": "Développé des applications full-stack en utilisant la pile MERN et TypeScript. Collaboré avec des équipes transversales pour livrer des solutions robustes et évolutives pour divers clients.",
+          "title": "Développeur Frontend",
+          "company": "Entreprise Web",
+          "period": "2020 - 2021",
+          "description": "Création d’interfaces utilisateur avec React.js et des frameworks CSS.",
           "achievements": {
-            "0": "Construit plus de 15 applications full-stack pour des clients d’entreprise",
-            "1": "Intégré des API tierces et des passerelles de paiement",
-            "2": "Amélioré la performance des applications de 40 %",
-            "3": "Implémenté des pipelines CI/CD réduisant le temps de déploiement"
+            "0": "Création d’applications web responsives",
+            "1": "Amélioration des performances",
+            "2": "Mise en place de systèmes de design",
+            "3": "Optimisation de la vitesse de chargement"
           }
         },
         "frontend": {
-          "title": "Développeur Front-end",
-          "company": "Web Agency Pro",
-          "period": "2020 - 2021",
-          "description": "Spécialisé dans la création d’interfaces utilisateur réactives et interactives avec React et frameworks CSS modernes. Axé sur l’optimisation de la performance et l’expérience utilisateur.",
+          "title": "Développeur Web Junior",
+          "company": "Startup",
+          "period": "2019 - 2020",
+          "description": "Construction des bases en développement web et contribution à des projets réels.",
           "achievements": {
-            "0": "Développé plus de 20 applications web réactives",
-            "1": "Obtenu des scores Lighthouse de plus de 95 %",
-            "2": "Implémenté des systèmes de design et bibliothèques de composants",
-            "3": "Réduit la taille des bundles de 35 % via le code splitting"
+            "0": "Apprentissage de React.js, Node.js et bases de données",
+            "1": "Contribution à des applications en production",
+            "2": "Découverte des méthodologies de développement",
+            "3": "Création de ma première application full stack"
           }
         },
         "junior": {
-          "title": "Développeur Web Junior",
-          "company": "StartUp Ventures",
-          "period": "2019 - 2020",
-          "description": "Commencé ma carrière professionnelle en construisant des compétences fondamentales en développement web. Contribué à divers projets tout en apprenant les technologies modernes et les pratiques de développement.",
+          "title": "Stagiaire Développement Web",
+          "company": "Centre de Formation",
+          "period": "2018 - 2019",
+          "description": "Apprentissage des bases du développement web.",
           "achievements": {
-            "0": "Maîtrisé React, Node.js et technologies de bases de données",
-            "1": "Contribué à plus de 8 applications en production",
-            "2": "Appris les méthodologies de développement agile",
-            "3": "Réalisé ma première application full-stack de zéro"
+            "0": "Acquisition des bases HTML, CSS et JavaScript",
+            "1": "Participation à des projets éducatifs",
+            "2": "Apprentissage des bases des bases de données",
+            "3": "Création d’un site personnel"
           }
         }
       }
     },
     "EducationSection": {
       "title": "PARCOURS D’APPRENTISSAGE",
-      "subtitle": "Formation & Certifications",
-      "heading": "Formation & Certifications",
-      "description1": "Apprentissage continu et développement professionnel dans le domaine en constante évolution de l’ingénierie logicielle et des technologies web.",
+      "heading": "Éducation & Expérience",
+      "description1": "Apprentissage continu du développement logiciel et des technologies web.",
+      "subtitle": "Développement constant des compétences.",
+      "description2": "Je travaille constamment à améliorer mes compétences MERN Stack.",
       "types": {
         "degree": "Diplôme",
-        "certification": "Certification",
-        "bootcamp": "Bootcamp"
+        "certification": "Expérience",
+        "bootcamp": "Projets"
       },
       "education": {
         "bachelor": {
-          "degree": "Licence en Informatique",
+          "degree": "Licence de Génie Informatique",
           "institution": "Université du Caire",
           "period": "2016 - 2020",
-          "description": "Spécialisé en ingénierie logicielle, algorithmes et systèmes de bases de données. Suivi des cours en développement web, structures de données et architecture logicielle. Diplômé avec mention Excellent.",
+          "description": "Spécialisation en génie logiciel, algorithmes, structures de données et bases de données.",
           "type": "degree"
         },
         "fullStack": {
-          "degree": "Bootcamp de Développement Web Full Stack",
-          "institution": "Tech Learning Hub",
-          "period": "2021",
-          "description": "Programme intensif couvrant les technologies web modernes incluant React, Node.js, Express, MongoDB et stratégies de déploiement. Construit plus de 10 projets full-stack.",
+          "degree": "Expérience en MERN Stack",
+          "institution": "Projets pratiques",
+          "period": "2020 - Présent",
+          "description": "3 ans d’expérience dans la création d’applications web MERN.",
           "type": "bootcamp"
         },
         "aws": {
-          "degree": "AWS Certified Developer – Associate",
-          "institution": "Amazon Web Services",
-          "period": "2022",
-          "description": "Certification démontrant l’expertise dans le développement, le déploiement et le débogage d’applications basées sur le cloud utilisant les services AWS tels que Lambda, API Gateway et DynamoDB.",
+          "degree": "Développement Frontend",
+          "institution": "Projets pratiques",
+          "period": "2020 - Présent",
+          "description": "Expérience avec React.js, Next.js, Tailwind CSS et JavaScript.",
           "type": "certification"
         },
         "mongodb": {
-          "degree": "MongoDB Certified Developer",
-          "institution": "MongoDB University",
-          "period": "2021",
-          "description": "Certification couvrant la conception de bases de données, le framework d’agrégation, les stratégies d’indexation et l’optimisation de performance dans MongoDB.",
+          "degree": "Développement Backend",
+          "institution": "Projets pratiques",
+          "period": "2020 - Présent",
+          "description": "Expérience en Node.js, Express.js, MongoDB et APIs REST.",
           "type": "certification"
         },
         "nodejs": {
-          "degree": "Certification Avancée Node.js",
-          "institution": "Node.js Institute",
-          "period": "2021",
-          "description": "Certification avancée couvrant l’architecture Node.js, l’optimisation de la performance, les microservices et le développement d’applications de niveau entreprise.",
+          "degree": "Outils de développement",
+          "institution": "Projets pratiques",
+          "period": "2020 - Présent",
+          "description": "Expérience avec Git, GitHub, Postman, Swagger et VS Code.",
           "type": "certification"
         },
         "react": {
-          "degree": "Certification Professionnelle React",
-          "institution": "Meta (Coursera)",
-          "period": "2022",
-          "description": "Certification professionnelle couvrant les motifs avancés de React, la gestion d’état, l’optimisation de la performance et les stratégies de test.",
+          "degree": "Projets MERN Stack",
+          "institution": "Applications pratiques",
+          "period": "2021 - 2023",
+          "description": "Développement de systèmes complets en MERN.",
           "type": "certification"
         }
-      },
-      "continuousLearning": "Apprentissage continu",
-      "description2": "Je mets constamment à jour mes compétences et j’apprends de nouvelles technologies pour rester à la pointe du développement web. Actuellement exploré :",
-      "currentlyExploring": "Architecture Microservices, GraphQL, Computing Serverless, et pratiques avancées DevOps"
+      }
     },
     "SkillsDetailSection": {
-      "title": "EXPERTISE TECHNIQUE",
+      "title": "COMPÉTENCES TECHNIQUES",
       "heading": "Compétences & Technologies",
-      "description": "Je me spécialise dans le développement web full-stack avec une expertise dans les technologies modernes. Passionné par la construction d’applications évolutives et la résolution de problèmes complexes avec un code propre et efficace.",
+      "description": "Spécialisé dans le MERN Stack avec expérience en technologies web modernes.",
       "categories": {
         "frontend": {
-          "title": "Développement Front-end",
+          "title": "Développement Frontend",
           "skills": {
-            "react": "React/Next.js",
-            "typescript": "TypeScript/JavaScript",
-            "html": "HTML5/CSS3",
+            "react": "React.js & Next.js",
+            "typescript": "JavaScript (ES6+)",
+            "html": "HTML5 & CSS3",
             "tailwind": "Tailwind CSS",
             "state": "Gestion d’état"
           }
         },
         "backend": {
-          "title": "Développement Back-end",
+          "title": "Développement Backend",
           "skills": {
-            "node": "Node.js/Express",
-            "nest": "NestJS",
-            "mongodb": "MongoDB",
-            "postgresql": "PostgreSQL",
-            "apis": "APIs REST/GraphQL"
+            "node": "Node.js & Express.js",
+            "nest": "MongoDB",
+            "mongodb": "APIs RESTful",
+            "postgresql": "Authentification & Autorisation",
+            "apis": "Architecture évolutive"
           }
         },
         "tools": {
-          "title": "Outils & DevOps",
+          "title": "Outils & Développement",
           "skills": {
-            "git": "Git/GitHub",
-            "docker": "Docker",
-            "aws": "AWS/Cloud",
-            "testing": "Tests (Jest/Cypress)",
-            "cicd": "Pipelines CI/CD"
+            "git": "Git & GitHub",
+            "docker": "Postman",
+            "aws": "Swagger",
+            "testing": "VS Code",
+            "cicd": "Outils de déploiement"
           }
         }
       }
     },
     "AwardsSection": {
-      "title": "RECONNAISSANCE",
-      "heading": "Récompenses & Réalisations",
-      "description": "Reconnu pour des contributions significatives aux projets open-source et à la communauté des développeurs.",
-      "description1": "Apprentissage continu et développement professionnel dans le domaine en constante évolution de l’ingénierie logicielle et des technologies web.",
-      "subtitle": "Apprentissage continu",
-      "description2": "Je mets constamment à jour mes compétences et j’apprends de nouvelles technologies pour rester à la pointe du développement web. Actuellement exploré :",
-      "currentlyExploring": "Architecture Microservices, GraphQL, Computing Serverless, et pratiques avancées DevOps",
+      "title": "PROJETS MARQUANTS",
+      "heading": "Projets en vedette",
       "awards": {
         "openSource": {
-          "title": "Contributeur Open Source",
-          "organization": "GitHub",
+          "title": "Système de gestion de contrats",
+          "organization": "Projet d’entreprise",
           "year": "2023",
-          "description": "Reconnu pour des contributions significatives aux projets open-source et à la communauté des développeurs."
+          "description": "Développement d’un système complet de gestion des contrats et entreprises."
         },
         "performance": {
-          "title": "Excellence de Performance",
-          "organization": "Tech Innovation Awards",
+          "title": "Système de gestion scolaire",
+          "organization": "Projet éducatif",
           "year": "2022",
-          "description": "Récompensé pour la création d’applications hautement performantes avec une optimisation et une évolutivité exceptionnelles."
+          "description": "Création d’un système de gestion scolaire et d’activités."
         },
         "fullStack": {
-          "title": "Excellence Full Stack",
-          "organization": "Communauté des développeurs",
-          "year": "2022",
-          "description": "Reconnu pour la maîtrise du front-end et du back-end avec des technologies modernes."
+          "title": "Applications MERN",
+          "organization": "Divers projets",
+          "year": "2021-2023",
+          "description": "Développement d’applications web complètes en MERN."
         },
         "innovation": {
-          "title": "Prix de l’Innovation",
-          "organization": "Concours StartUp",
-          "year": "2021",
-          "description": "Gagné la première place pour une solution SaaS innovante construite avec des technologies de pointe."
+          "title": "Développement d’API",
+          "organization": "Projets techniques",
+          "year": "2022",
+          "description": "Conception et implémentation d’API."
         },
         "codeQuality": {
-          "title": "Champion de la Qualité de Code",
-          "organization": "Engineering Excellence",
+          "title": "Applications web responsives",
+          "organization": "Divers projets",
           "year": "2021",
-          "description": "Reconnu pour maintenir une qualité de code exceptionnelle, des meilleures pratiques et une architecture propre."
+          "description": "Création d’interfaces utilisateur modernes et responsives."
         },
         "mentorship": {
-          "title": "Prix de Mentor Tech",
-          "organization": "Communauté des développeurs",
+          "title": "Solutions de bases de données",
+          "organization": "Projets intégrés",
           "year": "2023",
-          "description": "Reconnu pour avoir mentoré des développeurs juniors et contribué à des initiatives d’éducation technologique."
+          "description": "Conception de bases de données pour des applications web."
         }
       },
-      "readyToAchieveGreatResults": "Prêt à obtenir de grands résultats ?",
-      "letsBuildSomethingAmazing": "Construisons quelque chose d’incroyable ensemble !"
+      "readyToAchieveGreatResults": "Prêt à démarrer votre projet ?",
+      "letsBuildSomethingAmazing": "Construisons ensemble quelque chose d’extraordinaire"
     }
   },
   "ProjectsPage": {
     "ProjectsHero": {
-      "subtitle": "MON TRAVAIL",
-      "title": "Projets phares",
-      "description": "Une collection de mes récentes applications full-stack et solutions web. Chaque projet met en valeur des technologies modernes, une architecture propre et des compétences de résolution de problèmes réels."
+      "subtitle": "MES TRAVAUX",
+      "title": "Projets",
+      "description": "Une collection de mes applications et solutions web créées avec le MERN Stack."
     },
     "ProjectsGrid": {
-      "searchPlaceholder": "Rechercher des projets…",
+      "searchPlaceholder": "Rechercher des projets...",
       "categories": {
         "all": "Tous",
         "web": "Développement Web",
         "fullStack": "Full Stack",
-        "frontend": "Front-end",
-        "backend": "Back-end",
-        "mobile": "Mobile",
-        "ecommerce": "E-commerce",
-        "design": "UI/UX Design",
-        "api": "Développement d’API",
-        "undefined": "Autre"
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "mobile": "MERN Stack",
+        "ecommerce": "Systèmes de gestion",
+        "design": "Systèmes éducatifs",
+        "api": "Développement d’API"
       },
       "emptyState": {
         "title": "Aucun projet trouvé",
-        "description": "Aucun projet ne correspond à vos critères.",
+        "description": "Aucun projet ne correspond à la recherche.",
         "reset": "Réinitialiser les filtres"
       },
-      "loading": "Chargement des projets…",
+      "loading": "Chargement...",
       "results": {
         "single": "{count} projet trouvé",
         "multiple": "{count} projets trouvés"
@@ -452,45 +439,49 @@
     }
   },
   "BlogPage": {
-    "title": "Blog – Ahmed Abdelal",
-    "description": "Derniers articles et insights sur le développement full-stack, les technologies web modernes et les bonnes pratiques en ingénierie logicielle.",
-    "loading": "Chargement des articles…",
+    "title": "Blog - Ahmed Abdelal",
+    "description": "Articles sur le MERN Stack, les technologies web et les bonnes pratiques.",
+    "loading": "Chargement...",
+    "sidebar": {
+      "title": "À propos du blog",
+      "description": "Partage de connaissances sur le MERN Stack : React.js, Next.js, Node.js et Express.js."
+    },
     "BlogSidebar": {
       "about": {
         "title": "À propos du blog",
-        "description": "Partager connaissances et expériences en développement full-stack, des frameworks front-end à l’architecture back-end et aux pratiques DevOps."
+        "description": "Articles dédiés au MERN Stack et au développement web."
       },
       "popularTags": "Tags populaires",
       "recentPosts": "Articles récents",
       "posts": {
-        "nestjs": "Construire des API évolutives avec NestJS",
-        "nextjs": "Guide performance Next.js 14",
-        "microservices": "Architectures de microservices"
+        "nestjs": "Meilleures pratiques React.js",
+        "nextjs": "Next.js pour les applications",
+        "microservices": "Performance Node.js"
       }
     },
     "BlogHero": {
       "title": "Blog Tech",
-      "description": "Insights, tutoriels et réflexions sur le développement full-stack, les technologies modernes et les bonnes pratiques en ingénierie logicielle."
+      "description": "Articles et réflexions sur le MERN Stack et les technologies web."
     },
     "BlogGrid": {
       "emptyState": {
         "title": "Aucun article trouvé",
-        "description": "Aucun article ne correspond à vos critères.",
+        "description": "Aucun article ne correspond à la recherche.",
         "reset": "Réinitialiser les filtres"
       },
-      "loading": "Chargement des articles…",
+      "loading": "Chargement...",
       "filters": {
-        "searchPlaceholder": "Rechercher des articles…",
+        "searchPlaceholder": "Rechercher des articles...",
         "category": "Catégorie",
         "tag": "Tag",
         "all": "Tous"
       },
       "categories": {
         "all": "Tous",
-        "frontend": "Front-end",
-        "backend": "Back-end",
+        "frontend": "Frontend",
+        "backend": "Backend",
         "fullstack": "Full Stack",
-        "devops": "DevOps",
+        "devops": "MERN Stack",
         "tutorial": "Tutoriel",
         "bestPractices": "Bonnes pratiques"
       }
@@ -498,21 +489,21 @@
   },
   "ArticlePage": {
     "notFound": {
-      "title": "Article non trouvé"
+      "title": "Article introuvable"
     },
     "loading": {
-      "related": "Chargement des articles liés…",
-      "content": "Chargement du contenu de l’article…"
+      "related": "Chargement des articles...",
+      "content": "Chargement du contenu..."
     },
     "metadata": {
-      "titleSuffix": " – Ahmed Abdelal"
+      "titleSuffix": " - Ahmed Abdelal"
     },
     "related": {
-      "title": "Articles liés"
+      "title": "Articles associés"
     },
     "ArticleContent": {
-      "readTime": "{minutes} min de lecture",
-      "author": "Ahmed Abdelal",
+      "readTime": "{minutes} min",
+      "author": "Ahmed Mohamed Abdelal",
       "likeButton": {
         "liked": "{count}",
         "default": "{count}"
@@ -524,7 +515,7 @@
       "shareButton": "Partager",
       "tagsTitle": "Tags",
       "share": {
-        "urlCopied": "URL copiée dans le presse-papier !"
+        "urlCopied": "URL copiée !"
       },
       "actions": {
         "like": "Aimer",
@@ -542,49 +533,49 @@
       "tableOfContents": "Table des matières",
       "tocItems": {
         "introduction": "Introduction",
-        "gettingStarted": "Prise en main",
+        "gettingStarted": "Commencer",
         "implementation": "Implémentation",
         "bestPractices": "Bonnes pratiques",
         "conclusion": "Conclusion"
       }
     },
     "RelatedArticles": {
-      "title": "Articles liés",
-      "readTime": "{minutes} min de lecture",
+      "title": "Articles associés",
+      "readTime": "{minutes} min",
       "meta": {
         "published": "Publié",
-        "readTime": "min de lecture"
+        "readTime": "min"
       }
     }
   },
   "ContactPage": {
     "ContactHero": {
       "title": "Travaillons ensemble",
-      "description": "Vous avez un projet en tête ? J’aimerais en savoir plus et discuter de la façon dont nous pouvons donner vie à vos idées avec des technologies web modernes.",
-      "subtitle": "Entrer en contact"
+      "description": "Vous avez un projet ? J’aimerais en savoir plus et discuter de la manière dont nous pouvons concrétiser vos idées grâce au MERN Stack.",
+      "subtitle": "Contactez-moi"
     },
     "ContactForm": {
       "title": "Envoyez-moi un message",
       "fields": {
         "name": "Nom complet *",
-        "email": "Adresse email *",
+        "email": "Adresse e-mail *",
         "phone": "Numéro de téléphone *",
         "subject": "Sujet *",
         "message": "Message *",
-        "budget": "Plage de budget",
+        "budget": "Budget",
         "timeline": "Délai"
       },
       "placeholders": {
         "name": "Votre nom complet",
-        "email": "votre.email@exemple.com",
-        "phone": "+1 234 567 8901",
-        "subject": "Quel est le sujet ?",
-        "message": "Parlez-moi de votre projet, vos objectifs et vos exigences…",
-        "budget": "Sélectionner la plage de budget",
-        "timeline": "Sélectionner le délai"
+        "email": "votre.email@example.com",
+        "phone": "+33 6 12 34 56 78",
+        "subject": "De quoi s’agit-il ?",
+        "message": "Décrivez votre projet et vos objectifs...",
+        "budget": "Sélectionnez une fourchette de budget",
+        "timeline": "Sélectionnez un délai"
       },
       "budgetOptions": {
-        "select": "Sélectionner une plage de budget",
+        "select": "Sélectionnez une fourchette de budget",
         "under5k": "Moins de 5 000 $",
         "5k10k": "5 000 $ - 10 000 $",
         "10k25k": "10 000 $ - 25 000 $",
@@ -592,7 +583,7 @@
         "over50k": "Plus de 50 000 $"
       },
       "timelineOptions": {
-        "select": "Sélectionner le délai",
+        "select": "Sélectionnez un délai",
         "asap": "Dès que possible",
         "1month": "Dans 1 mois",
         "2-3months": "2-3 mois",
@@ -601,45 +592,45 @@
       },
       "submitButton": {
         "default": "Envoyer le message",
-        "sending": "Envoi…"
+        "sending": "Envoi..."
       },
       "statusMessages": {
-        "success": "Merci pour votre message ! Je reviendrai vers vous bientôt.",
+        "success": "Merci ! Je vous recontacterai bientôt.",
         "error": "Une erreur est survenue. Veuillez réessayer.",
-        "networkError": "Erreur réseau. Veuillez vérifier votre connexion et réessayer."
+        "networkError": "Erreur réseau. Vérifiez votre connexion."
       }
     },
     "ContactInfo": {
-      "title": "Entrer en contact",
+      "title": "Contactez-moi",
       "contactDetails": {
-        "email": "Email",
-        "phone": "Téléphone",
-        "location": "Localisation",
-        "availability": "Disponibilité"
+        "email": "amohamef206@gmail.com",
+        "phone": "01032900752",
+        "location": "Le Caire, Égypte",
+        "availability": "Disponible pour travail à distance"
       },
       "social": {
         "title": "Suivez-moi",
-        "linkedin": "LinkedIn",
-        "github": "GitHub",
-        "twitter": "Twitter",
-        "website": "Site web"
+        "linkedin": "amohamef206 sur LinkedIn",
+        "github": "amohamef206",
+        "twitter": "Site Web",
+        "website": "Open Source"
       },
       "guarantee": {
-        "title": "Garantie de réponse rapide",
-        "description": "Je réponds généralement à toutes les demandes sous 24 heures. Pour les projets urgents, n’hésitez pas à m’appeler directement."
+        "title": "Réponse rapide",
+        "description": "Je réponds aux messages sous 24 heures. Pour les projets urgents, appelez-moi directement."
       }
     },
     "ContactMap": {
       "title": "Ma localisation",
-      "location": "San Francisco, CA",
-      "availability": "Disponible pour travail à distance dans le monde entier"
+      "location": "Le Caire, Égypte",
+      "availability": "Disponible pour travail à distance"
     }
   },
   "Common": {
-    "loading": "Chargement…",
+    "loading": "Chargement...",
     "error": {
-      "title": "Quelque chose s’est mal passé",
-      "description": "Une erreur inattendue est survenue. Veuillez réessayer plus tard."
+      "title": "Une erreur est survenue",
+      "description": "Veuillez réessayer."
     }
   }
 }

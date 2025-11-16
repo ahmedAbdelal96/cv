@@ -10,16 +10,15 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 const skills = [
-  { name: 'react', level: 95, color: 'bg-blue-500' },
-  { name: 'node', level: 90, color: 'bg-green-500' },
-  { name: 'typescript', level: 88, color: 'bg-blue-600' },
+  { name: 'react', level: 85, color: 'bg-blue-500' },
+  { name: 'node', level: 50, color: 'bg-green-500' },
+  { name: 'typescript', level: 80, color: 'bg-blue-600' },
   { name: 'mongodb', level: 85, color: 'bg-green-600' },
   { name: 'postgresql', level: 82, color: 'bg-blue-700' },
   { name: 'nest', level: 80, color: 'bg-red-500' },
   { name: 'tailwind', level: 92, color: 'bg-cyan-500' },
-  { name: 'git', level: 90, color: 'bg-orange-500' },
+  { name: 'git', level: 85, color: 'bg-orange-500' },
   { name: 'docker', level: 75, color: 'bg-blue-500' },
-  { name: 'aws', level: 70, color: 'bg-orange-600' },
 ];
 
 export default function SkillsSection() {

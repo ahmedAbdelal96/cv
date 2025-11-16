@@ -1,6 +1,6 @@
 {
   "Header": {
-    "logo": "معرض الأعمال",
+    "logo": "أحمد عبدالعال",
     "navigation": {
       "home": "الرئيسية",
       "about": "عني",
@@ -16,89 +16,89 @@
   },
   "HomePage": {
     "HeroSection": {
-      "greeting": "مرحباً، أنا أحمد عبد العال",
-      "title": "مطور ويب كامل Stack",
-      "description": "شغوف بإنشاء تجارب رقمية سلسة من الواجهة الأمامية إلى الخلفية. أتخصص في بناء تطبيقات ويب قابلة للتوسع باستخدام التقنيات الحديثة مثل React, Next.js, Express, NestJS, Node.js, MongoDB, PostgreSQL, TypeScript، ومختلف الأدوات. لنجعل أفكارك حيةً بكود نظيف وفعال وحلول مبتكرة!",
+      "greeting": "مرحباً، أنا أحمد محمد عبدالعال",
+      "title": "مطور ويب كامل (MERN Stack)",
+      "description": "مطور ويب متخصص في MERN Stack، أمتلك خبرة 5 سنوات في بناء تطبيقات ويب متكاملة. أعمل على تحويل الأفكار إلى تطبيقات عملية باستخدام React.js, Next.js, Node.js, MongoDB.",
       "hireMe": "وظفني",
       "portfolio": "معرض أعمالي",
-      "altText": "أحمد عبد العال - مطور ويب"
+      "altText": "أحمد محمد عبدالعال - مطور ويب كامل"
     },
     "AboutSection": {
       "biography": "السيرة الذاتية",
-      "title": "مطور كامل Stack ومهندس برمجيات",
-      "description": "شغوف بإنشاء حلول رقمية متكاملة باستخدام التقنيات الحديثة. أتخصص في بناء تطبيقات ويب قابلة للتوسع باستخدام React, Next.js, Node.js، وتقنيات السحابة. مع خبرة في تطوير الواجهات الأمامية والخلفية، أقدم حلولاً شاملة تعزز نمو الأعمال وتحسن تجربة المستخدم.",
+      "title": "مطور ويب كامل (MERN Stack)",
+      "description": "مطور ويب متخصص في MERN Stack. لدي خبرة في بناء تطبيقات ويب متكاملة من الواجهات الأمامية إلى الخوادم وقواعد البيانات. أركز على بناء حلول فعالة وقابلة للتطوير.",
       "contactInfo": {
-        "name": "الاسم",
-        "from": "من",
-        "email": "البريد الإلكتروني",
-        "phone": "الهاتف"
+        "name": "أحمد محمد عبدالعال",
+        "from": "القاهرة، مصر",
+        "email": "amohamef206@gmail.com",
+        "phone": "01032900752"
       },
       "followMe": "تابعني على",
       "buttons": {
         "hireMe": "وظفني",
         "downloadCV": "تحميل السيرة الذاتية"
       },
-      "altText": "أحمد عبد العال - الملف الشخصي"
+      "altText": "أحمد محمد عبدالعال - الملف الشخصي"
     },
     "SkillsSection": {
       "title": "مهاراتي",
       "heading": "مهاراتي التقنية",
-      "description": "أتخصص في تطوير الويب الكامل مع خبرة في التقنيات الحديثة. شغوف ببناء تطبيقات قابلة للتوسع وحل المشكلات المعقدة بكود نظيف وفعال.",
+      "description": "متخصص في MERN Stack وتقنيات تطوير الويب الحديثة. أجمع بين تطوير الواجهات الأمامية والخلفية لبناء تطبيقات متكاملة.",
       "skills": {
         "frontend": "تطوير الواجهات الأمامية",
         "backend": "تطوير الواجهات الخلفية",
-        "database": "إدارة قواعد البيانات",
-        "devops": "DevOps والنشر",
-        "react": "React & Next.js",
-        "node": "Node.js & Express",
-        "typescript": "TypeScript",
+        "database": "قواعد البيانات",
+        "devops": "الأدوات والتطوير",
+        "react": "React.js & Next.js",
+        "node": "Node.js & Express.js",
+        "typescript": "JavaScript",
         "mongodb": "MongoDB",
-        "postgresql": "PostgreSQL",
-        "nest": "NestJS",
-        "tailwind": "Tailwind CSS",
+        "postgresql": "Tailwind CSS",
+        "nest": "Postman",
+        "tailwind": "Swagger",
         "git": "Git & GitHub",
-        "docker": "Docker",
-        "aws": "AWS والسحابة"
+        "docker": "MERN Stack",
+        "aws": "RESTful APIs"
       },
       "altText": "مساحة عمل المطور مع إعدادات البرمجة"
     },
     "PortfolioSection": {
       "services": {
         "title": "خدماتي",
-        "heading": "ما أقدمه لك",
+        "heading": "ما أقدمه",
         "webDevelopment": {
-          "title": "تطوير كامل التطبيقات",
-          "description": "تطوير تطبيقات ويب متكاملة باستخدام تقنيات حديثة مثل React, Next.js, Node.js، ومنصات السحابة."
+          "title": "تطوير تطبيقات ويب",
+          "description": "بناء تطبيقات ويب متكاملة باستخدام MERN Stack وتقنيات حديثة."
         },
         "appDevelopment": {
           "title": "تطوير واجهات برمجة",
-          "description": "تصميم وتنفيذ واجهات برمجة RESTful و GraphQL مع مصادقة آمنة وأداء مُحسّن."
+          "description": "تصميم وتنفيذ واجهات API باستخدام Express.js و Node.js."
         },
         "database": {
-          "title": "تصميم قواعد البيانات",
-          "description": "هندسة قواعد البيانات، التحسين، والإدارة مع MongoDB, PostgreSQL، وأنظمة قواعد بيانات أخرى."
+          "title": "قواعد البيانات",
+          "description": "تصميم وإدارة قواعد البيانات باستخدام MongoDB."
         },
         "devops": {
-          "title": "DevOps والنشر",
-          "description": "إعداد خطوط CI/CD، الحاوية مع Docker، والنشر السحابي على AWS, Vercel، ومنصات أخرى."
+          "title": "النشر والإعداد",
+          "description": "إعداد بيئات النشر وإدارة السيرفرات."
         },
         "frontend": {
-          "title": "تطوير الواجهات الأمامية",
-          "description": "واجهات مستخدم تفاعلية ومتجاوبة مع React, TypeScript، وأطر عمل CSS الحديثة."
+          "title": "تطوير الواجهات",
+          "description": "بناء واجهات مستخدم باستخدام React.js و Next.js."
         },
         "backend": {
-          "title": "تطوير الواجهات الخلفية",
-          "description": "تطوير تطبيقات الخادم مع Node.js, Express, NestJS، وأنماط هندسية قوية."
+          "title": "تطوير الخوادم",
+          "description": "تطوير تطبيقات backend باستخدام Node.js و Express.js."
         }
       },
       "projects": {
-        "title": "المشاريع المميزة",
-        "viewMore": "عرض جميع المشاريع →",
+        "title": "المشاريع",
+        "viewMore": "عرض المشاريع →",
         "viewDetails": "عرض التفاصيل →"
       },
-      "loading": "جاري تحميل المشاريع...",
-      "noProjects": "لا يوجد مشاريع بعد",
-      "workingOnProjects": "أنا حالياً أعمل على بعض المشاريع المثيرة. تحقق من المشاريع القادمة!",
+      "loading": "جاري التحميل...",
+      "noProjects": "لا توجد مشاريع",
+      "workingOnProjects": "أعمل حالياً على مشاريع جديدة. تابعنا للمزيد!",
       "soon": "قريباً!",
       "contact": "ابدأ مشروع"
     },
@@ -107,52 +107,52 @@
       "heading": "ماذا يقول العملاء",
       "verifiedClient": "عميل موثوق",
       "navigation": {
-        "previous": "التقييم السابق",
-        "next": "التقييم التالي",
-        "goToReview": "انتقل إلى التقييم {index}"
+        "previous": "السابق",
+        "next": "التالي",
+        "goToReview": "انتقل للتقييم {index}"
       },
       "emptyState": {
-        "title": "لا توجد آراء بعد",
-        "description": "كن أول من يشارك تجربته في العمل معي!",
+        "title": "لا توجد آراء",
+        "description": "كن أول من يشارك تجربته!",
         "button": "أضف تقييم"
       },
-      "loading": "جاري تحميل الآراء...",
-      "noReviews": "لا توجد آراء بعد",
-      "beTheFirst": "كن أول من يشارك تجربته في العمل معي!",
+      "loading": "جاري التحميل...",
+      "noReviews": "لا توجد آراء",
+      "beTheFirst": "كن أول من يشارك تجربته!",
       "addReview": "أضف تقييم",
-      "readyToStart": "جاهز لبدء المشروع التالي؟ دعنا نناقش كيف يمكنني مساعدتك!",
+      "readyToStart": "جاهز لمشروعك القادم؟ تواصل معنا!",
       "startWorkingTogether": "ابدأ العمل معي"
     },
     "BlogList": {
-      "title": "أحدث المقالات",
+      "title": "المقالات",
       "heading": {
         "preview": "أحدث المقالات",
         "all": "جميع المقالات"
       },
       "meta": {
-        "readTime": "{minutes} دقائق قراءة",
+        "readTime": "{minutes} دقائق",
         "published": "نشر في"
       },
       "buttons": {
         "readMore": "اقرأ المزيد →",
-        "viewAll": "عرض جميع المقالات"
+        "viewAll": "عرض الكل"
       },
       "emptyState": {
-        "title": "لا توجد مقالات بعد",
-        "description": "أقوم حاليًا بكتابة مقالات مفيدة حول تطوير الويب. تفضل بزيارة مرة أخرى قريبًا لمحتوى جديد!",
+        "title": "لا توجد مقالات",
+        "description": "جاري إعداد محتوى جديد. تابعنا قريباً!",
         "button": "تصفح المشاريع"
       },
       "tags": {
-        "react": "React",
+        "react": "React.js",
         "nextjs": "Next.js",
         "nodejs": "Node.js",
-        "typescript": "TypeScript",
+        "typescript": "Express.js",
         "mongodb": "MongoDB",
-        "postgresql": "PostgreSQL",
-        "nest": "NestJS",
-        "express": "Express",
-        "docker": "Docker",
-        "aws": "AWS",
+        "postgresql": "MERN Stack",
+        "nest": "Tailwind CSS",
+        "express": "Postman",
+        "docker": "Swagger",
+        "aws": "RESTful APIs",
         "performance": "الأداء",
         "security": "الأمان",
         "bestPractices": "أفضل الممارسات"
@@ -160,477 +160,477 @@
     },
     "ContactCTA": {
       "title": "مستعد لبدء مشروعك؟",
-      "description": "لنعمل معًا لتحويل أفكارك إلى واقع. أنا دائمًا متحمس لمواجهة تحديات جديدة وإنشاء حلول رقمية مذهلة باستخدام التقنيات الحديثة.",
+      "description": "لنعمل معاً على تحويل أفكارك إلى تطبيقات واقعية باستخدام MERN Stack.",
       "buttons": {
         "getInTouch": "تواصل معي",
-        "callMe": "اتصل بي الآن",
-        "scheduleCall": "حدد موعد مكالمة"
+        "callMe": "اتصل بي",
+        "scheduleCall": "حدد موعد"
       },
       "stats": {
-        "projects": "مشروع مكتمل",
-        "clients": "عميل سعيد",
+        "projects": "مشاريع مكتملة",
+        "clients": "عملاء",
         "experience": "سنوات خبرة",
-        "technologies": "تقنية",
-        "typicallyRespondWithin2HoursDuringBusinessDays": "عادة ما تتجاوز الرد في 2 ساعة خلال الأيام التجارية"
+        "technologies": "تقنيات",
+        "typicallyRespondWithin2HoursDuringBusinessDays": "الرد خلال ساعتين في أيام العمل"
       },
-      "email": "ahmed.abdelal@email.com",
-      "phone": "+20 123 456 7890",
+      "email": "amohamef206@gmail.com",
+      "phone": "01032900752",
       "available": "متاح: الأحد - الخميس, 9 ص - 6 م",
-      "technologiesIWorkWith": "تقنيات التي أعمل بها:"
+      "technologiesIWorkWith": "التقنيات التي أستخدمها:"
     }
   },
-  "AboutPage": {
-    "AboutHero": {
-      "title": "عنّي",
-      "name": "أنا أحمد عبد العال",
-      "role": "مطور كامل Stack ومهندس برمجيات",
-      "description": "مع أكثر من 3 سنوات من الخبرة في تطوير الويب الكامل، أتخصص في بناء تطبيقات قابلة للتوسع وعالية الأداء باستخدام التقنيات الحديثة. شغفي يكمن في حل المشكلات المعقدة بكود نظيف وفعال وإنشاء تجارب رقمية سلسة من الفكرة إلى النشر.",
-      "altText": "أحمد عبد العال - مطور كامل Stack"
+ "AboutPage": {
+  "AboutHero": {
+    "title": "عنّي",
+    "name": "أنا أحمد محمد عبدالعال",
+    "role": "مطور ويب كامل (MERN Stack)",
+    "description": "مطور ويب متخصص في MERN Stack مع 3 سنوات خبرة في بناء تطبيقات ويب. حاصل على بكالوريوس هندسة الحاسب من جامعة القاهرة. أركز على بناء حلول عملية وسهلة الاستخدام.",
+    "altText": "أحمد محمد عبدالعال - مطور ويب كامل"
+  },
+  "BiographySection": {
+    "story": {
+      "title": "رحلتي في مجال التقنية",
+      "paragraphs": {
+        "p1": "بدأت رحلتي في مجال تطوير البرمجيات خلال دراستي لهندسة الحاسب. بدأ الأمر بفضول حول كيفية عمل التطبيقات، ثم تحول إلى شغف حقيقي ببناء حلول رقمية عملية.",
+        "p2": "على مدى ثلاث سنوات، عملت على مشاريع متنوعة تشمل أنظمة إدارية وتطبيقات ويب متكاملة. ساهمت هذه المشاريع في تعميق فهمي للتطوير الشامل وصقل مهاراتي في MERN Stack.",
+        "p3": "أحرص في عملي على الجمع بين الجوانب التقنية وتجربة المستخدم. أؤمن بأن التطبيقات الجيدة يجب أن تكون سهلة الاستخدام، سريعة الأداء، وتعمل بكفاءة على مختلف الأجهزة.",
+        "p4": "أعمل باستمرار على تطوير مهاراتي والاطلاع على أحدث تقنيات الويب. خارج وقت العمل، أتابع المشاريع مفتوحة المصدر وأجرب الأدوات والتقنيات الحديثة."
+      }
     },
-    "BiographySection": {
-      "story": {
-        "title": "رحلتي في مجال التقنية",
-        "paragraphs": {
-          "p1": "بدأت رحلتي في تطوير البرمجيات عندما كتبت سطر الكود الأول في الجامعة. ما بدأ كفضول حول كيفية عمل التطبيقات تطور بسرعة إلى شغف ببناء حلول رقمية قابلة للتوسع وفعالة. كنت مفتونًا بقوة الكود في حل المشكلات الواقعية.",
-          "p2": "خلال السنوات الثلاث الماضية، كانت لدي الفرصة للعمل على مشاريع متنوعة تتراوح من نماذج المشاريع الناشئة إلى تطبيقات مستوى المؤسسات. كل مشروع عمق فهمي للتطوير الكامل وصقل مهاراتي في حل المشكلات عبر مجموعات تقنية مختلفة.",
-          "p3": "يجمع نهجي بين التميز التقني والتصميم المرتكز على المستخدم. أعتقد أن التطبيقات الرائعة ليست وظيفية فحسب - بل هي بديهية، عالية الأداء، وتوفر تجارب سلسة عبر جميع الأجهزة والمنصات.",
-          "p4": "أنا شغوف بالتعلم المستمر والبقاء على اطلاع بأحدث التقنيات. عندما لا أكون أكتب كود، ستجدني أستكشف أطر عمل جديدة، أساهم في مشاريع مفتوحة المصدر، أو أشارك المعرفة مع مجتمع المطورين."
+    "personalInfo": {
+      "title": "المعلومات الشخصية",
+      "fullName": "أحمد محمد عبدالعال",
+      "dateOfBirth": "اضغط للإضافة",
+      "nationality": "مصري",
+      "location": "القاهرة، مصر",
+      "email": "amohamef206@gmail.com",
+      "phone": "01032900752",
+      "languages": "العربية (اللغة الأم)، الإنجليزية (متوسطة)",
+      "freelance": "متاح",
+      "education": "بكالوريوس هندسة الحاسب - جامعة القاهرة"
+    },
+    "connect": {
+      "title": "لنتواصل",
+      "available": "متاح",
+      "notAvailable": "غير متاح"
+    }
+  },
+  "ExperienceSection": {
+    "title": "رحلتي المهنية",
+    "heading": "الخبرة العملية",
+    "experiences": {
+      "seniorFullStack": {
+        "title": "مطور ويب كامل",
+        "company": "شركة تقنية",
+        "period": "2021 - حتى الآن",
+        "description": "تطوير تطبيقات ويب باستخدام MERN Stack. العمل على مشاريع تشمل أنظمة إدارية وأنظمة للمدارس مع فرق تطوير.",
+        "achievements": {
+          "0": "تطوير نظام متكامل لإدارة العقود والشركات",
+          "1": "بناء نظام شامل لإدارة المدارس",
+          "2": "تحسين أداء التطبيقات",
+          "3": "تنفيذ واجهات برمجة API"
         }
       },
-      "personalInfo": {
-        "title": "المعلومات الشخصية",
-        "fullName": "الاسم الكامل",
-        "dateOfBirth": "تاريخ الميلاد",
-        "nationality": "الجنسية",
-        "location": "الموقع",
-        "email": "البريد الإلكتروني",
-        "phone": "الهاتف",
-        "languages": "اللغات",
-        "freelance": "العمل الحر",
-        "education": "التعليم"
-      },
-      "connect": {
-        "title": "لنتواصل",
-        "available": "متاح",
-        "notAvailable": "غير متاح"
-      }
-    },
-    "ExperienceSection": {
-      "title": "رحلتي المهنية",
-      "heading": "الخبرة العملية",
-      "experiences": {
-        "seniorFullStack": {
-          "title": "مطور كامل Stack كبير",
-          "company": "Tech Innovation Ltd",
-          "period": "2022 - حتى الآن",
-          "description": "قادت تطوير تطبيقات ويب قابلة للتوسع باستخدام React, Next.js, Node.js، وتقنيات السحابة. تصميم الحلول وتوجيه أعضاء الفريق مع ضمان جودة الكود وأفضل الممارسات.",
-          "achievements": {
-            "0": "قادت تطوير 3 منتجات SaaS رئيسية تخدم 50 ألف+ مستخدم",
-            "1": "خفضت وقت استجابة API بنسبة 60% من خلال التحسين",
-            "2": "نفذت هندسة microservices لتحسين قابلية التوسع",
-            "3": "وجهت 4 مطورين مبتدئين وأجرت مراجعات الكود"
-          }
-        },
-        "fullStack": {
-          "title": "مطور كامل Stack",
-          "company": "Digital Solutions Inc",
-          "period": "2021 - 2022",
-          "description": "طورت تطبيقات كاملة باستخدام MERN stack و TypeScript. تعاونت مع فرق متعددة التخصصات لتقديم حلول قوية وقابلة للتوسع لعملاء مختلفين.",
-          "achievements": {
-            "0": "بنيت 15+ تطبيق كامل Stack لعملاء مؤسسيين",
-            "1": "دمجت واجهات برمجة طرف ثالث وبوابات دفع",
-            "2": "حسنت أداء التطبيقات بنسبة 40%",
-            "3": "نفذت خطوط CI/CD قللت وقت النشر"
-          }
-        },
-        "frontend": {
-          "title": "مطور واجهات أمامية",
-          "company": "Web Agency Pro",
-          "period": "2020 - 2021",
-          "description": "تخصصت في بناء واجهات مستخدم تفاعلية ومتجاوبة مع React وأطر عمل CSS الحديثة. ركزت على تحسين الأداء وتجربة المستخدم.",
-          "achievements": {
-            "0": "طورت 20+ تطبيق ويب متجاوب",
-            "1": "حققت 95+ درجة في أداء Lighthouse",
-            "2": "نفذت أنظمة تصميم ومكتبات مكونات",
-            "3": "خفضت حجم الحزمة بنسبة 35% من خلال تقسيم الكود"
-          }
-        },
-        "junior": {
-          "title": "مطور ويب مبتدئ",
-          "company": "StartUp Ventures",
-          "period": "2019 - 2020",
-          "description": "بدأت المسيرة المهنية في بناء المهارات الأساسية في تطوير الويب. ساهمت في مشاريع متنوعة أثناء تعلم التقنيات الحديثة وممارسات التطوير.",
-          "achievements": {
-            "0": "أتقنت React, Node.js، وتقنيات قواعد البيانات",
-            "1": "ساهمت في 8+ تطبيقات إنتاج",
-            "2": "تعلمت منهجيات التطوير الرشيقة",
-            "3": "بنيت أول تطبيق كامل Stack من الصفر"
-          }
-        }
-      }
-    },
-    "EducationSection": {
-      "title": "مسار التعلم",
-      "heading": "التعليم والشهادات",
-      "description1": "التعلم المستمر والتطوير المهني في مجال تطوير البرمجيات والويب المتطور.",
-      "subtitle": "التعلم المستمر والتطوير المهني في مجال تطوير البرمجيات والويب المتطور.",
-      "description2": "أنا أتعلم المزيد وأبقى على اطلاع بأحدث التقنيات لأبقى على اطلاع بأحدث التقنيات.",
-      "types": {
-        "degree": "درجة علمية",
-        "certification": "شهادة",
-        "bootcamp": "معسكر تدريبي"
-      },
-      "education": {
-        "bachelor": {
-          "degree": "بكالوريوس علوم الحاسب",
-          "institution": "جامعة القاهرة",
-          "period": "2016 - 2020",
-          "description": "تخصص في هندسة البرمجيات، الخوارزميات، وأنظمة قواعد البيانات. أكملت دورات في تطوير الويب، هياكل البيانات، وهندسة البرمجيات. تخرجت بتقدير امتياز.",
-          "type": "degree"
-        },
-        "fullStack": {
-          "degree": "معسكر تطوير الويب الكامل",
-          "institution": "Tech Learning Hub",
-          "period": "2021",
-          "description": "برنامج مكثف يغطي التقنيات الحديثة بما في ذلك React, Node.js, Express, MongoDB، واستراتيجيات النشر. بناء 10+ مشروع كامل Stack.",
-          "type": "bootcamp"
-        },
-        "aws": {
-          "degree": "مطور AWS معتمد - مشارك",
-          "institution": "Amazon Web Services",
-          "period": "2022",
-          "description": "شهادة تثبت الخبرة في تطوير ونشر وتصحيح تطبيقات السحابة باستخدام خدمات AWS مثل Lambda, API Gateway, و DynamoDB.",
-          "type": "certification"
-        },
-        "mongodb": {
-          "degree": "مطور MongoDB معتمد",
-          "institution": "MongoDB University",
-          "period": "2021",
-          "description": "شهادة تغطي تصميم قواعد البيانات، إطار التجميع، استراتيجيات الفهرسة، وتحسين الأداء في MongoDB.",
-          "type": "certification"
-        },
-        "nodejs": {
-          "degree": "شهادة Node.js المتقدمة",
-          "institution": "Node.js Institute",
-          "period": "2021",
-          "description": "شهادة متقدمة تغطي هندسة Node.js، تحسين الأداء، الخدمات المصغرة، وتطوير التطبيقات على مستوى المؤسسات.",
-          "type": "certification"
-        },
-        "react": {
-          "degree": "شهادة React الاحترافية",
-          "institution": "Meta (Coursera)",
-          "period": "2022",
-          "description": "شهادة احترافية تغطي أنماط React المتقدمة، إدارة الحالة، تحسين الأداء، واستراتيجيات الاختبار.",
-          "type": "certification"
-        }
-      }
-    },
-    "SkillsDetailSection": {
-      "title": "الخبرة التقنية",
-      "heading": "المهارات والتقنيات",
-      "description": "أتخصص في تطوير الويب الكامل مع تخصص في التقنيات الحديثة. أنا شغوف ببناء تطبيقات قابلة للتوسع وحل المشكلات المعقدة بكود نظيف وفعال.",
-      "categories": {
-        "frontend": {
-          "title": "تطوير الواجهات الأمامية",
-          "skills": {
-            "react": "React/Next.js",
-            "typescript": "TypeScript/JavaScript",
-            "html": "HTML5/CSS3",
-            "tailwind": "Tailwind CSS",
-            "state": "إدارة الحالة"
-          }
-        },
-        "backend": {
-          "title": "تطوير الواجهات الخلفية",
-          "skills": {
-            "node": "Node.js/Express",
-            "nest": "NestJS",
-            "mongodb": "MongoDB",
-            "postgresql": "PostgreSQL",
-            "apis": "واجهات REST/GraphQL"
-          }
-        },
-        "tools": {
-          "title": "الأدوات و DevOps",
-          "skills": {
-            "git": "Git/GitHub",
-            "docker": "Docker",
-            "aws": "AWS/السحابة",
-            "testing": "الاختبار (Jest/Cypress)",
-            "cicd": "خطوط CI/CD"
-          }
-        }
-      }
-    },
-    "AwardsSection": {
-      "title": "التكريم",
-      "heading": "الجوائز والإنجازات",
-      "awards": {
-        "openSource": {
-          "title": "مساهم مفتوح المصدر",
-          "organization": "GitHub",
-          "year": "2023",
-          "description": "تم التكريم للمساهمات الهامة في مشاريع مفتوحة المصدر ومجتمع المطورين."
-        },
-        "performance": {
-          "title": "تميز الأداء",
-          "organization": "جوائز الابتكار التقني",
-          "year": "2022",
-          "description": "تم منح الجائزة لبناء تطبيقات عالية الأداء مع تحسين استثنائي وقابلية للتوسع."
-        },
-        "fullStack": {
-          "title": "تميز كامل Stack",
-          "organization": "مجتمع المطورين",
-          "year": "2022",
-          "description": "تم التكريم للإتقان في تطوير الواجهات الأمامية والخلفية مع التقنيات الحديثة."
-        },
-        "innovation": {
-          "title": "جائزة الابتكار",
-          "organization": "مسابقة الشركات الناشئة",
-          "year": "2021",
-          "description": "فوز بالمركز الأول لحل SaaS مبتكر مبني بتقنيات متطورة."
-        },
-        "codeQuality": {
-          "title": "بطل جودة الكود",
-          "organization": "تميز الهندسة",
-          "year": "2021",
-          "description": "تم الإشادة بالحفاظ على جودة كود استثنائية، أفضل الممارسات، وهندسة نظيفة."
-        },
-        "mentorship": {
-          "title": "جائزة المرشد التقني",
-          "organization": "مجتمع المطورين",
-          "year": "2023",
-          "description": "تم التكريم لتوجيه المطورين المبتدئين والمساهمة في مبادرات التعليم التقني."
+      "fullStack": {
+        "title": "مطور واجهات أمامية",
+        "company": "شركة ويب",
+        "period": "2020 - 2021",
+        "description": "بناء واجهات مستخدم باستخدام React.js وأطر عمل CSS. التركيز على تحسين الأداء وتجربة المستخدم.",
+        "achievements": {
+          "0": "تطوير تطبيقات ويب متجاوبة",
+          "1": "تحسين أداء التطبيقات",
+          "2": "تنفيذ أنظمة تصميم",
+          "3": "تحسين سرعة التحميل"
         }
       },
-      "readyToAchieveGreatResults": "جاهز لتحقيق نتائج مثيرة؟",
-      "letsBuildSomethingAmazing": "دعنا نبني شيء مذهل معا!"
-    }
-  },
-  "ProjectsPage": {
-    "ProjectsHero": {
-      "subtitle": "أعمالي",
-      "title": "المشاريع المميزة",
-      "description": "مجموعة من تطبيقاتي الكاملة وحلول الويب الحديثة. كل مشروع يعرض تقنيات حديثة، هندسة نظيفة، ومهارات حل المشكلات الواقعية."
-    },
-    "ProjectsGrid": {
-      "searchPlaceholder": "ابحث في المشاريع...",
-      "categories": {
-        "all": "الكل",
-        "web": "تطوير الويب",
-        "fullStack": "كامل Stack",
-        "frontend": "واجهات أمامية",
-        "backend": "واجهات خلفية",
-        "mobile": "موبايل",
-        "ecommerce": "متاجر إلكترونية",
-        "design": "تصميم واجهات المستخدم",
-        "api": "تطوير واجهات برمجة"
+      "frontend": {
+        "title": "مطور ويب مبتدئ",
+        "company": "شركة ناشئة",
+        "period": "2019 - 2020",
+        "description": "بناء المهارات الأساسية في تطوير الويب. المشاركة في مشاريع متنوعة وتعلم التقنيات الحديثة.",
+        "achievements": {
+          "0": "تعلم React.js و Node.js وقواعد البيانات",
+          "1": "المساهمة في تطبيقات إنتاج",
+          "2": "تعلم منهجيات التطوير",
+          "3": "بناء أول تطبيق كامل"
+        }
       },
-      "emptyState": {
-        "title": "لم يتم العثور على مشاريع",
-        "description": "لم يتم العثور على مشاريع تطابق معايير البحث.",
-        "reset": "إعادة تعيين الفلاتر"
-      },
-      "loading": "جاري تحميل المشاريع...",
-      "results": {
-        "single": "تم العثور على {count} مشروع",
-        "multiple": "تم العثور على {count} مشاريع"
+      "junior": {
+        "title": "متدرب تطوير ويب",
+        "company": "مركز تدريب",
+        "period": "2018 - 2019",
+        "description": "اكتساب الأساسيات في تطوير الويب وتقنيات البرمجة المختلفة.",
+        "achievements": {
+          "0": "تعلم أساسيات HTML و CSS و JavaScript",
+          "1": "المشاركة في مشاريع تعليمية",
+          "2": "فهم أساسيات قواعد البيانات",
+          "3": "تطوير موقع ويب شخصي"
+        }
       }
     }
   },
-  "BlogPage": {
-    "title": "المدونة - أحمد عبد العال",
-    "description": "أحدث المقالات والرؤى حول التطوير الكامل، تقنيات الويب الحديثة، وأفضل ممارسات هندسة البرمجيات.",
-    "loading": "جاري تحميل المقالات...",
-    "sidebar": {
-      "title": "عن المدونة",
-      "description": "مشاركة المعرفة والخبرات في التطوير الكامل، من أطر عمل الواجهات الأمامية إلى هندسة الخلفية وممارسات DevOps."
+  "EducationSection": {
+    "title": "مسار التعلم",
+    "heading": "التعليم والخبرة",
+    "description1": "التعلم المستمر والتطوير في مجال تطوير البرمجيات وتقنيات الويب.",
+    "subtitle": "التعلم المستمر والتطوير في مجال تطوير البرمجيات وتقنيات الويب.",
+    "description2": "أعمل على تطوير مهاراتي والاطلاع على تقنيات MERN Stack وتطوير الويب.",
+    "types": {
+      "degree": "درجة علمية",
+      "certification": "خبرة",
+      "bootcamp": "مشاريع"
     },
-    "BlogSidebar": {
-      "about": {
-        "title": "عن المدونة",
-        "description": "مشاركة المعرفة والخبرات في التطوير الكامل، من أطر عمل الواجهات الأمامية إلى هندسة الخلفية وممارسات DevOps."
+    "education": {
+      "bachelor": {
+        "degree": "بكالوريوس هندسة الحاسب",
+        "institution": "جامعة القاهرة",
+        "period": "2016 - 2020",
+        "description": "تخصص في هندسة البرمجيات، الخوارزميات، هياكل البيانات، وقواعد البيانات. دراسة تطوير الويب وهندسة البرمجيات.",
+        "type": "degree"
       },
-      "popularTags": "الوسوم الشائعة",
-      "recentPosts": "المشاركات الحديثة",
-      "posts": {
-        "nestjs": "بناء واجهات برمجة قابلة للتوسع مع NestJS",
-        "nextjs": "دليل أداء Next.js 14",
-        "microservices": "أنماط هندسة الخدمات المصغرة"
-      }
-    },
-    "BlogHero": {
-      "title": "المدونة التقنية",
-      "description": "رؤى، دروس، وأفكار حول التطوير الكامل، التقنيات الحديثة، وأفضل ممارسات هندسة البرمجيات."
-    },
-    "BlogGrid": {
-      "emptyState": {
-        "title": "لم يتم العثور على مقالات",
-        "description": "لم يتم العثور على مقالات تطابق معايير البحث.",
-        "reset": "إعادة تعيين الفلاتر"
+      "fullStack": {
+        "degree": "خبرة في MERN Stack",
+        "institution": "مشاريع عملية",
+        "period": "2020 - حتى الآن",
+        "description": "3 سنوات خبرة في تطوير تطبيقات ويب باستخدام MongoDB و Express.js و React.js و Node.js.",
+        "type": "bootcamp"
       },
-      "loading": "جاري تحميل المقالات...",
-      "filters": {
-        "searchPlaceholder": "ابحث في المقالات...",
-        "category": "الفئة",
-        "tag": "الوسم",
-        "all": "الكل"
+      "aws": {
+        "degree": "تطوير الواجهات الأمامية",
+        "institution": "مشاريع عملية",
+        "period": "2020 - حتى الآن",
+        "description": "خبرة في React.js و Next.js و Tailwind CSS و JavaScript وتقنيات الواجهات الأمامية.",
+        "type": "certification"
       },
-      "categories": {
-        "all": "الكل",
-        "frontend": "واجهات أمامية",
-        "backend": "واجهات خلفية",
-        "fullstack": "كامل Stack",
-        "devops": "DevOps",
-        "tutorial": "دروس",
-        "bestPractices": "أفضل الممارسات"
-      }
-    }
-  },
-  "ArticlePage": {
-    "notFound": {
-      "title": "المقال غير موجود"
-    },
-    "loading": {
-      "related": "جاري تحميل المقالات ذات الصلة...",
-      "content": "جاري تحميل محتوى المقال..."
-    },
-    "metadata": {
-      "titleSuffix": " - أحمد عبد العال"
-    },
-    "related": {
-      "title": "مقالات ذات صلة"
-    },
-    "ArticleContent": {
-      "readTime": "{minutes} دقيقة قراءة",
-      "author": "أحمد عبد العال",
-      "likeButton": {
-        "liked": "{count}",
-        "default": "{count}"
+      "mongodb": {
+        "degree": "تطوير الواجهات الخلفية",
+        "institution": "مشاريع عملية",
+        "period": "2020 - حتى الآن",
+        "description": "خبرة في Node.js و Express.js و MongoDB و RESTful APIs وتطوير الخوادم.",
+        "type": "certification"
       },
-      "saveButton": {
-        "saved": "تم الحفظ",
-        "default": "حفظ"
+      "nodejs": {
+        "degree": "أدوات التطوير",
+        "institution": "مشاريع عملية",
+        "period": "2020 - حتى الآن",
+        "description": "خبرة في Git و GitHub و Postman و Swagger و VS Code وأدوات التطوير.",
+        "type": "certification"
       },
-      "shareButton": "مشاركة",
-      "tagsTitle": "الكلمات المفتاحية",
-      "share": {
-        "urlCopied": "تم نسخ الرابط!"
-      },
-      "actions": {
-        "like": "إعجاب",
-        "save": "حفظ",
-        "share": "مشاركة"
-      }
-    },
-    "ArticleSidebar": {
-      "articleDetails": "تفاصيل المقال",
-      "published": "تاريخ النشر",
-      "readTime": "وقت القراءة",
-      "category": "التصنيف",
-      "shareArticle": "مشاركة المقال",
-      "tags": "الكلمات المفتاحية",
-      "tableOfContents": "جدول المحتويات",
-      "tocItems": {
-        "introduction": "المقدمة",
-        "gettingStarted": "البدء",
-        "implementation": "التنفيذ",
-        "bestPractices": "أفضل الممارسات",
-        "conclusion": "الخاتمة"
-      }
-    },
-    "RelatedArticles": {
-      "title": "مقالات ذات صلة",
-      "readTime": "{minutes} دقيقة قراءة",
-      "meta": {
-        "published": "نشر",
-        "readTime": "دقيقة قراءة"
+      "react": {
+        "degree": "مشاريع MERN Stack",
+        "institution": "تطبيقات عملية",
+        "period": "2021 - 2023",
+        "description": "تطوير أنظمة باستخدام MERN Stack تشمل أنظمة إدارية وأنظمة للمدارس.",
+        "type": "certification"
       }
     }
   },
-  "ContactPage": {
-    "ContactHero": {
-      "title": "لنعمل معًا",
-      "description": "هل لديك مشروع في mind? أحب أن أسمع عنه ونناقش كيف يمكننا تحويل أفكارك إلى واقع باستخدام تقنيات الويب الحديثة.",
-      "subtitle": "تواصل معي"
-    },
-    "ContactForm": {
-      "title": "أرسل لي رسالة",
-      "fields": {
-        "name": "الاسم الكامل *",
-        "email": "البريد الإلكتروني *",
-        "phone": "رقم الجوال *",
-        "subject": "الموضوع *",
-        "message": "الرسالة *",
-        "budget": "نطاق الميزانية",
-        "timeline": "الجدول الزمني"
+  "SkillsDetailSection": {
+    "title": "المهارات التقنية",
+    "heading": "المهارات والتقنيات",
+    "description": "متخصص في MERN Stack مع خبرة في تقنيات تطوير الويب. أركز على بناء تطبيقات عملية وفعالة.",
+    "categories": {
+      "frontend": {
+        "title": "تطوير الواجهات الأمامية",
+        "skills": {
+          "react": "React.js & Next.js",
+          "typescript": "JavaScript (ES6+)",
+          "html": "HTML5 & CSS3",
+          "tailwind": "Tailwind CSS",
+          "state": "إدارة الحالة"
+        }
       },
-      "placeholders": {
-        "name": "اسمك الكامل",
-        "email": "بريدك الإلكتروني",
-        "phone": "رقم جوالك",
-        "subject": "ما هذا الموضوع؟",
-        "message": "أخبرني عن مشروعك، أهدافك، وأي متطلبات محددة...",
-        "budget": "اختر نطاق الميزانية",
-        "timeline": "اختر الجدول الزمني"
+      "backend": {
+        "title": "تطوير الواجهات الخلفية",
+        "skills": {
+          "node": "Node.js & Express.js",
+          "nest": "MongoDB",
+          "mongodb": "RESTful APIs",
+          "postgresql": "المصادقة والصلاحيات",
+          "apis": "هندسة قابلة للتطوير"
+        }
       },
-      "budgetOptions": {
-        "select": "اختر نطاق الميزانية",
-        "under5k": "أقل من $5,000",
-        "5k10k": "$5,000 - $10,000",
-        "10k25k": "$10,000 - $25,000",
-        "25k50k": "$25,000 - $50,000",
-        "over50k": "أكثر من $50,000"
-      },
-      "timelineOptions": {
-        "select": "اختر الجدول الزمني",
-        "asap": "في أقرب وقت ممكن",
-        "1month": "خلال شهر",
-        "2-3months": "2-3 أشهر",
-        "3-6months": "3-6 أشهر",
-        "flexible": "مرن"
-      },
-      "submitButton": {
-        "default": "إرسال الرسالة",
-        "sending": "جاري الإرسال..."
-      },
-      "statusMessages": {
-        "success": "شكراً لك على رسالتك! سأعود إليك قريباً.",
-        "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
-        "networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك والمحاولة مرة أخرى."
+      "tools": {
+        "title": "الأدوات والتطوير",
+        "skills": {
+          "git": "Git & GitHub",
+          "docker": "Postman",
+          "aws": "Swagger",
+          "testing": "VS Code",
+          "cicd": "أدوات النشر"
+        }
       }
-    },
-    "ContactInfo": {
-      "title": "تواصل معي",
-      "contactDetails": {
-        "email": "البريد الإلكتروني",
-        "phone": "الهاتف",
-        "location": "الموقع",
-        "availability": "مواعيد العمل"
-      },
-      "social": {
-        "title": "تابعني",
-        "linkedin": "لينكد إن",
-        "github": "جيت هاب",
-        "twitter": "تويتر",
-        "website": "الموقع الإلكتروني"
-      },
-      "guarantee": {
-        "title": "ضمان الرد السريع",
-        "description": "أرد عادة على جميع الاستفسارات خلال 24 ساعة. للمشاريع العاجلة، لا تتردد في الاتصال بي مباشرة."
-      }
-    },
-    "ContactMap": {
-      "title": "موقعي",
-      "location": "سان فرانسيسكو، كاليفورنيا",
-      "availability": "متاح للعمل عن بُعد حول العالم"
     }
   },
-  "Common": {
+  "AwardsSection": {
+    "title": "المشاريع البارزة",
+    "heading": "المشاريع البارزة",
+    "awards": {
+      "openSource": {
+        "title": "نظام إدارة العقود",
+        "organization": "مشروع مؤسسي",
+        "year": "2023",
+        "description": "تطوير نظام متكامل لإدارة العقود والشركات."
+      },
+      "performance": {
+        "title": "نظام إدارة المدارس",
+        "organization": "مشروع تعليمي",
+        "year": "2022",
+        "description": "بناء نظام شامل لإدارة المدارس والأنشطة."
+      },
+      "fullStack": {
+        "title": "تطبيقات MERN Stack",
+        "organization": "مشاريع متنوعة",
+        "year": "2021-2023",
+        "description": "تطوير تطبيقات ويب باستخدام MERN Stack."
+      },
+      "innovation": {
+        "title": "واجهات برمجة API",
+        "organization": "مشاريع تقنية",
+        "year": "2022",
+        "description": "تصميم وتنفيذ واجهات برمجة للتطبيقات."
+      },
+      "codeQuality": {
+        "title": "تطبيقات ويب متجاوبة",
+        "organization": "مشاريع متنوعة",
+        "year": "2021",
+        "description": "تطوير واجهات مستخدم تفاعلية ومتجاوبة."
+      },
+      "mentorship": {
+        "title": "حلول قواعد البيانات",
+        "organization": "مشاريع متكاملة",
+        "year": "2023",
+        "description": "تصميم قواعد البيانات لتطبيقات ويب."
+      }
+    },
+    "readyToAchieveGreatResults": "جاهز لبدء مشروعك؟",
+    "letsBuildSomethingAmazing": "لنعمل معاً على مشروعك القادم"
+  }
+},
+"ProjectsPage": {
+  "ProjectsHero": {
+    "subtitle": "أعمالي",
+    "title": "المشاريع",
+    "description": "مجموعة من تطبيقاتي وحلول الويب باستخدام MERN Stack. كل مشروع يعرض تقنيات حديثة ومهارات عملية."
+  },
+  "ProjectsGrid": {
+    "searchPlaceholder": "ابحث في المشاريع...",
+    "categories": {
+      "all": "الكل",
+      "web": "تطوير الويب",
+      "fullStack": "كامل Stack",
+      "frontend": "واجهات أمامية",
+      "backend": "واجهات خلفية",
+      "mobile": "MERN Stack",
+      "ecommerce": "أنظمة إدارية",
+      "design": "أنظمة تعليمية",
+      "api": "تطوير واجهات برمجة"
+    },
+    "emptyState": {
+      "title": "لم يتم العثور على مشاريع",
+      "description": "لم يتم العثور على مشاريع تطابق البحث.",
+      "reset": "إعادة الضبط"
+    },
     "loading": "جاري التحميل...",
-    "error": {
-      "title": "حدث خطأ ما",
-      "description": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى لاحقًا."
+    "results": {
+      "single": "تم العثور على {count} مشروع",
+      "multiple": "تم العثور على {count} مشاريع"
     }
   }
+},
+"BlogPage": {
+  "title": "المدونة - أحمد عبدالعال",
+  "description": "مقالات حول تطوير MERN Stack، تقنيات الويب، وممارسات هندسة البرمجيات.",
+  "loading": "جاري التحميل...",
+  "sidebar": {
+    "title": "عن المدونة",
+    "description": "مشاركة المعرفة في تطوير MERN Stack، من React.js و Next.js إلى Node.js و Express.js."
+  },
+  "BlogSidebar": {
+    "about": {
+      "title": "عن المدونة",
+      "description": "مشاركة المعرفة في تطوير MERN Stack، من React.js و Next.js إلى Node.js و Express.js."
+    },
+    "popularTags": "الوسوم الشائعة",
+    "recentPosts": "المشاركات الحديثة",
+    "posts": {
+      "nestjs": "أفضل ممارسات React.js",
+      "nextjs": "Next.js للتطبيقات",
+      "microservices": "تحسين أداء Node.js"
+    }
+  },
+  "BlogHero": {
+    "title": "المدونة التقنية",
+    "description": "مقالات وأفكار حول MERN Stack، التقنيات الحديثة، وتطوير الويب."
+  },
+  "BlogGrid": {
+    "emptyState": {
+      "title": "لم يتم العثور على مقالات",
+      "description": "لم يتم العثور على مقالات تطابق البحث.",
+      "reset": "إعادة الضبط"
+    },
+    "loading": "جاري التحميل...",
+    "filters": {
+      "searchPlaceholder": "ابحث في المقالات...",
+      "category": "الفئة",
+      "tag": "الوسم",
+      "all": "الكل"
+    },
+    "categories": {
+      "all": "الكل",
+      "frontend": "واجهات أمامية",
+      "backend": "واجهات خلفية",
+      "fullstack": "كامل Stack",
+      "devops": "MERN Stack",
+      "tutorial": "دروس",
+      "bestPractices": "أفضل الممارسات"
+    }
+  }
+},
+"ArticlePage": {
+  "notFound": {
+    "title": "المقال غير موجود"
+  },
+  "loading": {
+    "related": "جاري تحميل المقالات...",
+    "content": "جاري تحميل المحتوى..."
+  },
+  "metadata": {
+    "titleSuffix": " - أحمد عبدالعال"
+  },
+  "related": {
+    "title": "مقالات ذات صلة"
+  },
+  "ArticleContent": {
+    "readTime": "{minutes} دقيقة",
+    "author": "أحمد محمد عبدالعال",
+    "likeButton": {
+      "liked": "{count}",
+      "default": "{count}"
+    },
+    "saveButton": {
+      "saved": "تم الحفظ",
+      "default": "حفظ"
+    },
+    "shareButton": "مشاركة",
+    "tagsTitle": "الكلمات المفتاحية",
+    "share": {
+      "urlCopied": "تم نسخ الرابط!"
+    },
+    "actions": {
+      "like": "إعجاب",
+      "save": "حفظ",
+      "share": "مشاركة"
+    }
+  },
+  "ArticleSidebar": {
+    "articleDetails": "تفاصيل المقال",
+    "published": "تاريخ النشر",
+    "readTime": "وقت القراءة",
+    "category": "التصنيف",
+    "shareArticle": "مشاركة المقال",
+    "tags": "الكلمات المفتاحية",
+    "tableOfContents": "جدول المحتويات",
+    "tocItems": {
+      "introduction": "المقدمة",
+      "gettingStarted": "البدء",
+      "implementation": "التنفيذ",
+      "bestPractices": "أفضل الممارسات",
+      "conclusion": "الخاتمة"
+    }
+  },
+  "RelatedArticles": {
+    "title": "مقالات ذات صلة",
+    "readTime": "{minutes} دقيقة",
+    "meta": {
+      "published": "نشر",
+      "readTime": "دقيقة"
+    }
+  }
+},
+"ContactPage": {
+  "ContactHero": {
+    "title": "لنعمل معًا",
+    "description": "هل لديك مشروع؟ أحب أن أسمع عنه ونناقش كيف يمكننا تحويل أفكارك إلى تطبيقات باستخدام MERN Stack.",
+    "subtitle": "تواصل معي"
+  },
+  "ContactForm": {
+    "title": "أرسل لي رسالة",
+    "fields": {
+      "name": "الاسم الكامل *",
+      "email": "البريد الإلكتروني *",
+      "phone": "رقم الجوال *",
+      "subject": "الموضوع *",
+      "message": "الرسالة *",
+      "budget": "نطاق الميزانية",
+      "timeline": "الجدول الزمني"
+    },
+    "placeholders": {
+      "name": "اسمك الكامل",
+      "email": "بريدك الإلكتروني",
+      "phone": "رقم جوالك",
+      "subject": "ما هذا الموضوع؟",
+      "message": "أخبرني عن مشروعك وأهدافك...",
+      "budget": "اختر نطاق الميزانية",
+      "timeline": "اختر الجدول الزمني"
+    },
+    "budgetOptions": {
+      "select": "اختر نطاق الميزانية",
+      "under5k": "أقل من $5,000",
+      "5k10k": "$5,000 - $10,000",
+      "10k25k": "$10,000 - $25,000",
+      "25k50k": "$25,000 - $50,000",
+      "over50k": "أكثر من $50,000"
+    },
+    "timelineOptions": {
+      "select": "اختر الجدول الزمني",
+      "asap": "في أقرب وقت",
+      "1month": "خلال شهر",
+      "2-3months": "2-3 أشهر",
+      "3-6months": "3-6 أشهر",
+      "flexible": "مرن"
+    },
+    "submitButton": {
+      "default": "إرسال الرسالة",
+      "sending": "جاري الإرسال..."
+    },
+    "statusMessages": {
+      "success": "شكراً لك! سأعود إليك قريباً.",
+      "error": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+      "networkError": "خطأ في الشبكة. تحقق من الاتصال."
+    }
+  },
+  "ContactInfo": {
+    "title": "تواصل معي",
+    "contactDetails": {
+      "email": "amohamef206@gmail.com",
+      "phone": "01032900752",
+      "location": "القاهرة، مصر",
+      "availability": "متاح للعمل عن بُعد"
+    },
+    "social": {
+      "title": "تابعني",
+      "linkedin": "amohamef206@LinkedIn",
+      "github": "amohamef206",
+      "twitter": "الموقع",
+      "website": "مشاريع مفتوحة"
+    },
+    "guarantee": {
+      "title": "رد سريع",
+      "description": "أرد على الاستفسارات خلال 24 ساعة. للمشاريع العاجلة، اتصل بي مباشرة."
+    }
+  },
+  "ContactMap": {
+    "title": "موقعي",
+    "location": "القاهرة، مصر",
+    "availability": "متاح للعمل عن بُعد"
+  }
+},
+"Common": {
+  "loading": "جاري التحميل...",
+  "error": {
+    "title": "حدث خطأ",
+    "description": "حدث خطأ. يرجى المحاولة مرة أخرى."
+  }
+}
 }
