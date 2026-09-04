@@ -2,6 +2,7 @@ import ContactHero from '@/components/pages/contactPage/ContactHero';
 import ContactForm from '@/components/pages/contactPage/ContactForm';
 import ContactInfo from '@/components/pages/contactPage/ContactInfo';
 import ContactMap from '@/components/pages/contactPage/ContactMap';
+import { getSiteData } from '@/lib/data/site';
 
 export const metadata = {
   title: 'Contact - Ahmed Abdelal',
@@ -9,7 +10,8 @@ export const metadata = {
     'Get in touch with Ahmed Abdelal for web development projects and collaborations.',
 };
 
-export default function ContactPage() {
+export default async function ContactPage({ params }) {
+  const { local } = await params;
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <ContactHero />
@@ -21,7 +23,7 @@ export default function ContactPage() {
           </div>
 
           <div className="space-y-8">
-            <ContactInfo />
+            <ContactInfo site={getSiteData(local)} />
             <ContactMap />
           </div>
         </div>

@@ -4,6 +4,10 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.js');
 
 const nextConfig = {
+  // Keep the development compiler cache isolated from production builds.
+  // This prevents concurrent dev servers/builds from removing vendor chunks
+  // while Fast Refresh is loading them.
+  distDir: process.env.NODE_ENV === 'development' ? '.next-dev' : '.next',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -18,7 +22,10 @@ const nextConfig = {
         hostname: '**',
       },
     ],
-    unoptimized: true,
+    // Let Next.js serve responsive WebP/AVIF variants instead of the large
+    // original PNG files in public/projects.
+    formats: ['image/avif', 'image/webp'],
+    unoptimized: false,
   },
   async headers() {
     return [

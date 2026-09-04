@@ -9,6 +9,10 @@ import PortfolioGrid from '@/components/pages/homePage/PortfolioGrid';
 import ReviewsCarousel from '@/components/pages/homePage/ReviewsCarousel';
 import BlogList from '@/components/pages/homePage/BlogList';
 import ContactCTA from '@/components/pages/homePage/ContactCTA';
+import { getProjects } from '@/lib/data/projects';
+import { getArticles } from '@/lib/data/articles';
+import { getReviews } from '@/lib/data/reviews';
+import { getSiteData } from '@/lib/data/site';
 
 export const metadata = {
   title: 'Ahmed Abdelal - Full Stack Web Developer',
@@ -45,26 +49,32 @@ export const metadata = {
   },
 };
 
-export default function HomePage() {
+export default async function HomePage({ params }) {
+  const { local } = await params;
+  const projects = getProjects(local, { home: true });
+  const articles = getArticles(local).slice(0, 3);
+  const reviews = getReviews(local);
+  const site = getSiteData(local);
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
       <HeroSection />
 
       {/* About Section */}
-      <AboutSection />
+      <AboutSection site={site} />
 
       {/* Skills Section */}
       <SkillsSection />
 
       {/* Portfolio Grid */}
-      <PortfolioGrid />
+      <PortfolioGrid projects={projects} />
 
       {/* Reviews Carousel */}
-      <ReviewsCarousel />
+      <ReviewsCarousel reviews={reviews} />
 
       {/* Blog Preview */}
-      <BlogList preview={true} />
+      <BlogList articles={articles} preview={true} />
 
       {/* Contact CTA */}
       <ContactCTA />

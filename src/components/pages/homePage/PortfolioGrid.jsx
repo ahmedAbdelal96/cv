@@ -5,36 +5,15 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useState, useEffect } from 'react';
 import ProjectCard from '@/components/pages/projectsPage/ProjectCard';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-export default function PortfolioGrid({ showAll = false }) {
-  const [projects, setProjects] = useState([]);
-  const [loading, setLoading] = useState(true);
+export default function PortfolioGrid({ projects = [], showAll = false }) {
   const t = useTranslations('HomePage.PortfolioSection');
 
-  useEffect(() => {
-    const fetchProjects = async () => {
-      try {
-        const url = showAll ? '/api/projects' : '/api/projects?showOnHome=true';
-        const response = await fetch(url);
-        const data = await response.json();
-
-        if (data.success) {
-          setProjects(showAll ? data.data : data.data.slice(0, 6));
-        }
-      } catch (error) {
-        console.error('Error fetching projects:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchProjects();
-  }, [showAll]);
+  const visibleProjects = showAll ? projects : projects.slice(0, 6);
 
   const services = [
     {
@@ -68,43 +47,6 @@ export default function PortfolioGrid({ showAll = false }) {
       gradient: 'from-teal-500 to-blue-500',
     },
   ];
-
-  if (loading) {
-    return (
-      <section id="portfolio" className="py-20 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="text-primary font-medium text-sm uppercase tracking-wider mb-2"
-            >
-              {t('services.title')}
-            </motion.p>
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              viewport={{ once: true }}
-              className="text-3xl md:text-4xl font-bold text-foreground mb-4"
-            >
-              {t('services.heading')}
-            </motion.h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[...Array(6)].map((_, i) => (
-              <div key={i} className="animate-pulse">
-                <div className="bg-muted rounded-lg h-64"></div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    );
-  }
 
   return (
     <section id="portfolio" className="py-20 bg-background">
@@ -157,7 +99,7 @@ export default function PortfolioGrid({ showAll = false }) {
         </div>
 
         {/* Projects Grid */}
-        {projects.length > 0 && (
+        {visibleProjects.length > 0 && (
           <>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -172,7 +114,7 @@ export default function PortfolioGrid({ showAll = false }) {
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {projects.map((project, index) => (
+              {visibleProjects.map((project, index) => (
                 <motion.div
                   key={project._id}
                   initial={{ opacity: 0, y: 20 }}
@@ -185,7 +127,7 @@ export default function PortfolioGrid({ showAll = false }) {
               ))}
             </div>
 
-            {!showAll && projects.length > 0 && (
+            {!showAll && visibleProjects.length > 0 && (
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -202,7 +144,7 @@ export default function PortfolioGrid({ showAll = false }) {
         )}
 
         {/* Empty State */}
-        {!loading && projects.length === 0 && (
+        {visibleProjects.length === 0 && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

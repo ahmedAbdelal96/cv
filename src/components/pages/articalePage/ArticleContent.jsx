@@ -24,6 +24,7 @@ export default function ArticleContent({ article }) {
   const [likes, setLikes] = useState(article.likes || 0);
 
   const formatDate = (date) => {
+    if (!date || Number.isNaN(new Date(date).getTime())) return '';
     return new Date(date).toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
@@ -55,18 +56,8 @@ export default function ArticleContent({ article }) {
   };
 
   const handleLike = async () => {
-    try {
-      const res = await fetch(`/api/articles/${article.slug}/like`, {
-        method: 'POST',
-      });
-
-      if (res.ok) {
-        setIsLiked(!isLiked);
-        setLikes((prev) => (isLiked ? prev - 1 : prev + 1));
-      }
-    } catch (error) {
-      console.error('Error liking article:', error);
-    }
+    setIsLiked(!isLiked);
+    setLikes((prev) => (isLiked ? prev - 1 : prev + 1));
   };
 
   const handleShare = async () => {
@@ -98,7 +89,7 @@ export default function ArticleContent({ article }) {
       {article.featuredImage && (
         <div className="relative h-64 md:h-96">
           <Image
-            src={article.featuredImage || '/placeholder.svg'}
+            src={article.featuredImage || '/placeholder.jpg'}
             alt={article.title}
             fill
             className="object-cover"
@@ -115,7 +106,7 @@ export default function ArticleContent({ article }) {
             </span>
             <div className="flex items-center">
               <Calendar className="w-4 h-4 mr-1" />
-              {formatDate(article.publishedAt)}
+              {formatDate(article.publishedDate)}
             </div>
             <div className="flex items-center">
               <Clock className="w-4 h-4 mr-1" />

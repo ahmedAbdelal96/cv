@@ -7,8 +7,8 @@ import bcrypt from 'bcryptjs';
 
 // Admin credentials - In production, store these in database
 const ADMIN_CREDENTIALS = {
-  email: process.env.ADMIN_EMAIL || 'admin@example.com',
-  password: process.env.ADMIN_PASSWORD || 'admin123', // This should be hashed in production
+  email: process.env.ADMIN_EMAIL,
+  password: process.env.ADMIN_PASSWORD,
   name: 'Admin User',
   role: 'admin',
 };
@@ -30,7 +30,7 @@ export const authOptions = {
           }
 
           // Check if email matches admin email
-          if (credentials.email !== ADMIN_CREDENTIALS.email) {
+          if (!ADMIN_CREDENTIALS.email || !ADMIN_CREDENTIALS.password || credentials.email !== ADMIN_CREDENTIALS.email) {
             return null;
           }
 

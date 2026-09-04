@@ -2,8 +2,7 @@ import { Suspense } from 'react';
 import BlogHero from '@/components/pages/blogPage/BlogHero';
 import BlogGrid from '@/components/pages/blogPage/BlogGrid';
 import BlogSidebar from '@/components/pages/blogPage/BlogSidebar';
-import { useTranslations } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import { getArticles } from '@/lib/data/articles';
 
 export const metadata = {
   title: 'Blog - Ahmed Abdelal',
@@ -11,8 +10,10 @@ export const metadata = {
     'Get in touch with Ahmed Abdelal for web development projects and collaborations.',
 };
 
-export default function BlogPage({ searchParams }) {
-  const t = useTranslations('BlogPage');
+export default async function BlogPage({ params, searchParams }) {
+  const { local } = await params;
+  const query = await searchParams;
+  const articles = getArticles(local, query || {});
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-muted/10 to-background">
@@ -38,7 +39,7 @@ export default function BlogPage({ searchParams }) {
                 </div>
               }
             >
-              <BlogGrid searchParams={searchParams} />
+              <BlogGrid articles={articles} />
             </Suspense>
           </div>
 

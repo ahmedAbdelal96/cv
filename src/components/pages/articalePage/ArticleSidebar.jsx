@@ -45,7 +45,7 @@ export default function ArticleSidebar({ article }) {
             <Calendar className="h-4 w-4 text-muted-foreground" />
             <span className="text-muted-foreground">{t('published')}:</span>
             <span className="text-foreground">
-              {new Date(article.publishedDate).toLocaleDateString('en-US', {
+              {new Date(article.publishedDate || article.publishedAt).toLocaleDateString('en-US', {
                 year: 'numeric',
                 month: 'short',
                 day: 'numeric',

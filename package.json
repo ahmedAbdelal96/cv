@@ -9,6 +9,9 @@
     "format": "prettier --write .",
     "lint": "next lint",
     "seed": "node src/scripts/seed.js",
+    "seed:articles": "node src/scripts/seedArticles.js",
+    "seed:projects": "node src/scripts/seedProjects.js",
+    "seed:my-projects": "node src/scripts/seedMyProjects.js",
     "start": "next start"
   },
   "dependencies": {

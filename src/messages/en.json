@@ -5,7 +5,7 @@
       "home": "Home",
       "about": "About",
       "projects": "Projects",
-      "blog": "Blog",
+      "blog": "Insights",
       "contact": "Contact"
     },
     "menu": {
@@ -16,452 +16,452 @@
   },
   "HomePage": {
     "HeroSection": {
-      "greeting": "Hi, I'm Ahmed Mohamed Abdelal",
-      "title": "Full Stack Developer (MERN Stack)",
-      "description": "Web developer specializing in MERN Stack with 5 years of experience building complete web applications. I work on turning ideas into practical apps using React.js, Next.js, Node.js, and MongoDB.",
-      "hireMe": "Hire Me",
-      "portfolio": "My Portfolio",
-      "altText": "Ahmed Mohamed Abdelal - Full Stack Developer"
+      "greeting": "Hi, I'm Ahmed Abdelal",
+      "title": "Full-Stack Developer Building Business Systems & Digital Products",
+      "description": "I design and build management systems, e-commerce platforms, dashboards, and custom web applications — from understanding the business workflow to development and deployment.",
+      "hireMe": "Discuss Your Project",
+      "portfolio": "View Projects",
+      "altText": "Ahmed Abdelal - Full-Stack Developer"
     },
     "AboutSection": {
-      "biography": "MY BIOGRAPHY",
-      "title": "Full Stack Developer (MERN Stack)",
-      "description": "Web developer focused on MERN Stack. I have experience building complete web applications from frontend interfaces to servers and databases. I focus on creating effective and scalable solutions.",
+      "biography": "ABOUT ME",
+      "title": "I Build Software Around Real Business Workflows",
+      "description": "My work focuses on practical systems that help businesses operate more clearly and efficiently. I work across backend, frontend, APIs, databases, and deployment to deliver complete solutions rather than isolated screens.",
       "contactInfo": {
-        "name": "Ahmed Mohamed Abdelal",
-        "from": "Cairo, Egypt",
-        "email": "amohamef206@gmail.com",
-        "phone": "01032900752"
+        "name": "Name",
+        "from": "Location",
+        "email": "Email",
+        "phone": "Phone"
       },
-      "followMe": "Follow me on",
+      "followMe": "Find me on",
       "buttons": {
-        "hireMe": "Hire me",
+        "hireMe": "Discuss Your Project",
         "downloadCV": "Download CV"
       },
-      "altText": "Ahmed Mohamed Abdelal Profile"
+      "altText": "Ahmed Abdelal - Full-Stack Developer"
     },
     "SkillsSection": {
-      "title": "MY SKILLS",
-      "heading": "My Technical Skills",
-      "description": "Specialized in MERN Stack and modern web development technologies. I work with both frontend and backend to build complete applications.",
+      "title": "TECHNICAL CAPABILITIES",
+      "heading": "Technologies I Use to Build Reliable Products",
+      "description": "I choose technologies based on the product and business requirements, with a strong focus on maintainability, performance, security, and clear architecture.",
       "skills": {
-        "frontend": "Frontend Development",
-        "backend": "Backend Development",
+        "frontend": "Frontend",
+        "backend": "Backend",
         "database": "Databases",
-        "devops": "Tools & Development",
-        "react": "React.js & Next.js",
-        "node": "Node.js & Express.js",
-        "typescript": "JavaScript",
+        "devops": "Tools & Delivery",
+        "react": "React & Next.js",
+        "node": ".NET / ASP.NET Core",
+        "typescript": "TypeScript & JavaScript",
         "mongodb": "MongoDB",
-        "postgresql": "Tailwind CSS",
-        "nest": "Postman",
-        "tailwind": "Swagger",
+        "postgresql": "SQL Server",
+        "nest": "REST APIs",
+        "tailwind": "Tailwind CSS",
         "git": "Git & GitHub",
-        "docker": "MERN Stack",
-        "aws": "RESTful APIs"
+        "docker": "Authentication & RBAC",
+        "aws": "Deployment & Integrations"
       },
-      "altText": "Developer workspace with coding setup"
+      "altText": "Developer workspace"
     },
     "PortfolioSection": {
       "services": {
-        "title": "MY SERVICES",
-        "heading": "What I Do",
+        "title": "SERVICES",
+        "heading": "What I Can Build for Your Business",
         "webDevelopment": {
-          "title": "Web Application Development",
-          "description": "Building complete web applications using MERN Stack and modern technologies."
+          "title": "Custom Business Systems",
+          "description": "Management systems, internal tools, workflows, permissions, reports, and operational dashboards built around how your team actually works."
         },
         "appDevelopment": {
-          "title": "API Development",
-          "description": "Designing and implementing APIs using Express.js and Node.js."
+          "title": "Backend & API Development",
+          "description": "Reliable backend services, REST APIs, authentication, permissions, integrations, and business logic for web and mobile products."
         },
         "database": {
-          "title": "Databases",
-          "description": "Designing and managing databases using MongoDB."
+          "title": "Data & Database Design",
+          "description": "Practical database design for operational systems, reporting, transactions, and scalable application workflows."
         },
         "devops": {
-          "title": "Deployment & Setup",
-          "description": "Setting up deployment environments and server management."
+          "title": "Deployment & Production Setup",
+          "description": "Production-ready deployment, environment configuration, performance checks, and the technical setup needed to launch with confidence."
         },
         "frontend": {
-          "title": "Frontend Development",
-          "description": "Building user interfaces using React.js and Next.js."
+          "title": "Modern Web Interfaces",
+          "description": "Responsive, accessible, and maintainable interfaces built for real users across desktop, tablet, and mobile."
         },
         "backend": {
-          "title": "Backend Development",
-          "description": "Developing backend applications using Node.js and Express.js."
+          "title": "Existing System Development",
+          "description": "Improving existing products, adding features, fixing workflows, integrating APIs, and making systems easier to maintain."
         }
       },
       "projects": {
-        "title": "Projects",
-        "viewMore": "View Projects →",
-        "viewDetails": "View Details →"
+        "title": "Selected Projects",
+        "viewMore": "View All Projects →",
+        "viewDetails": "View Case Study →"
       },
       "loading": "Loading...",
-      "noProjects": "No Projects",
-      "workingOnProjects": "Currently working on new projects. Stay tuned for updates!",
-      "soon": "Coming Soon!",
-      "contact": "Start a Project"
+      "noProjects": "No projects available yet",
+      "workingOnProjects": "Selected projects will appear here once they are ready to publish.",
+      "soon": "Coming soon",
+      "contact": "Discuss Your Project"
     },
     "ReviewsCarousel": {
-      "title": "TESTIMONIALS",
-      "heading": "What Clients Say",
-      "verifiedClient": "Verified Client",
+      "title": "CLIENT FEEDBACK",
+      "heading": "What Clients Say About Working With Me",
+      "verifiedClient": "Verified feedback",
       "navigation": {
         "previous": "Previous",
         "next": "Next",
         "goToReview": "Go to review {index}"
       },
       "emptyState": {
-        "title": "No Reviews",
-        "description": "Be the first to share your experience!",
-        "button": "Add Review"
+        "title": "No client feedback published yet",
+        "description": "Client feedback will appear here when it is available for public use.",
+        "button": "View Projects"
       },
       "loading": "Loading...",
-      "noReviews": "No Reviews",
-      "beTheFirst": "Be the first to share your experience!",
-      "addReview": "Add Review",
-      "readyToStart": "Ready for your next project? Get in touch!",
-      "startWorkingTogether": "Start Working Together"
+      "noReviews": "No client feedback published yet",
+      "beTheFirst": "Client feedback will appear here when it is available for public use.",
+      "addReview": "View Projects",
+      "readyToStart": "Have a project in mind?",
+      "startWorkingTogether": "Discuss It With Me"
     },
     "BlogList": {
-      "title": "ARTICLES",
+      "title": "INSIGHTS",
       "heading": {
-        "preview": "Latest Articles",
-        "all": "All Articles"
+        "preview": "Latest Insights",
+        "all": "All Insights"
       },
       "meta": {
         "readTime": "{minutes} min",
         "published": "Published"
       },
       "buttons": {
-        "readMore": "Read More →",
-        "viewAll": "View All"
+        "readMore": "Read Article →",
+        "viewAll": "View All Insights"
       },
       "emptyState": {
-        "title": "No Articles",
-        "description": "New content coming soon. Check back later!",
-        "button": "Browse Projects"
+        "title": "No articles published yet",
+        "description": "I publish practical notes from real product and system-building work.",
+        "button": "View Projects"
       },
       "tags": {
-        "react": "React.js",
+        "react": "React",
         "nextjs": "Next.js",
-        "nodejs": "Node.js",
-        "typescript": "Express.js",
+        "nodejs": ".NET",
+        "typescript": "TypeScript",
         "mongodb": "MongoDB",
-        "postgresql": "MERN Stack",
-        "nest": "Tailwind CSS",
-        "express": "Postman",
-        "docker": "Swagger",
-        "aws": "RESTful APIs",
+        "postgresql": "SQL Server",
+        "nest": "Architecture",
+        "express": "APIs",
+        "docker": "Business Systems",
+        "aws": "Deployment",
         "performance": "Performance",
         "security": "Security",
         "bestPractices": "Best Practices"
       }
     },
     "ContactCTA": {
-      "title": "Ready to Start Your Project?",
-      "description": "Let's work together to turn your ideas into real applications using MERN Stack.",
+      "title": "Have a Project You Want to Build or Improve?",
+      "description": "Tell me how your business works, what you want to improve, and what the system needs to achieve. I can help turn that into a practical technical solution.",
       "buttons": {
-        "getInTouch": "Get In Touch",
+        "getInTouch": "Discuss Your Project",
         "callMe": "Call Me",
-        "scheduleCall": "Schedule Call"
+        "scheduleCall": "Schedule a Call"
       },
       "stats": {
-        "projects": "Completed Projects",
+        "projects": "Projects",
         "clients": "Clients",
-        "experience": "Years Experience",
+        "experience": "Experience",
         "technologies": "Technologies",
-        "typicallyRespondWithin2HoursDuringBusinessDays": "Response within 2 hours on business days"
+        "typicallyRespondWithin2HoursDuringBusinessDays": "I usually reply within one business day"
       },
       "email": "amohamef206@gmail.com",
       "phone": "01032900752",
-      "available": "Available: Sun - Thu, 9AM - 6PM",
-      "technologiesIWorkWith": "Technologies I use:"
+      "available": "Available for remote projects",
+      "technologiesIWorkWith": "Core technologies:"
     }
   },
   "AboutPage": {
     "AboutHero": {
-      "title": "ABOUT ME",
-      "name": "I'm Ahmed Mohamed Abdelal",
-      "role": "Full Stack Developer (MERN Stack)",
-      "description": "Web developer specializing in MERN Stack with 3 years of experience building web applications. Bachelor's degree in Computer Engineering from Cairo University. I focus on building practical solutions with clean code.",
-      "altText": "Ahmed Mohamed Abdelal - Full Stack Developer"
+      "title": "ABOUT",
+      "name": "Ahmed Abdelal",
+      "role": "Full-Stack Developer | Business Systems & Digital Products",
+      "description": "I build software for real business needs — management systems, e-commerce platforms, dashboards, APIs, and custom web products. My focus is on understanding the workflow first, then building a solution that is clear, maintainable, and useful in daily operations.",
+      "altText": "Ahmed Abdelal - Full-Stack Developer"
     },
     "BiographySection": {
       "story": {
-        "title": "My Journey in Tech",
+        "title": "How I Approach Software Projects",
         "paragraphs": {
-          "p1": "My journey in software development started during my Computer Engineering studies. It began with curiosity about how applications work, then grew into a genuine passion for building practical digital solutions.",
-          "p2": "Over the past three years, I've worked on various projects including management systems and integrated web applications. These projects helped deepen my understanding of Full Stack development and improve my MERN Stack skills.",
-          "p3": "In my work, I focus on combining technical aspects with user experience. I believe good applications should be easy to use, fast, and work efficiently across different devices.",
-          "p4": "I continuously work on developing my skills and learning about the latest web technologies. Outside of work, I explore open-source projects and experiment with new development tools."
+          "p1": "I am most interested in projects where software needs to support a real business process, not just display information. I start by understanding how the work is done, who is involved, and where the current friction exists.",
+          "p2": "My work includes business management systems, inventory and purchasing workflows, e-commerce products, dashboards, booking experiences, APIs, and multilingual web platforms.",
+          "p3": "I work across backend and frontend, but I pay particular attention to business rules, permissions, data flow, usability, and maintainability because these are the areas that determine whether a system works well after launch.",
+          "p4": "I prefer clear, practical architecture over unnecessary complexity. The goal is to solve the current business need well while keeping the system ready for sensible future growth."
         }
       },
       "personalInfo": {
-        "title": "Personal Info",
+        "title": "Contact & Availability",
         "fullName": "Ahmed Mohamed Abdelal",
-        "dateOfBirth": "Click to add",
+        "dateOfBirth": "Not displayed",
         "nationality": "Egyptian",
         "location": "Cairo, Egypt",
         "email": "amohamef206@gmail.com",
         "phone": "01032900752",
-        "languages": "Arabic (Native), English (Intermediate)",
-        "freelance": "Available",
-        "education": "Bachelor of Computer Engineering - Cairo University"
+        "languages": "Arabic & English",
+        "freelance": "Available for selected projects",
+        "education": "Professional software development experience"
       },
       "connect": {
-        "title": "Let's Connect",
-        "available": "Available",
-        "notAvailable": "Not Available"
+        "title": "Let's Talk",
+        "available": "Available for selected projects",
+        "notAvailable": "Currently unavailable"
       }
     },
     "ExperienceSection": {
-      "title": "MY JOURNEY",
-      "heading": "Work Experience",
+      "title": "EXPERIENCE",
+      "heading": "What I Work On",
       "experiences": {
         "seniorFullStack": {
-          "title": "Full Stack Developer",
-          "company": "Technology Company",
-          "period": "2021 - Present",
-          "description": "Developing web applications using MERN Stack. Working on projects including management systems and school systems with development teams.",
+          "title": "Independent Full-Stack Developer",
+          "company": "Client & Product Projects",
+          "period": "Current",
+          "description": "Designing and developing complete business systems, web products, dashboards, APIs, and customer-facing platforms.",
           "achievements": {
-            "0": "Developed system for contract and company management",
-            "1": "Built school management system",
-            "2": "Improved application performance",
-            "3": "Implemented API interfaces"
+            "0": "Built and evolved operational systems for real business workflows",
+            "1": "Developed e-commerce, booking, inventory, and management experiences",
+            "2": "Implemented role-based access, business rules, and data workflows",
+            "3": "Delivered responsive interfaces and production-ready backend services"
           }
         },
         "fullStack": {
-          "title": "Frontend Developer",
-          "company": "Web Company",
-          "period": "2020 - 2021",
-          "description": "Building user interfaces with React.js and CSS frameworks. Focused on performance and user experience.",
+          "title": "Business Systems & ERP",
+          "company": "Operational Systems",
+          "period": "Selected Work",
+          "description": "Working on inventory, purchasing, sales, supplier, permissions, reporting, and internal operational workflows.",
           "achievements": {
-            "0": "Developed responsive web applications",
-            "1": "Improved performance scores",
-            "2": "Implemented design systems",
-            "3": "Improved loading speed"
+            "0": "Designed purchasing and receiving workflows",
+            "1": "Built role-based operational interfaces",
+            "2": "Structured inventory and transaction flows",
+            "3": "Focused on clarity, speed, and maintainability"
           }
         },
         "frontend": {
-          "title": "Junior Web Developer",
-          "company": "Startup Company",
-          "period": "2019 - 2020",
-          "description": "Building foundational skills in web development. Contributing to projects while learning modern technologies.",
+          "title": "E-Commerce & Digital Platforms",
+          "company": "Web Products",
+          "period": "Selected Work",
+          "description": "Building customer journeys, storefronts, dashboards, booking flows, multilingual experiences, and responsive interfaces.",
           "achievements": {
-            "0": "Learned React.js, Node.js, and databases",
-            "1": "Contributed to production applications",
-            "2": "Learned development methodologies",
-            "3": "Built first full-stack application"
+            "0": "Built product discovery and customer flows",
+            "1": "Implemented checkout and account experiences",
+            "2": "Developed multilingual responsive interfaces",
+            "3": "Connected frontend experiences to real business rules"
           }
         },
         "junior": {
-          "title": "Web Development Trainee",
-          "company": "Training Center",
-          "period": "2018 - 2019",
-          "description": "Learning fundamentals in web development and programming technologies.",
+          "title": "Backend & API Development",
+          "company": "Application Architecture",
+          "period": "Ongoing",
+          "description": "Developing backend services, APIs, authentication, permissions, data models, and integrations for business applications.",
           "achievements": {
-            "0": "Learned HTML, CSS, JavaScript basics",
-            "1": "Participated in educational projects",
-            "2": "Learned database fundamentals",
-            "3": "Developed personal website"
+            "0": "REST API design and implementation",
+            "1": "Authentication and role-based authorization",
+            "2": "Database-backed business workflows",
+            "3": "Maintainable application structure and integrations"
           }
         }
       }
     },
     "EducationSection": {
-      "title": "LEARNING PATH",
-      "heading": "Education & Experience",
-      "description1": "Continuous learning and development in software development and web technologies.",
-      "subtitle": "Continuous learning and development in software development and web technologies.",
-      "description2": "I work on developing my skills and learning MERN Stack technologies and web development.",
+      "title": "CONTINUOUS DEVELOPMENT",
+      "heading": "Technical Growth & Practical Experience",
+      "description1": "My technical development is driven by real project work, continuous learning, and improving how I design and deliver software systems.",
+      "subtitle": "Practical learning through real systems and products.",
+      "description2": "I continue to deepen my skills in backend architecture, modern frontend development, databases, APIs, security, performance, and product engineering.",
       "types": {
-        "degree": "Degree",
-        "certification": "Experience",
-        "bootcamp": "Projects"
+        "degree": "Learning",
+        "certification": "Technical Area",
+        "bootcamp": "Project Experience"
       },
       "education": {
         "bachelor": {
-          "degree": "Bachelor of Computer Engineering",
-          "institution": "Cairo University",
-          "period": "2016 - 2020",
-          "description": "Specialized in Software Engineering, Algorithms, Data Structures, and Databases. Studied web development and software engineering.",
+          "degree": "Software Engineering & System Design",
+          "institution": "Continuous Professional Development",
+          "period": "Ongoing",
+          "description": "Ongoing development in software architecture, business systems, data modeling, APIs, and maintainable application design.",
           "type": "degree"
         },
         "fullStack": {
-          "degree": "Experience in MERN Stack",
-          "institution": "Practical Projects",
-          "period": "2020 - Present",
-          "description": "3 years experience developing web applications using MongoDB, Express.js, React.js, Node.js.",
+          "degree": "Full-Stack Product Development",
+          "institution": "Real Projects",
+          "period": "Ongoing",
+          "description": "Building complete products across frontend, backend, databases, business rules, and deployment.",
           "type": "bootcamp"
         },
         "aws": {
-          "degree": "Frontend Development",
+          "degree": "Frontend Engineering",
           "institution": "Practical Projects",
-          "period": "2020 - Present",
-          "description": "Experience in React.js, Next.js, Tailwind CSS, JavaScript and frontend technologies.",
+          "period": "Ongoing",
+          "description": "Responsive interfaces with React, Next.js, TypeScript, Tailwind CSS, and modern UI practices.",
           "type": "certification"
         },
         "mongodb": {
-          "degree": "Backend Development",
+          "degree": "Backend Engineering",
           "institution": "Practical Projects",
-          "period": "2020 - Present",
-          "description": "Experience in Node.js, Express.js, MongoDB, RESTful APIs and server development.",
+          "period": "Ongoing",
+          "description": "Backend development with .NET, APIs, authentication, permissions, databases, and business workflows.",
           "type": "certification"
         },
         "nodejs": {
-          "degree": "Development Tools",
-          "institution": "Practical Projects",
-          "period": "2020 - Present",
-          "description": "Experience in Git, GitHub, Postman, Swagger, VS Code and development tools.",
+          "degree": "Development & Delivery Tools",
+          "institution": "Daily Workflow",
+          "period": "Ongoing",
+          "description": "Git, GitHub, API testing, debugging, deployment workflows, and production troubleshooting.",
           "type": "certification"
         },
         "react": {
-          "degree": "MERN Stack Projects",
-          "institution": "Practical Applications",
-          "period": "2021 - 2023",
-          "description": "Developing systems using MERN Stack including management systems and school systems.",
+          "degree": "Business Systems & Digital Products",
+          "institution": "Selected Projects",
+          "period": "Ongoing",
+          "description": "Hands-on work across ERP-style systems, e-commerce, booking, dashboards, and multilingual platforms.",
           "type": "certification"
         }
       }
     },
     "SkillsDetailSection": {
-      "title": "TECHNICAL SKILLS",
+      "title": "TECHNICAL CAPABILITIES",
       "heading": "Skills & Technologies",
-      "description": "Specialized in MERN Stack with experience in web development technologies. Focus on building practical and effective applications.",
+      "description": "A practical stack for building complete business applications, from backend architecture and APIs to responsive interfaces and production delivery.",
       "categories": {
         "frontend": {
-          "title": "Frontend Development",
+          "title": "Frontend",
           "skills": {
-            "react": "React.js & Next.js",
-            "typescript": "JavaScript (ES6+)",
+            "react": "React & Next.js",
+            "typescript": "TypeScript & JavaScript",
             "html": "HTML5 & CSS3",
             "tailwind": "Tailwind CSS",
-            "state": "State Management"
+            "state": "State & UI Architecture"
           }
         },
         "backend": {
-          "title": "Backend Development",
+          "title": "Backend & Data",
           "skills": {
-            "node": "Node.js & Express.js",
-            "nest": "MongoDB",
-            "mongodb": "RESTful APIs",
-            "postgresql": "Authentication & Authorization",
-            "apis": "Scalable Architecture"
+            "node": ".NET / ASP.NET Core",
+            "nest": "REST APIs",
+            "mongodb": "MongoDB",
+            "postgresql": "SQL Server",
+            "apis": "Authentication, RBAC & Business Rules"
           }
         },
         "tools": {
-          "title": "Tools & Development",
+          "title": "Tools & Delivery",
           "skills": {
             "git": "Git & GitHub",
-            "docker": "Postman",
-            "aws": "Swagger",
-            "testing": "VS Code",
-            "cicd": "Deployment Tools"
+            "docker": "API Testing & Debugging",
+            "aws": "Deployment",
+            "testing": "Testing & Validation",
+            "cicd": "Production Workflows"
           }
         }
       }
     },
     "AwardsSection": {
-      "title": "FEATURED PROJECTS",
-      "heading": "Featured Projects",
+      "title": "SELECTED WORK",
+      "heading": "Systems & Products I've Worked On",
       "awards": {
         "openSource": {
-          "title": "Contract Management System",
-          "organization": "Enterprise Project",
-          "year": "2023",
-          "description": "Development of system for contract and company management."
+          "title": "Contracting ERP System",
+          "organization": "Business Operations",
+          "year": "",
+          "description": "An operational management system built around contracting workflows, permissions, and daily business processes."
         },
         "performance": {
-          "title": "School Management System",
-          "organization": "Educational Project",
-          "year": "2022",
-          "description": "Building system for school management and activities."
+          "title": "Inventory, Purchasing & POS",
+          "organization": "StockFlow",
+          "year": "",
+          "description": "A business system covering sales, purchasing, inventory, suppliers, customers, POS, invoices, and role-based workflows."
         },
         "fullStack": {
-          "title": "MERN Stack Applications",
-          "organization": "Various Projects",
-          "year": "2021-2023",
-          "description": "Development of web applications using MERN Stack."
+          "title": "Mental Wellness Booking Platform",
+          "organization": "Sawiyaa",
+          "year": "",
+          "description": "A multilingual platform for discovering specialists, booking sessions, and managing customer journeys."
         },
         "innovation": {
-          "title": "API Development",
-          "organization": "Technical Projects",
-          "year": "2022",
-          "description": "Design and implementation of APIs for applications."
+          "title": "E-Commerce Platforms",
+          "organization": "Digital Products",
+          "year": "",
+          "description": "Storefronts and administration experiences covering catalog, accounts, cart, checkout, and product operations."
         },
         "codeQuality": {
-          "title": "Responsive Web Applications",
-          "organization": "Various Projects",
-          "year": "2021",
-          "description": "Development of interactive and responsive user interfaces."
+          "title": "Business Websites & Platforms",
+          "organization": "Selected Projects",
+          "year": "",
+          "description": "Responsive websites and multilingual digital experiences built for clear communication and real business use."
         },
         "mentorship": {
-          "title": "Database Solutions",
-          "organization": "Integrated Projects",
-          "year": "2023",
-          "description": "Design of databases for web applications."
+          "title": "Backend & API Systems",
+          "organization": "Application Architecture",
+          "year": "",
+          "description": "APIs, authentication, permissions, integrations, and data workflows supporting complete applications."
         }
       },
-      "readyToAchieveGreatResults": "Ready to start your project?",
-      "letsBuildSomethingAmazing": "Let's work on your next project"
+      "readyToAchieveGreatResults": "Have a project that needs the right technical approach?",
+      "letsBuildSomethingAmazing": "Let's discuss what you want to build"
     }
   },
   "ProjectsPage": {
     "ProjectsHero": {
-      "subtitle": "MY WORK",
-      "title": "Projects",
-      "description": "A collection of my applications and web solutions using MERN Stack. Each project shows modern technologies and practical skills."
+      "subtitle": "SELECTED WORK",
+      "title": "Projects & Case Studies",
+      "description": "A selection of business systems, digital platforms, e-commerce solutions, and web products I have designed and developed."
     },
     "ProjectsGrid": {
       "searchPlaceholder": "Search projects...",
       "categories": {
         "all": "All",
-        "web": "Web Development",
-        "fullStack": "Full Stack",
-        "frontend": "Frontend",
-        "backend": "Backend",
-        "mobile": "MERN Stack",
-        "ecommerce": "Management Systems",
-        "design": "Educational Systems",
-        "api": "API Development"
+        "web": "Web Platforms",
+        "fullStack": "Business Systems",
+        "frontend": "Frontend Experiences",
+        "backend": "Backend & APIs",
+        "mobile": "Digital Platforms",
+        "ecommerce": "E-Commerce",
+        "design": "Internal Tools",
+        "api": "API & Integrations"
       },
       "emptyState": {
-        "title": "No projects found",
-        "description": "No projects found matching search.",
-        "reset": "Reset filters"
+        "title": "No matching projects",
+        "description": "Try another category or clear the current filters.",
+        "reset": "Clear filters"
       },
       "loading": "Loading...",
       "results": {
-        "single": "{count} project found",
-        "multiple": "{count} projects found"
+        "single": "{count} project",
+        "multiple": "{count} projects"
       }
     }
   },
   "BlogPage": {
-    "title": "Blog - Ahmed Abdelal",
-    "description": "Articles about MERN Stack development, web technologies, and software practices.",
+    "title": "Insights - Ahmed Abdelal",
+    "description": "Practical articles about business systems, backend architecture, product engineering, APIs, and lessons from real development work.",
     "loading": "Loading...",
     "sidebar": {
-      "title": "About the Blog",
-      "description": "Sharing knowledge in MERN Stack development, from React.js and Next.js to Node.js and Express.js."
+      "title": "About These Articles",
+      "description": "Practical notes based on real work across business systems, e-commerce, backend development, workflows, and product engineering."
     },
     "BlogSidebar": {
       "about": {
-        "title": "About the Blog",
-        "description": "Sharing knowledge in MERN Stack development, from React.js and Next.js to Node.js and Express.js."
+        "title": "About These Articles",
+        "description": "I write about technical decisions, business workflows, and lessons from building real systems and digital products."
       },
-      "popularTags": "Popular Tags",
-      "recentPosts": "Recent Posts",
+      "popularTags": "Topics",
+      "recentPosts": "Recent Articles",
       "posts": {
-        "nestjs": "React.js Best Practices",
-        "nextjs": "Next.js for Applications",
-        "microservices": "Node.js Performance"
+        "nestjs": "Designing Real Business Workflows",
+        "nextjs": "Building Reliable Product Experiences",
+        "microservices": "Backend Rules That Keep Systems Predictable"
       }
     },
     "BlogHero": {
-      "title": "Tech Blog",
-      "description": "Articles and thoughts about MERN Stack, technologies, and web development."
+      "title": "Engineering Insights",
+      "description": "Practical articles on business systems, product engineering, backend architecture, and lessons learned while building real software."
     },
     "BlogGrid": {
       "emptyState": {
@@ -480,9 +480,9 @@
         "all": "All",
         "frontend": "Frontend",
         "backend": "Backend",
-        "fullstack": "Full Stack",
-        "devops": "MERN Stack",
-        "tutorial": "Tutorial",
+        "fullstack": "Business Systems",
+        "devops": "Architecture",
+        "tutorial": "Case Studies",
         "bestPractices": "Best Practices"
       }
     }
@@ -503,7 +503,7 @@
     },
     "ArticleContent": {
       "readTime": "{minutes} min",
-      "author": "Ahmed Mohamed Abdelal",
+      "author": "Ahmed Abdelal",
       "likeButton": {
         "liked": "{count}",
         "default": "{count}"
@@ -513,9 +513,9 @@
         "default": "Save"
       },
       "shareButton": "Share",
-      "tagsTitle": "Tags",
+      "tagsTitle": "Topics",
       "share": {
-        "urlCopied": "URL copied!"
+        "urlCopied": "Link copied"
       },
       "actions": {
         "like": "Like",
@@ -529,7 +529,7 @@
       "readTime": "Read time",
       "category": "Category",
       "shareArticle": "Share Article",
-      "tags": "Tags",
+      "tags": "Topics",
       "tableOfContents": "Table of Contents",
       "tocItems": {
         "introduction": "Introduction",
@@ -550,87 +550,88 @@
   },
   "ContactPage": {
     "ContactHero": {
-      "title": "Let's Work Together",
-      "description": "Have a project? I'd like to hear about it and discuss how we can build your ideas with MERN Stack.",
-      "subtitle": "Get in Touch"
+      "title": "Let's Discuss Your Project",
+      "description": "Tell me what you are trying to build, improve, or automate. I will focus on understanding the workflow first so we can discuss the right technical approach.",
+      "subtitle": "GET IN TOUCH"
     },
     "ContactForm": {
-      "title": "Send Me a Message",
+      "title": "Tell Me About Your Project",
       "fields": {
         "name": "Full Name *",
         "email": "Email Address *",
         "phone": "Phone Number *",
-        "subject": "Subject *",
+        "subject": "Project or inquiry *",
         "message": "Message *",
-        "budget": "Budget Range",
-        "timeline": "Timeline"
+        "budget": "Approximate budget",
+        "timeline": "Preferred timeline"
       },
       "placeholders": {
-        "name": "Your full name",
-        "email": "your.email@example.com",
-        "phone": "+1 234 567 8901",
-        "subject": "What's this about?",
-        "message": "Tell me about your project and goals...",
-        "budget": "Select budget range",
-        "timeline": "Select timeline"
+        "name": "Your name",
+        "email": "Your email address",
+        "phone": "Phone or WhatsApp number",
+        "subject": "What would you like to build or improve?",
+        "message": "Tell me about your business, the current workflow, and what you want the system to achieve...",
+        "budget": "Choose an option",
+        "timeline": "Choose an option"
       },
       "budgetOptions": {
-        "select": "Select budget range",
-        "under5k": "Under $5,000",
-        "5k10k": "$5,000 - $10,000",
-        "10k25k": "$10,000 - $25,000",
-        "25k50k": "$25,000 - $50,000",
-        "over50k": "Over $50,000"
+        "select": "Choose an approximate budget",
+        "under5k": "Not decided yet",
+        "5k10k": "Small project",
+        "10k25k": "Medium project",
+        "25k50k": "Large project",
+        "over50k": "Let's discuss it"
       },
       "timelineOptions": {
-        "select": "Select timeline",
-        "asap": "ASAP",
+        "select": "Choose a preferred timeline",
+        "asap": "As soon as possible",
         "1month": "Within 1 month",
-        "2-3months": "2-3 months",
-        "3-6months": "3-6 months",
+        "2-3months": "1–3 months",
+        "3-6months": "3+ months",
         "flexible": "Flexible"
       },
       "submitButton": {
-        "default": "Send Message",
+        "default": "Send Project Details",
         "sending": "Sending..."
       },
       "statusMessages": {
-        "success": "Thank you! I'll get back to you soon.",
-        "error": "Something went wrong. Please try again.",
-        "networkError": "Network error. Check your connection."
+        "success": "Thanks. Your message has been received, and I’ll get back to you as soon as possible.",
+        "error": "I couldn't send your message. Please try again.",
+        "networkError": "Connection problem. Please check your internet connection and try again."
       }
     },
     "ContactInfo": {
-      "title": "Get In Touch",
+      "title": "Contact",
       "contactDetails": {
         "email": "amohamef206@gmail.com",
         "phone": "01032900752",
+        "whatsapp": "WhatsApp",
         "location": "Cairo, Egypt",
-        "availability": "Available for remote work"
+        "availability": "Available for remote projects"
       },
       "social": {
-        "title": "Follow Me",
-        "linkedin": "amohamef206@LinkedIn",
-        "github": "amohamef206",
+        "title": "Profiles",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
         "twitter": "Website",
-        "website": "Open Source"
+        "website": "Portfolio"
       },
       "guarantee": {
-        "title": "Quick Response",
-        "description": "I respond to inquiries within 24 hours. For urgent projects, call me directly."
+        "title": "Response Time",
+        "description": "I usually reply within one business day."
       }
     },
     "ContactMap": {
-      "title": "My Location",
+      "title": "Location & Availability",
       "location": "Cairo, Egypt",
-      "availability": "Available for remote work"
+      "availability": "Available for remote projects"
     }
   },
   "Common": {
     "loading": "Loading...",
     "error": {
       "title": "Something went wrong",
-      "description": "An error occurred. Please try again."
+      "description": "Something went wrong. Please try again."
     }
   }
 }

@@ -10,8 +10,9 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import SocialLinks from '@/components/SocialLinks';
 import { useTranslations } from 'next-intl';
+import DownloadCVButton from '@/components/common/DownloadCVButton';
 
-export default function AboutSection() {
+export default function AboutSection({ site = {} }) {
   const t = useTranslations('HomePage.AboutSection');
 
   return (
@@ -90,19 +91,19 @@ export default function AboutSection() {
             >
               <div>
                 <p className="font-semibold text-foreground">{t('contactInfo.name')}:</p>
-                <p className="text-muted-foreground">Ahmed Abdelal</p>
+                <p className="text-muted-foreground">{site.name}</p>
               </div>
               <div>
                 <p className="font-semibold text-foreground">{t('contactInfo.from')}:</p>
-                <p className="text-muted-foreground">Cairo, Egypt</p>
+                <p className="text-muted-foreground">{site.location}</p>
               </div>
               <div>
                 <p className="font-semibold text-foreground">{t('contactInfo.email')}:</p>
-                <p className="text-muted-foreground">ahmed.abdelal@email.com</p>
+                <p className="text-muted-foreground">{site.email}</p>
               </div>
               <div>
                 <p className="font-semibold text-foreground">{t('contactInfo.phone')}:</p>
-                <p className="text-muted-foreground">+20 123 456 7890</p>
+                <p className="text-muted-foreground">{site.phone}</p>
               </div>
             </motion.div>
 
@@ -148,9 +149,7 @@ export default function AboutSection() {
                 <Link href="/contact">{t('buttons.hireMe')}</Link>
               </Button>
 
-              <Button asChild variant="outline">
-                <Link href="/about">{t('buttons.downloadCV')}</Link>
-              </Button>
+              <DownloadCVButton className="border border-border bg-transparent text-foreground hover:bg-muted" />
             </motion.div>
           </motion.div>
         </div>

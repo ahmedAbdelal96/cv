@@ -16,22 +16,22 @@
   },
   "HomePage": {
     "HeroSection": {
-      "greeting": "Bonjour, je suis Ahmed Mohamed Abdelal",
-      "title": "Développeur Full Stack (MERN Stack)",
-      "description": "Développeur web spécialisé dans le MERN Stack avec 5 ans d’expérience dans la création d’applications web complètes. Je transforme les idées en applications fonctionnelles grâce à React.js, Next.js, Node.js et MongoDB.",
-      "hireMe": "Engagez-moi",
-      "portfolio": "Mon Portfolio",
+      "greeting": "Bonjour, je suis Ahmed Abdelal",
+      "title": "Développeur Full-Stack spécialisé dans les systèmes métier et les produits numériques",
+      "description": "Je conçois et développe des systèmes de gestion, plateformes e-commerce, tableaux de bord et applications web sur mesure, de l’analyse du workflow métier jusqu’au développement et au déploiement.",
+      "hireMe": "Discuter de votre projet",
+      "portfolio": "Voir les projets",
       "altText": "Ahmed Mohamed Abdelal - Développeur Full Stack"
     },
     "AboutSection": {
       "biography": "MA BIOGRAPHIE",
-      "title": "Développeur Full Stack (MERN Stack)",
-      "description": "Développeur web orienté MERN Stack. J’ai de l’expérience dans la création d’applications web complètes, de l’interface utilisateur aux serveurs et bases de données. Je me concentre sur la création de solutions efficaces et évolutives.",
+      "title": "Je construis des logiciels autour des vrais besoins métier",
+      "description": "Je développe des solutions complètes qui simplifient les opérations : backend, frontend, APIs, bases de données et déploiement, avec une attention particulière portée aux workflows réels.",
       "contactInfo": {
-        "name": "Ahmed Mohamed Abdelal",
-        "from": "Le Caire, Égypte",
-        "email": "amohamef206@gmail.com",
-        "phone": "01032900752"
+        "name": "Nom",
+        "from": "Localisation",
+        "email": "E-mail",
+        "phone": "Téléphone"
       },
       "followMe": "Suivez-moi sur",
       "buttons": {
@@ -65,7 +65,7 @@
     "PortfolioSection": {
       "services": {
         "title": "MES SERVICES",
-        "heading": "Ce que je fais",
+        "heading": "Ce que je peux construire pour votre activité",
         "webDevelopment": {
           "title": "Développement d’applications web",
           "description": "Création d’applications web complètes utilisant le MERN Stack et des technologies modernes."
@@ -159,8 +159,8 @@
       }
     },
     "ContactCTA": {
-      "title": "Prêt à démarrer votre projet ?",
-      "description": "Travaillons ensemble pour transformer vos idées en applications réelles grâce au MERN Stack.",
+      "title": "Vous avez un projet à construire ou à améliorer ?",
+      "description": "Expliquez-moi votre fonctionnement actuel, ce que vous souhaitez améliorer et le résultat attendu. Nous pourrons ensuite définir l’approche technique la plus adaptée.",
       "buttons": {
         "getInTouch": "Contactez-moi",
         "callMe": "Appelez-moi",
@@ -183,8 +183,8 @@
     "AboutHero": {
       "title": "À PROPOS DE MOI",
       "name": "Je suis Ahmed Mohamed Abdelal",
-      "role": "Développeur Full Stack (MERN Stack)",
-      "description": "Développeur web spécialisé dans le MERN Stack avec 3 ans d’expérience. Titulaire d’une licence en Génie Informatique de l’Université du Caire. Je me concentre sur la création de solutions fonctionnelles au code propre.",
+      "role": "Développeur Full-Stack | Systèmes métier & produits numériques",
+      "description": "Je construis des logiciels pour des besoins métier réels : systèmes de gestion, e-commerce, tableaux de bord, APIs et produits web sur mesure.",
       "altText": "Ahmed Mohamed Abdelal - Développeur Full Stack"
     },
     "BiographySection": {
@@ -409,9 +409,9 @@
   },
   "ProjectsPage": {
     "ProjectsHero": {
-      "subtitle": "MES TRAVAUX",
-      "title": "Projets",
-      "description": "Une collection de mes applications et solutions web créées avec le MERN Stack."
+      "subtitle": "PROJETS SÉLECTIONNÉS",
+      "title": "Projets & études de cas",
+      "description": "Une sélection de systèmes métier, plateformes numériques, solutions e-commerce et produits web que j’ai conçus et développés."
     },
     "ProjectsGrid": {
       "searchPlaceholder": "Rechercher des projets...",
@@ -439,8 +439,8 @@
     }
   },
   "BlogPage": {
-    "title": "Blog - Ahmed Abdelal",
-    "description": "Articles sur le MERN Stack, les technologies web et les bonnes pratiques.",
+    "title": "Articles - Ahmed Abdelal",
+    "description": "Articles pratiques sur les systèmes métier, l’architecture backend, les produits numériques, les APIs et les enseignements tirés de projets réels.",
     "loading": "Chargement...",
     "sidebar": {
       "title": "À propos du blog",
@@ -460,8 +460,8 @@
       }
     },
     "BlogHero": {
-      "title": "Blog Tech",
-      "description": "Articles et réflexions sur le MERN Stack et les technologies web."
+      "title": "Articles & retours d’expérience",
+      "description": "Des articles pratiques sur les systèmes métier, l’ingénierie produit, le backend et les leçons tirées de projets logiciels réels."
     },
     "BlogGrid": {
       "emptyState": {
@@ -550,12 +550,12 @@
   },
   "ContactPage": {
     "ContactHero": {
-      "title": "Travaillons ensemble",
-      "description": "Vous avez un projet ? J’aimerais en savoir plus et discuter de la manière dont nous pouvons concrétiser vos idées grâce au MERN Stack.",
+      "title": "Parlons de votre projet",
+      "description": "Expliquez-moi ce que vous souhaitez construire, améliorer ou automatiser. Je commencerai par comprendre votre workflow avant de proposer l’approche technique adaptée.",
       "subtitle": "Contactez-moi"
     },
     "ContactForm": {
-      "title": "Envoyez-moi un message",
+      "title": "Parlez-moi de votre projet",
       "fields": {
         "name": "Nom complet *",
         "email": "Adresse e-mail *",
@@ -591,7 +591,7 @@
         "flexible": "Flexible"
       },
       "submitButton": {
-        "default": "Envoyer le message",
+        "default": "Envoyer les détails du projet",
         "sending": "Envoi..."
       },
       "statusMessages": {
@@ -605,6 +605,7 @@
       "contactDetails": {
         "email": "amohamef206@gmail.com",
         "phone": "01032900752",
+        "whatsapp": "WhatsApp",
         "location": "Le Caire, Égypte",
         "availability": "Disponible pour travail à distance"
       },
@@ -616,8 +617,8 @@
         "website": "Open Source"
       },
       "guarantee": {
-        "title": "Réponse rapide",
-        "description": "Je réponds aux messages sous 24 heures. Pour les projets urgents, appelez-moi directement."
+        "title": "Délai de réponse",
+        "description": "Je réponds généralement sous un jour ouvrable."
       }
     },
     "ContactMap": {

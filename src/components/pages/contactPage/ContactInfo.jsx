@@ -13,32 +13,38 @@ import {
   Twitter,
 } from 'lucide-react';
 
-export default function ContactInfo() {
+export default function ContactInfo({ site = {} }) {
   const t = useTranslations('ContactPage.ContactInfo');
 
   const contactDetails = [
     {
       icon: Mail,
       label: t('contactDetails.email'),
-      value: 'amohamef206.com',
-      href: 'mailto:amohamef206@gmail.com',
+      value: site.email || '',
+      href: site.email ? `mailto:${site.email}` : '#',
     },
     {
       icon: Phone,
       label: t('contactDetails.phone'),
-      value: '01032900752',
-      href: 'tel:+201234567890',
+      value: site.phone || '',
+      href: site.phoneInternational ? `tel:${site.phoneInternational}` : '#',
+    },
+    {
+      icon: Phone,
+      label: t('contactDetails.whatsapp'),
+      value: site.whatsapp || site.phone || '',
+      href: site.whatsappInternational ? `https://wa.me/${site.whatsappInternational}` : '#',
     },
     {
       icon: MapPin,
       label: t('contactDetails.location'),
-      value: 'Cairo - Egypt ',
+      value: site.location || '',
       href: '#',
     },
     {
       icon: Clock,
       label: t('contactDetails.availability'),
-      value: 'Sat - Thu , 9AM - 6PM',
+      value: site.availability || 'Available for remote work',
       href: '#',
     },
   ];
@@ -47,25 +53,25 @@ export default function ContactInfo() {
     {
       icon: Linkedin,
       label: t('social.linkedin'),
-      href: 'https://linkedin.com/in/johnwatson',
+      href: site.social?.linkedin,
       color: 'hover:text-blue-600',
     },
     {
       icon: Github,
       label: t('social.github'),
-      href: 'https://github.com/johnwatson',
+      href: site.social?.github,
       color: 'hover:text-gray-900 dark:hover:text-white',
     },
     {
       icon: Twitter,
       label: t('social.twitter'),
-      href: 'https://twitter.com/johnwatson',
+      href: site.social?.twitter,
       color: 'hover:text-blue-400',
     },
     {
       icon: Globe,
       label: t('social.website'),
-      href: 'https://johnwatson.dev',
+      href: site.social?.website,
       color: 'hover:text-teal-600',
     },
   ];
@@ -122,7 +128,7 @@ export default function ContactInfo() {
           {t('social.title')}
         </h3>
         <div className="flex space-x-4">
-          {socialLinks.map((social, index) => {
+          {socialLinks.filter((social) => social.href).map((social, index) => {
             const IconComponent = social.icon;
             return (
               <motion.a

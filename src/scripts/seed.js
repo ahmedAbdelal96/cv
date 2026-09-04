@@ -22,15 +22,17 @@ async function seedDatabase() {
     console.log("🗑️  Cleared existing data")
 
     // Create admin user
-    const hashedPassword = await bcrypt.hash("admin123", 12)
+    const adminPassword = process.env.ADMIN_PASSWORD
+    if (!adminPassword || !process.env.ADMIN_EMAIL) throw new Error("ADMIN_EMAIL and ADMIN_PASSWORD are required to seed the database")
+    const hashedPassword = await bcrypt.hash(adminPassword, 12)
     const adminUser = new User({
       name: "Admin User",
-      email: "admin@example.com",
+      email: process.env.ADMIN_EMAIL,
       passwordHash: hashedPassword,
       role: "admin",
     })
     await adminUser.save()
-    console.log("👤 Created admin user: admin@example.com / admin123")
+    console.log("👤 Created admin user from environment credentials")
 
     // Create sample projects
     const projects = [
@@ -249,7 +251,7 @@ This article is still being written...`,
 
     console.log("✅ Database seeding completed successfully!")
     console.log("\n📋 Summary:")
-    console.log("- Admin user: admin@example.com / admin123")
+    console.log("- Admin user created from environment credentials")
     console.log("- 3 sample projects created")
     console.log("- 2 sample reviews created (1 approved)")
     console.log("- 3 sample articles created (2 published)")

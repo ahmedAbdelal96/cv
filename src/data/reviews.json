@@ -1,0 +1,152 @@
+[
+  {
+    "id": "demo-review-1",
+    "name": {
+      "en": "Demo Client A",
+      "ar": "عميل تجريبي أ",
+      "fr": "Client démo A"
+    },
+    "role": {
+      "en": "Business Owner",
+      "ar": "صاحب مشروع",
+      "fr": "Chef d’entreprise"
+    },
+    "company": "",
+    "projectSlug": "stockflow",
+    "rating": 5,
+    "review": {
+      "en": "Ahmed understood the workflow quickly and did more than just implement the requested screens. He suggested practical improvements to the sales, inventory, and purchasing flow, which made the system much easier for the team to use.",
+      "ar": "أحمد فهم طريقة الشغل بسرعة، وما اكتفاش بتنفيذ الشاشات المطلوبة فقط. اقترح تحسينات عملية في دورة المبيعات والمخزون والمشتريات، وده خلّى النظام أسهل بكتير في الاستخدام بالنسبة للفريق.",
+      "fr": "Ahmed a rapidement compris le fonctionnement du travail et ne s’est pas contenté d’implémenter les écrans demandés. Il a proposé des améliorations pratiques pour les ventes, le stock et les achats, ce qui a rendu le système beaucoup plus simple à utiliser."
+    },
+    "source": "demo",
+    "verified": false,
+    "demo": true,
+    "published": false
+  },
+  {
+    "id": "demo-review-2",
+    "name": {
+      "en": "Demo Client B",
+      "ar": "عميل تجريبي ب",
+      "fr": "Client démo B"
+    },
+    "role": {
+      "en": "Operations Manager",
+      "ar": "مدير عمليات",
+      "fr": "Responsable des opérations"
+    },
+    "company": "",
+    "projectSlug": "alhussan",
+    "rating": 5,
+    "review": {
+      "en": "What stood out was the way Ahmed translated our daily work into a clear system. Permissions, workflows, and operational steps were organized logically, and communication during development was straightforward and responsive.",
+      "ar": "أكتر حاجة كانت مميزة إن أحمد قدر يحوّل طريقة شغلنا اليومية لنظام واضح ومنظم. الصلاحيات ومسارات العمل والخطوات التشغيلية اتبنت بشكل منطقي، والتواصل أثناء التنفيذ كان سريع وواضح.",
+      "fr": "Ce qui nous a le plus marqué, c’est la capacité d’Ahmed à transformer notre travail quotidien en un système clair. Les permissions, les workflows et les étapes opérationnelles ont été structurés de manière logique, avec une communication fluide pendant le développement."
+    },
+    "source": "demo",
+    "verified": false,
+    "demo": true,
+    "published": false
+  },
+  {
+    "id": "demo-review-3",
+    "name": {
+      "en": "Demo Client C",
+      "ar": "عميل تجريبي ج",
+      "fr": "Client démo C"
+    },
+    "role": {
+      "en": "Product Owner",
+      "ar": "صاحب منتج",
+      "fr": "Product Owner"
+    },
+    "company": "",
+    "projectSlug": "sawiyaa",
+    "rating": 5,
+    "review": {
+      "en": "Ahmed paid attention to the details that actually affect the user journey. Booking, account flows, and checkout logic were handled carefully, and he was always thinking about both the customer experience and the business rules behind it.",
+      "ar": "أحمد كان مركز في التفاصيل اللي فعلًا بتأثر على رحلة المستخدم. الحجز والحسابات ومنطق الدفع اتنفذوا بعناية، وكان دايمًا بيراعي تجربة العميل وقواعد العمل في نفس الوقت.",
+      "fr": "Ahmed a porté une vraie attention aux détails qui influencent le parcours utilisateur. La réservation, les comptes et la logique de paiement ont été traités avec soin, en tenant compte à la fois de l’expérience client et des règles métier."
+    },
+    "source": "demo",
+    "verified": false,
+    "demo": true,
+    "published": false
+  },
+  {
+    "id": "demo-review-4",
+    "name": {
+      "en": "Demo Client D",
+      "ar": "عميل تجريبي د",
+      "fr": "Client démo D"
+    },
+    "role": {
+      "en": "Marketing Manager",
+      "ar": "مدير تسويق",
+      "fr": "Responsable marketing"
+    },
+    "company": "",
+    "projectSlug": "devspherex",
+    "rating": 5,
+    "review": {
+      "en": "The final website felt clean, professional, and easy to navigate. Ahmed was flexible with feedback and focused on making the content and services clear to visitors instead of overcomplicating the design.",
+      "ar": "الموقع النهائي طلع نظيف واحترافي وسهل في التصفح. أحمد كان مرن جدًا في التعديلات، وكان مركز إن الخدمات والمحتوى يبقوا واضحين للزائر بدون تعقيد أو مبالغة في التصميم.",
+      "fr": "Le site final est propre, professionnel et simple à parcourir. Ahmed a été très flexible avec les retours et s’est concentré sur la clarté des services et du contenu sans compliquer inutilement le design."
+    },
+    "source": "demo",
+    "verified": false,
+    "demo": true,
+    "published": false
+  },
+  {
+    "id": "demo-review-5",
+    "name": {
+      "en": "Demo Client E",
+      "ar": "عميل تجريبي هـ",
+      "fr": "Client démo E"
+    },
+    "role": {
+      "en": "Project Manager",
+      "ar": "مدير مشروع",
+      "fr": "Chef de projet"
+    },
+    "company": "",
+    "projectSlug": "epca",
+    "rating": 5,
+    "review": {
+      "en": "Ahmed handled a large amount of content without making the website feel crowded. The structure became much clearer, and the result made it easier for visitors to reach projects, organizational information, and contact channels.",
+      "ar": "أحمد قدر ينظم كمية كبيرة من المحتوى من غير ما الموقع يبقى مزدحم. الهيكل بقى أوضح، والوصول للمشاريع والمعلومات المؤسسية وطرق التواصل بقى أسهل بكتير للزائر.",
+      "fr": "Ahmed a réussi à organiser une grande quantité de contenu sans rendre le site chargé. La structure est devenue beaucoup plus claire et l’accès aux projets, aux informations institutionnelles et aux contacts est désormais plus simple."
+    },
+    "source": "demo",
+    "verified": false,
+    "demo": true,
+    "published": false
+  },
+  {
+    "id": "demo-review-6",
+    "name": {
+      "en": "Demo Client F",
+      "ar": "عميل تجريبي و",
+      "fr": "Client démo F"
+    },
+    "role": {
+      "en": "Online Business Owner",
+      "ar": "صاحب نشاط إلكتروني",
+      "fr": "Propriétaire d’activité en ligne"
+    },
+    "company": "",
+    "projectSlug": "digitalhub-ecommerce",
+    "rating": 5,
+    "review": {
+      "en": "The project was organized from both the customer and admin sides. Ahmed was attentive to the buying flow, account experience, and the operational side of managing products, which made the platform feel complete rather than just visually polished.",
+      "ar": "المشروع اتنظم من ناحية العميل ولوحة الإدارة مع بعض. أحمد اهتم برحلة الشراء وتجربة الحساب وإدارة المنتجات من ناحية التشغيل، وده خلّى المنصة متكاملة مش مجرد شكل حلو.",
+      "fr": "Le projet a été structuré à la fois côté client et côté administration. Ahmed a accordé de l’attention au parcours d’achat, aux comptes et à la gestion opérationnelle des produits, ce qui a rendu la plateforme réellement complète."
+    },
+    "source": "demo",
+    "verified": false,
+    "demo": true,
+    "published": false
+  }
+]

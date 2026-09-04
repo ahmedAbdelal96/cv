@@ -4,7 +4,7 @@
  */
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, use } from 'react';
 import {
   PlusIcon,
   PencilIcon,
@@ -17,6 +17,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 export default function BlogPage({ params }) {
+  const { local } = use(params);
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
@@ -25,14 +26,21 @@ export default function BlogPage({ params }) {
     title: '',
     slug: '',
     description: '',
+    excerpt: '',
     content: '',
     category: '',
     tags: '',
+    readTime: 5,
     published: false,
     featured: false,
     image: '',
+    featuredImage: '',
     metaTitle: '',
     metaDescription: '',
+    author: {
+      name: 'Ahmed Abdelal',
+      avatar: '/placeholder-user.png',
+    },
   });
 
   // Fetch articles
@@ -68,7 +76,7 @@ export default function BlogPage({ params }) {
 
     try {
       const url = selectedArticle
-        ? `/api/articles/${selectedArticle._id}`
+        ? `/api/articles/${selectedArticle.slug}`
         : '/api/articles';
 
       const method = selectedArticle ? 'PUT' : 'POST';
@@ -97,16 +105,16 @@ export default function BlogPage({ params }) {
   };
 
   // Delete article
-  const deleteArticle = async (articleId) => {
+  const deleteArticle = async (slug) => {
     if (!confirm('Are you sure you want to delete this article?')) return;
 
     try {
-      const response = await fetch(`/api/articles/${articleId}`, {
+      const response = await fetch(`/api/articles/${slug}`, {
         method: 'DELETE',
       });
 
       if (response.ok) {
-        setArticles(articles.filter((article) => article._id !== articleId));
+        setArticles(articles.filter((article) => article.slug !== slug));
       }
     } catch (error) {
       console.error('Error deleting article:', error);
@@ -116,7 +124,7 @@ export default function BlogPage({ params }) {
   // Toggle publish status
   const togglePublish = async (article) => {
     try {
-      const response = await fetch(`/api/articles/${article._id}`, {
+      const response = await fetch(`/api/articles/${article.slug}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ published: !article.published }),
@@ -125,7 +133,7 @@ export default function BlogPage({ params }) {
       if (response.ok) {
         setArticles(
           articles.map((a) =>
-            a._id === article._id ? { ...a, published: !a.published } : a
+            a.slug === article.slug ? { ...a, published: !a.published } : a
           )
         );
       }
@@ -140,14 +148,21 @@ export default function BlogPage({ params }) {
       title: '',
       slug: '',
       description: '',
+      excerpt: '',
       content: '',
       category: '',
       tags: '',
+      readTime: 5,
       published: false,
       featured: false,
       image: '',
+      featuredImage: '',
       metaTitle: '',
       metaDescription: '',
+      author: {
+        name: 'Ahmed Abdelal',
+        avatar: '/placeholder-user.png',
+      },
     });
     setSelectedArticle(null);
   };
@@ -270,7 +285,7 @@ export default function BlogPage({ params }) {
             </button>
             {article.slug && (
               <a
-                href={`/${params.local}/blog/${article.slug}`}
+                href={`/${local}/blog/${article.slug}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200 rounded flex items-center"
@@ -288,7 +303,7 @@ export default function BlogPage({ params }) {
               <PencilIcon className="h-4 w-4" />
             </button>
             <button
-              onClick={() => deleteArticle(article._id)}
+              onClick={() => deleteArticle(article.slug)}
               className="p-1 text-red-600 hover:text-red-700 dark:text-red-400"
             >
               <TrashIcon className="h-4 w-4" />
@@ -411,12 +426,28 @@ export default function BlogPage({ params }) {
                     setFormData({ ...formData, description: e.target.value })
                   }
                   className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  placeholder="Brief description of the article"
                 />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Content *
+                  Excerpt
+                </label>
+                <textarea
+                  rows={2}
+                  value={formData.excerpt}
+                  onChange={(e) =>
+                    setFormData({ ...formData, excerpt: e.target.value })
+                  }
+                  className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  placeholder="Short excerpt for preview"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                  Content * (Supports Markdown)
                 </label>
                 <textarea
                   required
@@ -425,12 +456,12 @@ export default function BlogPage({ params }) {
                   onChange={(e) =>
                     setFormData({ ...formData, content: e.target.value })
                   }
-                  className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
-                  placeholder="Write your article content here..."
+                  className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white font-mono text-sm"
+                  placeholder="Write your article content here using Markdown..."
                 />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Category
@@ -440,6 +471,25 @@ export default function BlogPage({ params }) {
                     value={formData.category}
                     onChange={(e) =>
                       setFormData({ ...formData, category: e.target.value })
+                    }
+                    placeholder="e.g., frontend, backend"
+                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                    Read Time (minutes)
+                  </label>
+                  <input
+                    type="number"
+                    min="1"
+                    value={formData.readTime}
+                    onChange={(e) =>
+                      setFormData({
+                        ...formData,
+                        readTime: parseInt(e.target.value) || 5,
+                      })
                     }
                     className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
                   />
@@ -455,24 +505,45 @@ export default function BlogPage({ params }) {
                     onChange={(e) =>
                       setFormData({ ...formData, tags: e.target.value })
                     }
-                    placeholder="web development, react, javascript"
+                    placeholder="react, nextjs, javascript"
                     className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
                   />
                 </div>
               </div>
 
-              <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Featured Image URL
-                </label>
-                <input
-                  type="url"
-                  value={formData.image}
-                  onChange={(e) =>
-                    setFormData({ ...formData, image: e.target.value })
-                  }
-                  className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
-                />
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                    Image URL
+                  </label>
+                  <input
+                    type="url"
+                    value={formData.image}
+                    onChange={(e) =>
+                      setFormData({ ...formData, image: e.target.value })
+                    }
+                    placeholder="https://example.com/image.jpg"
+                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                    Featured Image URL
+                  </label>
+                  <input
+                    type="url"
+                    value={formData.featuredImage}
+                    onChange={(e) =>
+                      setFormData({
+                        ...formData,
+                        featuredImage: e.target.value,
+                      })
+                    }
+                    placeholder="https://example.com/featured.jpg"
+                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  />
+                </div>
               </div>
 
               <div className="flex items-center space-x-4">

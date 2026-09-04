@@ -1,0 +1,190 @@
+{
+  "name": {
+    "en": "Ahmed Abdelal",
+    "ar": "أحمد محمد عبدالعال",
+    "fr": "Ahmed Abdelal"
+  },
+  "role": {
+    "en": "Senior Full-Stack Developer",
+    "ar": "مطور Full-Stack",
+    "fr": "Développeur Full-Stack"
+  },
+  "headline": {
+    "en": "Full-Stack Developer Building Business Systems & Digital Products",
+    "ar": "مطور Full-Stack متخصص في بناء أنظمة الأعمال والمنتجات الرقمية",
+    "fr": "Développeur Full-Stack spécialisé dans les systèmes métier et les produits numériques"
+  },
+  "summary": {
+    "en": "I design and build management systems, e-commerce platforms, dashboards, and custom web applications, from understanding the business workflow to architecture, development, and deployment.",
+    "ar": "أصمم وأطور أنظمة الإدارة والمتاجر الإلكترونية ولوحات التحكم وتطبيقات الويب المخصصة، بداية من فهم سير العمل الفعلي وحتى تصميم النظام وتطويره ونشره.",
+    "fr": "Je conçois et développe des systèmes de gestion, plateformes e-commerce, tableaux de bord et applications web sur mesure, de l’analyse du workflow métier jusqu’au développement et au déploiement."
+  },
+  "email": "amohamef206@gmail.com",
+  "phone": "01032900752",
+  "phoneInternational": "+201032900752",
+  "whatsapp": "01032900752",
+  "whatsappInternational": "201032900752",
+  "location": {
+    "en": "Cairo, Egypt",
+    "ar": "القاهرة، مصر",
+    "fr": "Le Caire, Égypte"
+  },
+  "social": {
+    "linkedin": "",
+    "github": "https://github.com/ahmedAbdelal96",
+    "twitter": "",
+    "instagram": ""
+  },
+  "experience": [
+    {
+      "id": "independent-full-stack",
+      "title": {
+        "en": "Independent Full-Stack Developer",
+        "ar": "مطور Full-Stack مستقل",
+        "fr": "Développeur Full-Stack indépendant"
+      },
+      "company": {
+        "en": "Independent / Client Projects",
+        "ar": "مشاريع مستقلة ومشاريع عملاء",
+        "fr": "Projets indépendants et clients"
+      },
+      "description": {
+        "en": "Designing and developing business systems, e-commerce products, dashboards, APIs, and custom web applications with a strong focus on real operational workflows.",
+        "ar": "تصميم وتطوير أنظمة أعمال ومتاجر إلكترونية ولوحات تحكم وواجهات API وتطبيقات ويب مخصصة مع التركيز على سير العمل التشغيلي الحقيقي.",
+        "fr": "Conception et développement de systèmes métier, solutions e-commerce, tableaux de bord, APIs et applications web sur mesure, avec un fort accent sur les workflows réels."
+      },
+      "current": true
+    },
+    {
+      "id": "inventory-operations",
+      "title": {
+        "en": "Inventory & Operations Systems Experience",
+        "ar": "خبرة في أنظمة المخزون والتشغيل",
+        "fr": "Expérience en systèmes de stock et opérations"
+      },
+      "company": {
+        "en": "Operational Systems",
+        "ar": "أنظمة تشغيلية",
+        "fr": "Systèmes opérationnels"
+      },
+      "description": {
+        "en": "More than three years of practical exposure to inventory operations including locations, receiving, issues, transfers, adjustments, custody tracking, item movement, approvals, and replenishment workflows.",
+        "ar": "خبرة عملية تتجاوز ثلاث سنوات مع عمليات المخزون، تشمل المواقع والاستلام والصرف والتحويلات والتسويات والعهد وحركة الأصناف والموافقات وإعادة التزويد.",
+        "fr": "Plus de trois ans d’expérience pratique avec les opérations de stock : emplacements, réception, sorties, transferts, ajustements, suivi, validations et réapprovisionnement."
+      },
+      "current": false
+    }
+  ],
+  "education": [],
+  "skills": [
+    {
+      "name": ".NET / ASP.NET Core",
+      "group": "backend"
+    },
+    {
+      "name": "C#",
+      "group": "backend"
+    },
+    {
+      "name": "Next.js",
+      "group": "frontend"
+    },
+    {
+      "name": "React",
+      "group": "frontend"
+    },
+    {
+      "name": "TypeScript",
+      "group": "frontend"
+    },
+    {
+      "name": "JavaScript",
+      "group": "frontend"
+    },
+    {
+      "name": "REST APIs",
+      "group": "backend"
+    },
+    {
+      "name": "Authentication & RBAC",
+      "group": "backend"
+    },
+    {
+      "name": "SQL Server",
+      "group": "database"
+    },
+    {
+      "name": "MongoDB",
+      "group": "database"
+    },
+    {
+      "name": "Tailwind CSS",
+      "group": "frontend"
+    },
+    {
+      "name": "Git",
+      "group": "tools"
+    }
+  ],
+  "services": [
+    {
+      "id": "business-systems",
+      "title": {
+        "en": "Custom Business Systems",
+        "ar": "أنظمة أعمال مخصصة",
+        "fr": "Systèmes métier sur mesure"
+      },
+      "description": {
+        "en": "ERP-style systems, internal tools, workflows, permissions, reporting, and operational dashboards built around the way the business actually works.",
+        "ar": "أنظمة ERP وأدوات داخلية ومسارات عمل وصلاحيات وتقارير ولوحات تشغيل مبنية حول طريقة العمل الفعلية داخل النشاط.",
+        "fr": "ERP, outils internes, workflows, permissions, rapports et tableaux de bord conçus autour du fonctionnement réel de l’entreprise."
+      }
+    },
+    {
+      "id": "ecommerce",
+      "title": {
+        "en": "E-Commerce Development",
+        "ar": "تطوير المتاجر الإلكترونية",
+        "fr": "Développement e-commerce"
+      },
+      "description": {
+        "en": "Customer storefronts and administration systems covering catalog, cart, checkout, accounts, orders, inventory, and operational management.",
+        "ar": "متاجر ولوحات إدارة تشمل المنتجات والسلة والدفع والحسابات والطلبات والمخزون وإدارة التشغيل.",
+        "fr": "Boutiques et espaces d’administration couvrant catalogue, panier, paiement, comptes, commandes, stock et opérations."
+      }
+    },
+    {
+      "id": "backend-api",
+      "title": {
+        "en": "Backend & API Development",
+        "ar": "تطوير Backend و APIs",
+        "fr": "Développement Backend & API"
+      },
+      "description": {
+        "en": "Backend architecture, REST APIs, authentication, permissions, business rules, and database-backed workflows.",
+        "ar": "تصميم Backend وواجهات REST والمصادقة والصلاحيات وقواعد العمل ومسارات البيانات المرتبطة بقواعد البيانات.",
+        "fr": "Architecture backend, APIs REST, authentification, permissions, règles métier et workflows connectés aux bases de données."
+      }
+    },
+    {
+      "id": "existing-systems",
+      "title": {
+        "en": "Existing System Development",
+        "ar": "تطوير الأنظمة القائمة",
+        "fr": "Évolution de systèmes existants"
+      },
+      "description": {
+        "en": "Improving existing products, adding features, fixing workflows, integrating APIs, and making systems easier to maintain and use.",
+        "ar": "تحسين المنتجات القائمة وإضافة المميزات وإصلاح مسارات العمل وربط الـAPIs وجعل النظام أسهل في الاستخدام والصيانة.",
+        "fr": "Amélioration de produits existants, ajout de fonctionnalités, correction des workflows, intégration d’APIs et amélioration de la maintenabilité."
+      }
+    }
+  ],
+  "stats": {},
+  "settings": {
+    "publicContentSource": "local-json",
+    "databaseReservedFor": "admin-and-future-content-management",
+    "showBlog": true,
+    "showReviews": false
+  }
+}

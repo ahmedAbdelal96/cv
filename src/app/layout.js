@@ -35,6 +35,11 @@ export const metadata = {
   ],
   authors: [{ name: 'Ahmed Abdelal' }],
   creator: 'Ahmed Abdelal',
+  icons: {
+    icon: [{ url: '/favicon.png', type: 'image/png' }],
+    shortcut: ['/favicon.png'],
+    apple: [{ url: '/favicon.png', type: 'image/png' }],
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',

@@ -26,7 +26,7 @@ export async function POST(request) {
     }
 
     // Return the CV file URL
-    const cvUrl = "/cv.pdf"
+    const cvUrl = "/cv/Ahmed_Abdelal_CV.pdf"
 
     return NextResponse.json({
       success: true,

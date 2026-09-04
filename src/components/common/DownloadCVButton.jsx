@@ -1,66 +1,29 @@
-/**
- * Download CV button component
- * Handles CV download with tracking and animations
- */
-"use client"
+'use client';
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Download, FileText } from "lucide-react"
-import { motion } from "framer-motion"
+import { Button } from '@/components/ui/button';
+import { Download } from 'lucide-react';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { useLocale } from 'next-intl';
 
-export default function DownloadCVButton({ className = "" }) {
-  const [isDownloading, setIsDownloading] = useState(false)
-
-  const handleDownload = async () => {
-    setIsDownloading(true)
-
-    try {
-      // Track the download
-      const response = await fetch("/api/download-cv", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-
-      if (response.ok) {
-        const data = await response.json()
-
-        // Create download link
-        const link = document.createElement("a")
-        link.href = data.data.url
-        link.download = "John_Watson_CV.pdf"
-        document.body.appendChild(link)
-        link.click()
-        document.body.removeChild(link)
-      }
-    } catch (error) {
-      console.error("Error downloading CV:", error)
-    } finally {
-      setIsDownloading(false)
-    }
-  }
+export default function DownloadCVButton({ className = '' }) {
+  const cvPath = '/cv/Ahmed_Abdelal_CV.pdf';
+  const locale = useLocale();
+  const label =
+    locale === 'ar' ? 'تحميل السيرة الذاتية' : locale === 'fr' ? 'Télécharger le CV' : 'Download CV';
 
   return (
     <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
       <Button
-        onClick={handleDownload}
-        disabled={isDownloading}
-        className={`bg-primary hover:bg-primary/90 text-primary-foreground ${className}`}
+        asChild
+        size="sm"
+        className={`h-9 sm:h-10 rounded-xl px-4 text-xs sm:text-sm font-semibold bg-primary hover:bg-primary/90 text-primary-foreground shadow-xs flex items-center gap-2 ${className}`}
       >
-        {isDownloading ? (
-          <motion.div
-            animate={{ rotate: 360 }}
-            transition={{ duration: 1, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
-          >
-            <FileText className="mr-2 h-4 w-4" />
-          </motion.div>
-        ) : (
-          <Download className="mr-2 h-4 w-4" />
-        )}
-        {isDownloading ? "Downloading..." : "Download CV"}
+        <Link href={cvPath} download="Ahmed_Abdelal_CV.pdf">
+          <Download className="h-4 w-4" />
+          <span>{label}</span>
+        </Link>
       </Button>
     </motion.div>
-  )
+  );
 }

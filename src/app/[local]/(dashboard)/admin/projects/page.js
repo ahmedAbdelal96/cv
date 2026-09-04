@@ -4,7 +4,7 @@
  */
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, use } from 'react';
 import {
   PlusIcon,
   PencilIcon,
@@ -18,18 +18,23 @@ import {
 import Link from 'next/link';
 
 export default function ProjectsPage({ params }) {
+  const { local } = use(params);
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
   const [formData, setFormData] = useState({
     title: '',
+    slug: '',
     description: '',
     content: '',
     technologies: '',
+    tags: '',
     category: '',
     status: 'completed',
     featured: false,
+    showOnHome: true,
+    showOnBanner: false,
     images: '',
     demoUrl: '',
     githubUrl: '',
@@ -71,7 +76,14 @@ export default function ProjectsPage({ params }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...formData,
-          technologies: formData.technologies.split(',').map((t) => t.trim()),
+          technologies: formData.technologies
+            .split(',')
+            .map((t) => t.trim())
+            .filter(Boolean),
+          tags: formData.tags
+            .split(',')
+            .map((t) => t.trim())
+            .filter(Boolean),
           images: formData.images
             .split(',')
             .map((img) => img.trim())
@@ -110,12 +122,16 @@ export default function ProjectsPage({ params }) {
   const resetForm = () => {
     setFormData({
       title: '',
+      slug: '',
       description: '',
       content: '',
       technologies: '',
+      tags: '',
       category: '',
       status: 'completed',
       featured: false,
+      showOnHome: true,
+      showOnBanner: false,
       images: '',
       demoUrl: '',
       githubUrl: '',
@@ -132,7 +148,10 @@ export default function ProjectsPage({ params }) {
     setFormData({
       ...project,
       technologies: project.technologies?.join(', ') || '',
+      tags: project.tags?.join(', ') || '',
       images: project.images?.join(', ') || '',
+      demoUrl: project.demoLink || '',
+      githubUrl: project.githubLink || '',
       projectDate: project.projectDate
         ? new Date(project.projectDate).toISOString().split('T')[0]
         : '',
@@ -344,6 +363,23 @@ export default function ProjectsPage({ params }) {
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                    Slug
+                  </label>
+                  <input
+                    type="text"
+                    value={formData.slug}
+                    onChange={(e) =>
+                      setFormData({ ...formData, slug: e.target.value })
+                    }
+                    placeholder="Auto-generated from title"
+                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  />
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Category
                   </label>
                   <input
@@ -352,8 +388,26 @@ export default function ProjectsPage({ params }) {
                     onChange={(e) =>
                       setFormData({ ...formData, category: e.target.value })
                     }
+                    placeholder="web, mobile, design"
                     className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
                   />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                    Status
+                  </label>
+                  <select
+                    value={formData.status}
+                    onChange={(e) =>
+                      setFormData({ ...formData, status: e.target.value })
+                    }
+                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  >
+                    <option value="completed">Completed</option>
+                    <option value="in-progress">In Progress</option>
+                    <option value="planned">Planned</option>
+                  </select>
                 </div>
               </div>
 
@@ -368,23 +422,56 @@ export default function ProjectsPage({ params }) {
                   onChange={(e) =>
                     setFormData({ ...formData, description: e.target.value })
                   }
+                  placeholder="Brief project description"
                   className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
                 />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Technologies (comma separated)
+                  Content (Detailed description)
                 </label>
-                <input
-                  type="text"
-                  value={formData.technologies}
+                <textarea
+                  rows={5}
+                  value={formData.content}
                   onChange={(e) =>
-                    setFormData({ ...formData, technologies: e.target.value })
+                    setFormData({ ...formData, content: e.target.value })
                   }
-                  placeholder="React, Node.js, MongoDB"
+                  placeholder="Detailed project information, challenges, solutions, etc."
                   className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
                 />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                    Technologies (comma separated)
+                  </label>
+                  <input
+                    type="text"
+                    value={formData.technologies}
+                    onChange={(e) =>
+                      setFormData({ ...formData, technologies: e.target.value })
+                    }
+                    placeholder="React, Node.js, MongoDB"
+                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                    Tags (comma separated)
+                  </label>
+                  <input
+                    type="text"
+                    value={formData.tags}
+                    onChange={(e) =>
+                      setFormData({ ...formData, tags: e.target.value })
+                    }
+                    placeholder="frontend, backend, fullstack"
+                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  />
+                </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -420,19 +507,17 @@ export default function ProjectsPage({ params }) {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                    Status
+                    Client Name
                   </label>
-                  <select
-                    value={formData.status}
+                  <input
+                    type="text"
+                    value={formData.clientName}
                     onChange={(e) =>
-                      setFormData({ ...formData, status: e.target.value })
+                      setFormData({ ...formData, clientName: e.target.value })
                     }
+                    placeholder="Optional"
                     className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
-                  >
-                    <option value="completed">Completed</option>
-                    <option value="in-progress">In Progress</option>
-                    <option value="planned">Planned</option>
-                  </select>
+                  />
                 </div>
 
                 <div>
@@ -449,21 +534,83 @@ export default function ProjectsPage({ params }) {
                   />
                 </div>
 
-                <div className="flex items-center">
-                  <label className="flex items-center space-x-2">
-                    <input
-                      type="checkbox"
-                      checked={formData.featured}
-                      onChange={(e) =>
-                        setFormData({ ...formData, featured: e.target.checked })
-                      }
-                      className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-                    />
-                    <span className="text-sm text-gray-700 dark:text-gray-300">
-                      Featured
-                    </span>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                    Budget
                   </label>
+                  <input
+                    type="text"
+                    value={formData.budget}
+                    onChange={(e) =>
+                      setFormData({ ...formData, budget: e.target.value })
+                    }
+                    placeholder="Optional"
+                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  />
                 </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                  Images URLs (comma separated) *
+                </label>
+                <textarea
+                  required
+                  rows={3}
+                  value={formData.images}
+                  onChange={(e) =>
+                    setFormData({ ...formData, images: e.target.value })
+                  }
+                  placeholder="https://example.com/image1.jpg, https://example.com/image2.jpg"
+                  className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                />
+              </div>
+
+              <div className="flex items-center space-x-6">
+                <label className="flex items-center space-x-2">
+                  <input
+                    type="checkbox"
+                    checked={formData.featured}
+                    onChange={(e) =>
+                      setFormData({ ...formData, featured: e.target.checked })
+                    }
+                    className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">
+                    Featured
+                  </span>
+                </label>
+
+                <label className="flex items-center space-x-2">
+                  <input
+                    type="checkbox"
+                    checked={formData.showOnHome}
+                    onChange={(e) =>
+                      setFormData({ ...formData, showOnHome: e.target.checked })
+                    }
+                    className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">
+                    Show on Home
+                  </span>
+                </label>
+
+                <label className="flex items-center space-x-2">
+                  <input
+                    type="checkbox"
+                    checked={formData.showOnBanner}
+                    onChange={(e) =>
+                      setFormData({
+                        ...formData,
+                        showOnBanner: e.target.checked,
+                      })
+                    }
+                    className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">
+                    Show on Banner
+                  </span>
+                </label>
               </div>
 
               <div>

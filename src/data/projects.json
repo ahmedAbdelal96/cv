@@ -1,0 +1,263 @@
+[
+  {
+    "slug": "alhussan",
+    "order": 2,
+    "title": {
+      "en": "Alhussan ERP – Contracting Management System",
+      "ar": "نظام الحصان ERP لإدارة المقاولات",
+      "fr": "Alhussan ERP – Système de gestion pour entreprise de construction"
+    },
+    "description": {
+      "en": "A practical ERP and internal operations system built for a contracting business to centralize day-to-day work, secure access, and operational management.",
+      "ar": "نظام ERP وتشغيل داخلي لشركة مقاولات، صُمم لتجميع العمل اليومي وإدارة العمليات والصلاحيات داخل نظام واحد واضح وسهل الاستخدام.",
+      "fr": "Un ERP et système interne conçu pour une entreprise de construction afin de centraliser les opérations quotidiennes, les accès sécurisés et la gestion du travail."
+    },
+    "content": {
+      "en": "Alhussan ERP is a business management system created around the daily workflow of a contracting company. The project focuses on giving the team one organized place to access operational data, manage internal workflows, and work through role-based access instead of relying on disconnected tools. The system was designed with practical day-to-day use in mind, with an emphasis on clarity, maintainability, and reliable business operations.",
+      "ar": "نظام الحصان ERP هو نظام إدارة أعمال تم بناؤه حول طريقة العمل اليومية داخل شركة مقاولات. يهدف المشروع إلى توفير مكان موحد ومنظم للوصول إلى البيانات التشغيلية وإدارة مسارات العمل الداخلية والصلاحيات، بدل الاعتماد على أدوات وملفات منفصلة. تم التركيز في تصميم النظام على سهولة الاستخدام في العمل اليومي، وتنظيم العمليات، وقابلية التطوير مع احتياجات الشركة.",
+      "fr": "Alhussan ERP est un système de gestion conçu autour du fonctionnement quotidien d'une entreprise de construction. Il centralise les données opérationnelles, les flux de travail internes et les accès selon les rôles, afin de remplacer des outils dispersés par une expérience de gestion plus claire, maintenable et fiable."
+    },
+    "folder": "alhussan",
+    "technologies": [],
+    "tags": ["management", "contracting"],
+    "category": "management",
+    "status": "completed",
+    "featured": true,
+    "showOnHome": true,
+    "published": true,
+    "liveUrl": "https://alhussan.tech/signin",
+    "githubUrl": null
+  },
+  {
+    "slug": "devspherex",
+    "order": 5,
+    "title": {
+      "en": "DevSphereX – Software Company Website",
+      "ar": "DevSphereX – موقع شركة برمجيات وحلول رقمية",
+      "fr": "DevSphereX – Site d'une société de développement logiciel"
+    },
+    "description": {
+      "en": "A multilingual software company website presenting business systems, web and mobile applications, dashboards, services, and selected work through a modern responsive experience.",
+      "ar": "موقع متعدد اللغات لشركة برمجيات يعرض أنظمة الأعمال وتطبيقات الويب والموبايل ولوحات التحكم والخدمات والأعمال المختارة بتجربة حديثة ومتجاوبة.",
+      "fr": "Un site multilingue pour une société de logiciels présentant systèmes métier, applications web et mobiles, tableaux de bord, services et réalisations."
+    },
+    "content": {
+      "en": "DevSphereX is a modern business website built to explain software services in a clear, client-focused way. It presents web applications, mobile apps, admin dashboards, business systems, selected projects, testimonials, and contact paths in a consistent multilingual experience. The design focuses on communicating practical business value rather than presenting technology in isolation.",
+      "ar": "DevSphereX هو موقع أعمال حديث تم بناؤه لعرض خدمات تطوير البرمجيات بصورة واضحة وموجهة للعميل. يعرض الموقع تطبيقات الويب والموبايل ولوحات الإدارة وأنظمة الأعمال ومجموعة من المشاريع والخدمات وطرق التواصل، مع دعم متعدد اللغات وتجربة متجاوبة. التركيز الأساسي في التجربة هو توضيح القيمة العملية للحلول البرمجية وليس مجرد عرض التقنيات المستخدمة.",
+      "fr": "DevSphereX est un site professionnel moderne conçu pour présenter clairement des services de développement logiciel. Il met en avant les applications web et mobiles, les tableaux de bord, les systèmes métier, les projets sélectionnés et les moyens de contact dans une expérience multilingue cohérente et responsive."
+    },
+    "folder": "devSphereX",
+    "technologies": [],
+    "tags": ["business", "marketing"],
+    "category": "frontend",
+    "status": "completed",
+    "featured": true,
+    "showOnHome": true,
+    "published": true,
+    "liveUrl": "https://devspherex.online/en",
+    "githubUrl": null
+  },
+  {
+    "slug": "digitalhub-ecommerce",
+    "order": 6,
+    "title": {
+      "en": "DigitalHub – Digital Products E-Commerce",
+      "ar": "DigitalHub – متجر إلكتروني للمنتجات الرقمية",
+      "fr": "DigitalHub – E-commerce de produits numériques"
+    },
+    "description": {
+      "en": "An e-commerce platform designed for discovering, purchasing, downloading, and managing digital products through a complete customer and administration experience.",
+      "ar": "منصة تجارة إلكترونية للمنتجات الرقمية تتيح اكتشاف المنتجات وشرائها وتنزيلها وإدارتها من خلال تجربة متكاملة للعميل ولوحة الإدارة.",
+      "fr": "Une plateforme e-commerce dédiée aux produits numériques, couvrant la découverte, l'achat, le téléchargement et la gestion."
+    },
+    "content": {
+      "en": "DigitalHub is an e-commerce experience focused on selling digital products. The platform combines product discovery, customer accounts, shopping cart flows, purchases, downloads, and administration in one structured system. The goal is to keep the buying journey straightforward for customers while providing the operational tools needed to manage the catalog and digital-product workflow.",
+      "ar": "DigitalHub هو متجر إلكتروني متخصص في بيع المنتجات الرقمية. يجمع النظام بين تصفح المنتجات وحسابات العملاء وسلة الشراء وعمليات الشراء والتنزيل وإدارة المحتوى والمنتجات داخل تجربة واحدة منظمة. تم تصميم رحلة المستخدم لتكون مباشرة وسهلة، مع توفير الأدوات اللازمة لإدارة المتجر والمنتجات الرقمية من جهة الإدارة.",
+      "fr": "DigitalHub est une expérience e-commerce centrée sur la vente de produits numériques. La plateforme réunit découverte des produits, comptes clients, panier, achats, téléchargements et administration dans un système structuré et simple à gérer."
+    },
+    "folder": "digital-ecoomercy",
+    "technologies": [],
+    "tags": ["ecommerce", "digital-products"],
+    "category": "ecommerce",
+    "status": "completed",
+    "featured": true,
+    "showOnHome": true,
+    "published": true,
+    "liveUrl": null,
+    "githubUrl": null
+  },
+  {
+    "slug": "epca",
+    "order": 4,
+    "title": {
+      "en": "EPCA – Environmental Projects Cooperative Website",
+      "ar": "إبكا – موقع جمعية المشاريع البيئية التعاونية",
+      "fr": "EPCA – Site de la coopérative des projets environnementaux"
+    },
+    "description": {
+      "en": "A public organizational website for EPCA in Saudi Arabia, presenting environmental services, projects, governance documents, media content, and communication channels.",
+      "ar": "موقع مؤسسي عام لجمعية المشاريع البيئية التعاونية في السعودية، يعرض الخدمات والمشاريع والحوكمة والمحتوى الإعلامي وقنوات التواصل.",
+      "fr": "Un site institutionnel public pour EPCA en Arabie saoudite, présentant services environnementaux, projets, gouvernance, médias et contact."
+    },
+    "content": {
+      "en": "The EPCA website was built as a structured public portal for the Environmental Projects Cooperative Association. It organizes institutional information, environmental services, projects, governance documents, board and general-assembly content, media resources, and service/contact paths in one accessible website. The project required presenting a large amount of organizational content without making navigation difficult for visitors.",
+      "ar": "تم بناء موقع إبكا كبوابة مؤسسية منظمة لجمعية المشاريع البيئية التعاونية. يجمع الموقع معلومات الجمعية وخدماتها البيئية ومشاريعها ووثائق الحوكمة ومحتوى مجلس الإدارة والجمعية العمومية والمركز الإعلامي وطلبات الخدمات والتواصل داخل تجربة واحدة واضحة. كان الهدف هو تنظيم كمية كبيرة من المحتوى المؤسسي وتسهيل الوصول إليه للزائر.",
+      "fr": "Le site EPCA a été conçu comme un portail institutionnel structuré pour la coopérative des projets environnementaux. Il centralise les informations de l'organisation, les services, les projets, la gouvernance, les contenus des instances, les médias et les moyens de contact dans une navigation claire."
+    },
+    "folder": "epca",
+    "technologies": [],
+    "tags": ["environment", "organization"],
+    "category": "frontend",
+    "status": "completed",
+    "featured": false,
+    "showOnHome": true,
+    "published": true,
+    "liveUrl": "https://epca.sa/",
+    "githubUrl": null
+  },
+  {
+    "slug": "sawiyaa",
+    "order": 1,
+    "title": {
+      "en": "Sawiyaa – Mental Wellness Booking Platform",
+      "ar": "سوية – منصة لحجز خدمات الصحة النفسية والعافية",
+      "fr": "Sawiyaa – Plateforme de réservation pour le bien-être mental"
+    },
+    "description": {
+      "en": "An Arabic-first platform for discovering mental-health and wellness professionals, booking sessions, and managing the customer journey through a clear digital experience.",
+      "ar": "منصة عربية بالأساس لاكتشاف المتخصصين في الصحة النفسية والعافية وحجز الجلسات وإدارة رحلة المستخدم من خلال تجربة رقمية واضحة.",
+      "fr": "Une plateforme pensée d'abord pour l'arabe permettant de découvrir des professionnels du bien-être, réserver des séances et gérer le parcours utilisateur."
+    },
+    "content": {
+      "en": "Sawiyaa is a digital platform built around the full journey of discovering a suitable specialist and booking a session. The product combines practitioner discovery and profiles, appointment booking, session options, account flows, and the operational logic required to manage appointments in a polished multilingual experience. Special attention was given to Arabic usability, clear booking decisions, and turning a sensitive service journey into a simple and trustworthy product experience.",
+      "ar": "سوية هي منصة رقمية تم بناؤها حول رحلة المستخدم الكاملة من اكتشاف المتخصص المناسب وحتى حجز الجلسة وإدارة الموعد. تجمع المنصة بين البحث عن المتخصصين والملفات الشخصية والحجز وخيارات الجلسات والحسابات ومسارات التشغيل اللازمة لإدارة المواعيد داخل تجربة احترافية متعددة اللغات. تم الاهتمام بشكل خاص بجودة التجربة العربية، ووضوح خطوات الحجز، وتبسيط رحلة الخدمة للمستخدم.",
+      "fr": "Sawiyaa est une plateforme numérique couvrant le parcours complet, de la découverte d'un spécialiste jusqu'à la réservation et la gestion d'une séance. Le produit réunit profils des praticiens, réservation, comptes et logique opérationnelle dans une expérience multilingue soignée, avec une attention particulière portée à l'usage en arabe."
+    },
+    "folder": "sawiyaa",
+    "technologies": [],
+    "tags": ["booking", "wellness"],
+    "category": "frontend",
+    "status": "completed",
+    "featured": true,
+    "showOnHome": true,
+    "published": true,
+    "liveUrl": "https://sawiyaa.com/en",
+    "githubUrl": null
+  },
+  {
+    "slug": "stockflow",
+    "order": 3,
+    "title": {
+      "en": "StockFlow – Sales, Inventory & POS ERP",
+      "ar": "StockFlow – نظام ERP للمبيعات والمخزون ونقاط البيع",
+      "fr": "StockFlow – ERP ventes, stock et point de vente"
+    },
+    "description": {
+      "en": "A business management system covering sales, purchasing, inventory, suppliers, customers, POS operations, invoices, and role-based workflows.",
+      "ar": "نظام متكامل لإدارة المبيعات والمشتريات والمخزون والموردين والعملاء ونقاط البيع والفواتير ومسارات العمل حسب الصلاحيات.",
+      "fr": "Un système de gestion couvrant ventes, achats, stock, fournisseurs, clients, POS, factures et workflows selon les rôles."
+    },
+    "content": {
+      "en": "StockFlow is an ERP-style business system designed around everyday sales and inventory operations. It brings together POS sales, purchasing, stock control, suppliers, customers, invoices, permissions, and operational workflows in one interface. The project focuses on speed and usability for employees who need to complete repetitive daily tasks efficiently, while keeping management data organized and easy to follow.",
+      "ar": "StockFlow هو نظام أعمال بأسلوب ERP مصمم حول العمليات اليومية للمبيعات والمخزون. يجمع النظام بين نقطة البيع والمشتريات وإدارة المخزون والموردين والعملاء والفواتير والصلاحيات ومسارات التشغيل داخل واجهة واحدة. تم التركيز على السرعة وسهولة الاستخدام للموظفين الذين ينفذون مهام متكررة يوميًا، مع الحفاظ على تنظيم البيانات وسهولة المتابعة من جانب الإدارة.",
+      "fr": "StockFlow est un système de type ERP conçu autour des opérations quotidiennes de vente et de stock. Il réunit POS, achats, contrôle des stocks, fournisseurs, clients, factures, permissions et workflows dans une interface unique, avec un accent sur la rapidité et la simplicité d'utilisation."
+    },
+    "folder": "stockFlow",
+    "technologies": [],
+    "tags": ["erp", "inventory", "pos"],
+    "category": "management",
+    "status": "completed",
+    "featured": true,
+    "showOnHome": true,
+    "published": true,
+    "liveUrl": "https://stockflow-demo09.vercel.app/",
+    "githubUrl": null
+  },
+  {
+    "slug": "khadamat-hub-marketing-website",
+    "order": 7,
+    "title": {
+      "en": "Khadamat Hub – Marketing Agency Website",
+      "ar": "Khadamat Hub – موقع وكالة تسويق",
+      "fr": "Khadamat Hub – Site d'agence marketing"
+    },
+    "description": {
+      "en": "A responsive multilingual marketing-agency website for presenting services, portfolio work, testimonials, and contact opportunities.",
+      "ar": "موقع متجاوب ومتعدد اللغات لوكالة تسويق، مخصص لعرض الخدمات والأعمال السابقة وتقييمات العملاء وطرق التواصل.",
+      "fr": "Un site responsive et multilingue pour une agence marketing, présentant services, réalisations, témoignages et contact."
+    },
+    "content": {
+      "en": "Khadamat Hub is a marketing-agency website designed to turn the company's services and previous work into a clear client-facing experience. It combines service presentation, portfolio sections, testimonials, contact forms, and multilingual content in a responsive interface intended to work smoothly across desktop and mobile devices.",
+      "ar": "Khadamat Hub هو موقع لوكالة تسويق تم تصميمه لعرض خدمات الشركة وأعمالها السابقة بصورة واضحة تساعد العميل على فهم ما تقدمه والتواصل معها بسهولة. يجمع الموقع بين الخدمات ومعرض الأعمال وتقييمات العملاء ونماذج التواصل ودعم أكثر من لغة داخل واجهة متجاوبة مع الكمبيوتر والموبايل.",
+      "fr": "Khadamat Hub est un site d'agence marketing conçu pour présenter clairement les services et les réalisations de l'entreprise. Il combine portfolio, témoignages, formulaires de contact et contenu multilingue dans une interface responsive."
+    },
+    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    "tags": ["agency", "marketing"],
+    "category": "fullStack",
+    "status": "completed",
+    "featured": true,
+    "showOnHome": true,
+    "published": true,
+    "projectDate": "2024-02-15",
+    "liveUrl": null,
+    "githubUrl": null
+  },
+  {
+    "slug": "cv-portfolio-builder",
+    "order": 8,
+    "title": {
+      "en": "CV & Portfolio Builder for Developers",
+      "ar": "منشئ السيرة الذاتية ومعرض الأعمال للمطورين",
+      "fr": "Créateur de CV et portfolio pour développeurs"
+    },
+    "description": {
+      "en": "An interactive platform for developers to build and present a professional CV, portfolio, projects, skills, and supporting content.",
+      "ar": "منصة تفاعلية تساعد المطورين على إنشاء وعرض سيرة ذاتية احترافية ومعرض أعمال ومشاريع ومهارات ومحتوى داعم.",
+      "fr": "Une plateforme interactive permettant aux développeurs de créer et présenter CV, portfolio, projets, compétences et contenu professionnel."
+    },
+    "content": {
+      "en": "This project provides a structured way for developers to create a professional online presence instead of relying on a static CV alone. It combines CV templates, project showcasing, skills presentation, blog support, and authentication in one platform, making professional information easier to organize, update, and share.",
+      "ar": "يوفر المشروع طريقة منظمة للمطورين لبناء حضور مهني على الإنترنت بدل الاعتماد على ملف CV ثابت فقط. يجمع بين قوالب السيرة الذاتية وعرض المشاريع والمهارات ودعم المدونة وتسجيل الدخول داخل منصة واحدة، بحيث يصبح تحديث المعلومات المهنية ومشاركتها أسهل وأكثر تنظيمًا.",
+      "fr": "Ce projet offre aux développeurs une manière structurée de créer une présence professionnelle en ligne au-delà d'un CV statique. Il combine modèles de CV, présentation des projets et compétences, blog et authentification dans une seule plateforme."
+    },
+    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    "tags": ["portfolio", "cv"],
+    "category": "fullStack",
+    "status": "completed",
+    "featured": true,
+    "showOnHome": true,
+    "published": true,
+    "projectDate": "2024-11-10",
+    "liveUrl": null,
+    "githubUrl": null
+  },
+  {
+    "slug": "shopcart-ecommerce",
+    "order": 9,
+    "title": {
+      "en": "ShopCart – Full E-Commerce Platform",
+      "ar": "ShopCart – منصة تجارة إلكترونية متكاملة",
+      "fr": "ShopCart – Plateforme e-commerce complète"
+    },
+    "description": {
+      "en": "A complete e-commerce experience covering product discovery, search, cart, checkout, customer accounts, wishlist, reviews, order tracking, and administration.",
+      "ar": "منصة تجارة إلكترونية متكاملة تشمل اكتشاف المنتجات والبحث والسلة والدفع وحسابات العملاء والمفضلة والتقييمات وتتبع الطلبات ولوحة الإدارة.",
+      "fr": "Une expérience e-commerce complète avec catalogue, recherche, panier, paiement, comptes clients, favoris, avis, suivi des commandes et administration."
+    },
+    "content": {
+      "en": "ShopCart is a full e-commerce platform built around the complete shopping journey. Customers can browse and search the catalog, manage their cart and account, complete checkout, use wishlist and review features, and follow their orders. The administration side supports the operational needs required to manage the store and keep the customer experience organized from product discovery through order completion.",
+      "ar": "ShopCart هو متجر إلكتروني متكامل تم بناؤه حول رحلة الشراء كاملة. يستطيع العميل تصفح المنتجات والبحث وإدارة السلة والحساب وإتمام عملية الشراء واستخدام المفضلة والتقييمات ومتابعة الطلبات. ويضم جانب الإدارة الأدوات التشغيلية اللازمة لإدارة المتجر وتنظيم تجربة العميل من اكتشاف المنتج وحتى إتمام الطلب.",
+      "fr": "ShopCart est une plateforme e-commerce complète couvrant tout le parcours d'achat. Elle inclut catalogue, recherche, panier, compte client, paiement, favoris, avis et suivi des commandes, ainsi que les fonctions d'administration nécessaires à la gestion de la boutique."
+    },
+    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    "tags": ["ecommerce", "shopping"],
+    "category": "ecommerce",
+    "status": "completed",
+    "featured": true,
+    "showOnHome": true,
+    "published": true,
+    "projectDate": "2024-06-20",
+    "liveUrl": null,
+    "githubUrl": null
+  }
+]

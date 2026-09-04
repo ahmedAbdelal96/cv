@@ -19,13 +19,13 @@ import {
   User,
 } from 'lucide-react';
 
-export default function BiographySection() {
+export default function BiographySection({ site = {} }) {
   const t = useTranslations('AboutPage.BiographySection');
 
   const personalInfo = [
     {
       label: t('personalInfo.fullName'),
-      value: 'Ahmed Abdelal',
+      value: site.name || 'Ahmed Abdelal',
       icon: User,
     },
     {
@@ -40,17 +40,17 @@ export default function BiographySection() {
     },
     {
       label: t('personalInfo.location'),
-      value: 'Cairo, Egypt',
+      value: site.location || 'Cairo, Egypt',
       icon: MapPin,
     },
     {
       label: t('personalInfo.email'),
-      value: 'ahmed.abdelal@email.com',
+      value: site.email || '',
       icon: Mail,
     },
     {
       label: t('personalInfo.phone'),
-      value: '+20 123 456 7890',
+      value: site.phoneInternational || site.phone || '',
       icon: Phone,
     },
     {
@@ -145,7 +145,7 @@ export default function BiographySection() {
                 {t('connect.title')}
               </h3>
               <div className="space-y-4">
-                <SocialLinks className="mb-4" />
+                <SocialLinks className="mb-4" social={site.social} />
                 <DownloadCVButton />
               </div>
             </motion.div>

@@ -4,6 +4,7 @@ import ExperienceSection from '@/components/pages/aboutPage/ExperienceSection';
 import EducationSection from '@/components/pages/aboutPage/EducationSection';
 import SkillsDetailSection from '@/components/pages/aboutPage/SkillsDetailSection';
 import AwardsSection from '@/components/pages/aboutPage/AwardsSection';
+import { getSiteData } from '@/lib/data/site';
 
 export const metadata = {
   title: 'About - Ahmed Abdelal | Web Developer & UI Designer',
@@ -13,11 +14,12 @@ export const metadata = {
     'about, biography, experience, skills, education, web developer, UI designer',
 };
 
-export default function AboutPage() {
+export default async function AboutPage({ params }) {
+  const { local } = await params;
   return (
     <div className="min-h-screen">
       <AboutHero />
-      <BiographySection />
+      <BiographySection site={getSiteData(local)} />
       <ExperienceSection />
       <EducationSection />
       <SkillsDetailSection />

@@ -6,102 +6,21 @@ import ArticleSidebar from '@/components/pages/articalePage/ArticleSidebar';
 import RelatedArticles from '@/components/pages/articalePage/RelatedArticles';
 import Breadcrumbs from '@/components/common/Breadcrumbs';
 import { getTranslations } from 'next-intl/server';
+import { getArticleBySlug, getArticleSlugs, getArticles } from '@/lib/data/articles';
 
-// Mock data for demonstration
-const mockArticle = {
-  _id: '1',
-  title: 'Building Scalable APIs with NestJS and TypeScript',
-  excerpt:
-    'Learn how to create robust and scalable REST APIs using NestJS framework with TypeScript, dependency injection, and modern architecture patterns.',
-  content: `# Building Scalable APIs with NestJS and TypeScript
-
-In this comprehensive guide, we'll explore how to build enterprise-grade APIs using NestJS, a progressive Node.js framework for building efficient and scalable server-side applications.
-
-## Getting Started
-
-First, let's set up our NestJS project:
-
-\`\`\`bash
-npm install -g @nestjs/cli
-nest new my-api-project
-cd my-api-project
-\`\`\`
-
-## Core Concepts
-
-NestJS provides a modular architecture that helps in building scalable applications:
-
-\`\`\`typescript
-import { Module, Controller, Get } from '@nestjs/common';
-
-@Controller('users')
-export class UsersController {
-  @Get()
-  findAll(): string {
-    return 'This action returns all users';
-  }
-}
-\`\`\`
-
-## Best Practices
-
-- Use dependency injection for better testability
-- Implement proper error handling
-- Use validation pipes for data validation
-- Implement caching strategies
-- Use environment variables for configuration
-
-## Conclusion
-
-NestJS combined with TypeScript provides a robust foundation for building scalable and maintainable APIs.`,
-  slug: 'building-scalable-apis-nestjs-typescript',
-  publishedDate: '2024-01-15',
-  readTime: 8,
-  tags: ['nestjs', 'typescript', 'nodejs', 'api', 'backend', 'scalability'],
-  category: 'backend',
-  featuredImage: '/api/placeholder/800/400?text=NestJS+API',
-  author: {
-    name: 'Ahmed Abdelal',
-    avatar: '/placeholder-user.png',
-  },
-  featured: true,
-  views: 1245,
-};
-
-async function getArticle(slug) {
-  try {
-    // For demo purposes, return mock data
-    if (slug === mockArticle.slug) {
-      return mockArticle;
-    }
-
-    // Uncomment for real API:
-    // const res = await fetch(
-    //   `${process.env.NEXT_PUBLIC_BASE_URL}/api/articles/${slug}`,
-    //   {
-    //     cache: 'no-store',
-    //   }
-    // );
-
-    // if (!res.ok) {
-    //   return null;
-    // }
-
-    // return res.json();
-
-    return null; // Return null for other slugs in demo
-  } catch (error) {
-    console.error('Error fetching article:', error);
-    return null;
-  }
+export function generateStaticParams() {
+  return ['en', 'ar', 'fr'].flatMap((local) =>
+    getArticleSlugs().map((slug) => ({ local, slug }))
+  );
 }
 
 export async function generateMetadata({ params }) {
+  const { local, slug } = await params;
   const t = await getTranslations({
-    locale: params.local,
+    locale: local,
     namespace: 'ArticlePage',
   });
-  const article = await getArticle(params.slug);
+  const article = getArticleBySlug(slug, local);
 
   if (!article) {
     return {
@@ -131,8 +50,8 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function ArticlePage({ params }) {
-  const article = await getArticle(params.slug);
-  console.log('Article data:', article);
+  const { local, slug } = await params;
+  const article = getArticleBySlug(slug, local);
 
   if (!article) {
     notFound();
@@ -225,10 +144,11 @@ export default async function ArticlePage({ params }) {
             }
           >
             <RelatedArticles
-              currentSlug={params.slug}
+              currentSlug={slug}
               tags={article.tags}
               category={article.category}
               limit={3}
+              articles={getArticles(local)}
             />
           </Suspense>
         </div>

@@ -7,6 +7,7 @@ import { Calendar, Clock, Tag } from 'lucide-react';
 
 export default function BlogCard({ article }) {
   const formatDate = (date) => {
+    if (!date || Number.isNaN(new Date(date).getTime())) return '';
     return new Date(date).toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
@@ -25,7 +26,7 @@ export default function BlogCard({ article }) {
           <Image
             src={
               article.featuredImage ||
-              '/placeholder.svg?height=200&width=400&query=blog post'
+              '/placeholder.jpg'
             }
             alt={article.title}
             fill
@@ -51,7 +52,7 @@ export default function BlogCard({ article }) {
             <div className="flex items-center space-x-4">
               <div className="flex items-center">
                 <Calendar className="w-4 h-4 mr-1" />
-                {formatDate(article.publishedAt)}
+                {formatDate(article.publishedDate)}
               </div>
               <div className="flex items-center">
                 <Clock className="w-4 h-4 mr-1" />

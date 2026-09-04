@@ -31,6 +31,7 @@ export default function Header() {
   const params = useParams();
   const local = params?.local || '';
   const t = useTranslations('Header');
+  const localizedHref = (href) => `/${local}${href === '/' ? '' : href}`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,7 +43,6 @@ export default function Header() {
   }, []);
 
   const isActive = (href) => {
-    // Remove locale prefix from pathname for comparison
     const normalizedPath =
       local && pathname?.startsWith(`/${local}`)
         ? pathname.replace(new RegExp(`^/${local}`), '') || '/'
@@ -62,29 +62,29 @@ export default function Header() {
       className={`sticky top-0 z-50 w-full border-b transition-all duration-300 ${
         isScrolled
           ? 'bg-background/80 backdrop-blur-md shadow-sm'
-          : 'bg-background/50 backdrop-blur-sm'
+          : 'bg-background/60 backdrop-blur-sm'
       }`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+      <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8">
+        <div className="flex h-16 items-center justify-between gap-4">
           {/* Logo */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-sm">
+            <Link href={localizedHref('/')} className="flex items-center gap-2.5">
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-sm shadow-xs">
                 AA
               </div>
-              <span className="hidden font-bold text-xl sm:inline-block">
+              <span className="hidden font-bold text-lg sm:text-xl sm:inline-block text-foreground">
                 {t('logo')}
               </span>
             </Link>
           </motion.div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-1">
+          <nav className="hidden md:flex items-center gap-1.5">
             {navigation.map((item, index) => (
               <motion.div
                 key={item.name}
@@ -93,8 +93,10 @@ export default function Header() {
                 transition={{ duration: 0.6, delay: 0.1 + index * 0.1 }}
               >
                 <Link
-                  href={item.href}
-                  className={`nav-link ${isActive(item.href) ? 'active' : ''}`}
+                  href={localizedHref(item.href)}
+                  className={`nav-link px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                    isActive(item.href) ? 'active font-semibold text-primary' : 'text-muted-foreground hover:text-foreground hover:bg-muted/60'
+                  }`}
                 >
                   {t(`navigation.${item.name}`)}
                 </Link>
@@ -107,27 +109,29 @@ export default function Header() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="hidden md:flex items-center space-x-8"
+            className="hidden md:flex items-center gap-2.5"
           >
             <LanguageSwitcher />
             <ThemeToggleButton />
-            <DownloadCVButton />
+            <div className="ms-1">
+              <DownloadCVButton />
+            </div>
           </motion.div>
 
-          {/* Mobile Menu Button */}
-          <div className="flex items-center space-x-2 md:hidden">
+          {/* Mobile Menu Actions */}
+          <div className="flex items-center gap-2 md:hidden">
             <LanguageSwitcher />
             <ThemeToggleButton />
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon" className="md:hidden">
+                <Button variant="ghost" size="icon" className="h-9 w-9 rounded-xl md:hidden">
                   <Menu className="h-5 w-5" />
                   <span className="sr-only">{t('menu.toggle')}</span>
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-[300px] sm:w-[400px]">
                 <div className="flex flex-col space-y-4 mt-8">
-                  <div className="flex items-center space-x-2 pb-4 border-b">
+                  <div className="flex items-center gap-2.5 pb-4 border-b">
                     <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-sm">
                       AA
                     </div>
@@ -138,7 +142,7 @@ export default function Header() {
                     {navigation.map((item) => (
                       <Link
                         key={item.name}
-                        href={item.href}
+                        href={localizedHref(item.href)}
                         onClick={() => setIsOpen(false)}
                         className={`flex items-center px-3 py-2 text-sm font-medium rounded-md transition-colors ${
                           isActive(item.href)

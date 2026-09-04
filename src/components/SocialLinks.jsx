@@ -10,40 +10,51 @@ import { Github, Linkedin, Twitter, Instagram, Mail } from "lucide-react"
 const socialLinks = [
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/johnwatson",
+    href: "",
     icon: Linkedin,
     color: "hover:text-blue-600",
   },
   {
     name: "GitHub",
-    href: "https://github.com/johnwatson",
+    href: "",
     icon: Github,
     color: "hover:text-gray-900 dark:hover:text-gray-100",
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/johnwatson",
+    href: "",
     icon: Twitter,
     color: "hover:text-blue-400",
   },
   {
     name: "Instagram",
-    href: "https://instagram.com/johnwatson",
+    href: "",
     icon: Instagram,
     color: "hover:text-pink-500",
   },
   {
     name: "Email",
-    href: "mailto:john@example.com",
+    href: "",
     icon: Mail,
     color: "hover:text-primary",
   },
 ]
 
-export default function SocialLinks({ className = "" }) {
+export default function SocialLinks({ className = "", social = {} }) {
+  const links = socialLinks.map((link) => {
+    const values = {
+      LinkedIn: social.linkedin,
+      GitHub: social.github,
+      Twitter: social.twitter,
+      Instagram: social.instagram,
+      Email: social.email ? `mailto:${social.email}` : '',
+    };
+    return { ...link, href: values[link.name] || '' };
+  }).filter((link) => link.href);
+
   return (
     <div className={`flex items-center space-x-4 ${className}`}>
-      {socialLinks.map((social, index) => {
+      {links.map((social, index) => {
         const Icon = social.icon
         return (
           <motion.a

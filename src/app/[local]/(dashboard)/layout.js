@@ -4,7 +4,7 @@
  * Includes sidebar navigation and auth guard
  */
 import { redirect } from 'next/navigation';
-import { auth } from '@/app/api/auth/[...nextauth]/route';
+import { auth } from '@/lib/auth';
 import DashboardSidebar from '@/components/dashboard/DashboardSidebar';
 import DashboardHeader from '@/components/dashboard/DashboardHeader';
 
@@ -20,12 +20,13 @@ async function getUser() {
 }
 
 export default async function DashboardLayout({ children, params }) {
-  console.log('DashboardLayout params:', params.local);
+  const { local } = await params;
+  console.log('DashboardLayout params:', local);
   const user = await getUser();
 
   // Redirect to login if not authenticated
   if (!user) {
-    redirect(`/${params.local}/auth/login`);
+    redirect(`/${local}/auth/login`);
   }
 
   return (

@@ -1,5 +1,6 @@
 import ProjectsHero from '@/components/pages/projectsPage/ProjectsHero';
 import ProjectsGrid from '@/components/pages/projectsPage/ProjectsGrid';
+import { getProjects } from '@/lib/data/projects';
 
 export const metadata = {
   title: 'Projects - Ahmed Abdelal | Web Developer Portfolio',
@@ -9,11 +10,12 @@ export const metadata = {
     'projects, portfolio, web development, UI design, React, Next.js, websites, applications',
 };
 
-export default function ProjectsPage() {
+export default async function ProjectsPage({ params }) {
+  const { local } = await params;
   return (
     <div className="min-h-screen">
       <ProjectsHero />
-      <ProjectsGrid />
+      <ProjectsGrid projects={getProjects(local)} />
     </div>
   );
 }

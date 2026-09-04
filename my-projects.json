@@ -1,0 +1,125 @@
+[
+  {
+    "title": "Khadamat Hub - Marketing Agency Website",
+    "slug": "khadamat-hub-marketing-website",
+    "description": "A modern and professional website for Khadamat Hub marketing agency, showcasing their services, portfolio, and client testimonials with an elegant design.",
+    "content": "Developed a comprehensive marketing agency website for Khadamat Hub featuring:\n- Modern and responsive design\n- Services showcase section\n- Portfolio gallery with filtering\n- Client testimonials and reviews\n- Contact form with validation\n- Multi-language support (Arabic & English)\n- SEO optimized\n- Fast loading performance\n- Admin dashboard for content management",
+    "images": [
+      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80",
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
+    ],
+    "demoLink": "https://khadamat-hub.vercel.app",
+    "githubLink": "https://github.com/AhmedAbdelal57/khadamat-hub",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "MongoDB"
+    ],
+    "tags": ["agency", "marketing", "business", "portfolio"],
+    "category": "web",
+    "status": "completed",
+    "clientName": "Khadamat Hub",
+    "projectDate": "2024-02-15",
+    "featured": true,
+    "showOnHome": true,
+    "showOnBanner": true
+  },
+  {
+    "title": "CV Portfolio Builder for Developers",
+    "slug": "cv-portfolio-builder",
+    "description": "An interactive CV and portfolio website builder specifically designed for developers and programmers to showcase their skills, projects, and experience.",
+    "content": "Created a dynamic CV/Portfolio platform for developers featuring:\n- Professional CV templates\n- Interactive project showcase\n- Skills visualization with progress bars\n- Blog section for technical articles\n- Contact form integration\n- Multi-language support (Arabic, English, French)\n- Dark/Light mode toggle\n- Downloadable PDF CV\n- Admin panel for content management\n- Authentication system\n- Responsive design for all devices",
+    "images": [
+      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80",
+      "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=800&q=80"
+    ],
+    "demoLink": "https://cv-portfolio-builder.vercel.app",
+    "githubLink": "https://github.com/AhmedAbdelal57/cv-portfolio",
+    "technologies": [
+      "Next.js 15",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "NextAuth.js",
+      "Framer Motion",
+      "next-intl"
+    ],
+    "tags": ["portfolio", "cv", "resume", "personal-website"],
+    "category": "web",
+    "status": "completed",
+    "projectDate": "2024-11-10",
+    "featured": true,
+    "showOnHome": true,
+    "showOnBanner": true
+  },
+  {
+    "title": "ShopCart - E-Commerce Platform",
+    "slug": "shopcart-ecommerce",
+    "description": "A full-featured e-commerce platform with product management, shopping cart, payment integration, and order tracking system.",
+    "content": "Built a comprehensive e-commerce solution featuring:\n- Product catalog with categories and filtering\n- Advanced search functionality\n- Shopping cart with quantity management\n- Secure checkout process\n- Payment gateway integration (Stripe/PayPal)\n- Order tracking and history\n- User authentication and profiles\n- Wishlist functionality\n- Product reviews and ratings\n- Admin dashboard for:\n  - Product management\n  - Order management\n  - User management\n  - Sales analytics\n- Responsive design\n- Real-time inventory updates",
+    "images": [
+      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80"
+    ],
+    "demoLink": "https://shopcart-ecommerce.vercel.app",
+    "githubLink": "https://github.com/AhmedAbdelal57/shopcart",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "Stripe",
+      "NextAuth.js",
+      "Redux Toolkit",
+      "React Query"
+    ],
+    "tags": ["ecommerce", "shopping", "payment", "fullstack"],
+    "category": "web",
+    "status": "completed",
+    "clientName": "ShopCart",
+    "projectDate": "2024-06-20",
+    "budget": "$8,000",
+    "featured": true,
+    "showOnHome": true,
+    "showOnBanner": false
+  },
+  {
+    "title": "Infinity Learning Academy - Online Courses Platform",
+    "slug": "infinity-learning-academy",
+    "description": "A comprehensive Learning Management System (LMS) for Infinity Learning Academy, offering online courses, video lectures, quizzes, and student progress tracking.",
+    "content": "Developed a feature-rich learning management system including:\n- Course catalog with categories\n- Video streaming integration\n- Interactive quizzes and assignments\n- Student progress tracking\n- Certificate generation upon completion\n- Discussion forums for each course\n- Live chat support\n- Payment integration for course enrollment\n- Instructor dashboard for:\n  - Course creation and management\n  - Student analytics\n  - Content upload (videos, PDFs, resources)\n  - Grade management\n- Student dashboard with:\n  - Enrolled courses\n  - Progress tracking\n  - Certificates\n  - Learning history\n- Admin panel for platform management\n- Responsive design\n- Multi-language support",
+    "images": [
+      "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&q=80",
+      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80"
+    ],
+    "demoLink": "https://infinity-learning-academy.vercel.app",
+    "githubLink": "https://github.com/AhmedAbdelal57/infinity-learning-academy",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "Prisma",
+      "NextAuth.js",
+      "AWS S3",
+      "Stripe",
+      "Socket.io",
+      "Video.js"
+    ],
+    "tags": ["lms", "education", "elearning", "courses"],
+    "category": "web",
+    "status": "completed",
+    "clientName": "Infinity Learning Academy",
+    "projectDate": "2024-09-15",
+    "budget": "$12,000",
+    "featured": true,
+    "showOnHome": true,
+    "showOnBanner": false
+  }
+]

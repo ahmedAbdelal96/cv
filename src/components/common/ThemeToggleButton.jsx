@@ -1,12 +1,7 @@
-/**
- * Theme toggle component
- * Switches between light and dark themes with smooth animation
- */
 'use client';
 
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
-import { Button } from '@/components/ui/button';
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -20,35 +15,35 @@ export default function ThemeToggleButton() {
 
   if (!mounted) {
     return (
-      <Button variant="ghost" size="icon" disabled>
-        <Sun className="h-4 w-4" />
-      </Button>
+      <div className="h-9 w-9 sm:h-10 sm:w-10 rounded-xl border border-border/70 bg-card/50" />
     );
   }
 
+  const isDark = theme === 'dark';
+
   return (
-    <Button
-      variant="ghost"
-      size="icon"
-      onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-      className="relative flex items-center justify-center text-gray-500 transition-colors bg-white border border-gray-200 rounded-full hover:text-dark-900 h-11 w-11 hover:bg-gray-100 hover:text-gray-700 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
+    <button
+      type="button"
+      onClick={() => setTheme(isDark ? 'light' : 'dark')}
+      aria-label="Toggle theme"
+      className="relative flex h-9 w-9 sm:h-10 sm:w-10 shrink-0 items-center justify-center rounded-xl border border-border/80 bg-card/70 text-foreground backdrop-blur-md shadow-xs transition-all duration-200 hover:bg-muted hover:border-primary/40 hover:text-primary active:scale-95 focus:outline-none focus:ring-2 focus:ring-primary/20"
     >
       <AnimatePresence mode="wait" initial={false}>
         <motion.div
-          key={theme}
-          initial={{ y: -20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          exit={{ y: 20, opacity: 0 }}
-          transition={{ duration: 0.2 }}
+          key={isDark ? 'dark' : 'light'}
+          initial={{ y: -10, opacity: 0, rotate: -20 }}
+          animate={{ y: 0, opacity: 1, rotate: 0 }}
+          exit={{ y: 10, opacity: 0, rotate: 20 }}
+          transition={{ duration: 0.15 }}
+          className="flex items-center justify-center"
         >
-          {theme === 'light' ? (
-            <Moon className="h-4 w-4" />
+          {isDark ? (
+            <Sun className="h-4 w-4 sm:h-[18px] sm:w-[18px] text-amber-400" />
           ) : (
-            <Sun className="h-4 w-4" />
+            <Moon className="h-4 w-4 sm:h-[18px] sm:w-[18px] text-slate-700 dark:text-slate-200" />
           )}
         </motion.div>
       </AnimatePresence>
-      <span className="sr-only">Toggle theme</span>
-    </Button>
+    </button>
   );
 }
