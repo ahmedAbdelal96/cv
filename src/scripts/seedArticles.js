@@ -97,7 +97,7 @@ NestJS combined with TypeScript provides a robust foundation for building scalab
     featuredImage: '/api/placeholder/800/400?text=NestJS+API',
     author: {
       name: 'Ahmed Abdelal',
-      avatar: '/placeholder-user.png',
+      avatar: '/user.png',
     },
     published: true,
     featured: true,
@@ -176,7 +176,7 @@ Following these optimization techniques will significantly improve your Next.js 
     featuredImage: '/api/placeholder/800/400?text=Next.js+Performance',
     author: {
       name: 'Ahmed Abdelal',
-      avatar: '/placeholder-user.png',
+      avatar: '/user.png',
     },
     published: true,
     featured: true,
@@ -249,7 +249,7 @@ Microservices architecture provides scalability and flexibility but requires car
     featuredImage: '/api/placeholder/800/400?text=Microservices',
     author: {
       name: 'Ahmed Abdelal',
-      avatar: '/placeholder-user.png',
+      avatar: '/user.png',
     },
     published: true,
     featured: false,

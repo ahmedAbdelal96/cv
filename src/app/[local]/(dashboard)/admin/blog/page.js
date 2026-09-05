@@ -39,7 +39,7 @@ export default function BlogPage({ params }) {
     metaDescription: '',
     author: {
       name: 'Ahmed Abdelal',
-      avatar: '/placeholder-user.png',
+      avatar: '/user.png',
     },
   });
 
@@ -161,7 +161,7 @@ export default function BlogPage({ params }) {
       metaDescription: '',
       author: {
         name: 'Ahmed Abdelal',
-        avatar: '/placeholder-user.png',
+        avatar: '/user.png',
       },
     });
     setSelectedArticle(null);

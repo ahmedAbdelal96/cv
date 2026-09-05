@@ -71,7 +71,7 @@ const ArticleSchema = new mongoose.Schema(
       },
       avatar: {
         type: String,
-        default: '/placeholder-user.png',
+        default: '/user.png',
       },
     },
     published: {

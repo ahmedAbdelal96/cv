@@ -136,7 +136,7 @@ export default function AboutHero() {
                 className="relative z-10"
               >
                 <Image
-                  src="/placeholder-user.png"
+                src="/user.png"
                   alt={t('altText')}
                   width={450}
                   height={550}

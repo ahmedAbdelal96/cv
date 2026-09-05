@@ -110,7 +110,7 @@ export async function POST(request) {
       featured: body.featured || false,
       author: body.author || {
         name: 'Ahmed Abdelal',
-        avatar: '/placeholder-user.png',
+        avatar: '/user.png',
       },
     });
 

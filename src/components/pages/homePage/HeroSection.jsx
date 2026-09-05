@@ -92,7 +92,7 @@ export default function HeroSection() {
                 className="relative z-10"
               >
                 <Image
-                  src="/placeholder-user.png"
+                  src="/user.png"
                   alt={t('altText')}
                   width={400}
                   height={500}

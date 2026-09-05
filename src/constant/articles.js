@@ -53,7 +53,7 @@ NestJS combined with TypeScript provides a robust foundation for building scalab
     featuredImage: '/api/placeholder/800/400?text=NestJS+API',
     author: {
       name: 'Ahmed Abdelal',
-      avatar: '/placeholder-user.png',
+      avatar: '/user.png',
     },
     featured: true,
     views: 1245,

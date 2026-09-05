@@ -29,7 +29,7 @@ export default function AboutSection({ site = {} }) {
           >
             <div className="relative">
               <Image
-                src="/placeholder-user.png"
+                src="/user.png"
                 alt={t('altText')}
                 width={350}
                 height={450}
